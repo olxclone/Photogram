@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Photogram</string>
+      <string moduleConfig="true" name="CodePushDeploymentKey">WLpQIdg7Um5Vlwme3a1oVwUeleCUGQqutmZSE</string>
+</resources>
