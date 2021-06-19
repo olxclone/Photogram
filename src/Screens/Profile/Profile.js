@@ -115,7 +115,8 @@ function Profile({ navigation, route }) {
         .doc(route.params ? route.params.uid : "")
         .update({
           followers: firestore.FieldValue.arrayUnion(auth().currentUser.uid),
-        });
+        })
+        
     } catch (error) {
       console.log(error);
     }
@@ -134,7 +135,8 @@ function Profile({ navigation, route }) {
         .doc(route.params ? route.params.uid : "")
         .update({
           followers: firestore.FieldValue.arrayRemove(auth().currentUser.uid),
-        });
+        })
+        .then(setFollowing(false))
     } catch (error) {
       console.log(error);
     }
@@ -216,14 +218,14 @@ function Profile({ navigation, route }) {
   };
 
   useEffect(() => {
+    getCurrentUser();
     fetchChatUser();
-  }, [currentUser ? currentUser.followers && currentUser.following : null,following]);
+  }, [currentUser]);
 
   useEffect(() => {
     ref.current.animateNextTransition();
     getUser();
     fetchPosts();
-    getCurrentUser();
     if (
       currentUser
         ? currentUser.following.indexOf(

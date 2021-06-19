@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/madan/Desktop/Documents/Madan/Chat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "outputFile": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
                     "source": "/home/madan/.gradle/caches/transforms-2/files-2.1/e43ae01f0d45f8a8eb2a0dda900f870f/jetified-ucrop-2.2.6-native/res/values-zh/values-zh.xml",

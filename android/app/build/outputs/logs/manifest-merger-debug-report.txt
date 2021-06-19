@@ -1,44 +1,44 @@
 -- Merging decision tree log ---
 uses-permission#com.chat.permission.C2D_MESSAGE
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:4:2-76
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:4:2-76
 	android:name
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
 category#com.chat
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:23:5-49
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:23:5-49
 	android:name
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:1-40:12
-MERGED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:1-40:12
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/978fddaf6873e2fc867216b68760767b/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/22ffda62c90ed94d54bd4ef84852ad78/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
-MERGED from [:react-native-vector-icons] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_async-storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_masked-view] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_viewpager] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
-MERGED from [:react-native-firebase_firestore] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-43:12
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
-MERGED from [:react-native-firebase_app] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:react-native-document-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-gesture-handler] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-33:12
-MERGED from [:react-native-push-notification] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_async-storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_viewpager] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-firebase_firestore] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-43:12
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [:react-native-firebase_app] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-document-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-33:12
+MERGED from [:react-native-push-notification] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c9d26849010692ba095ad001bc858633/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:2:1-26:12
 MERGED from [org.webkit:android-jsc:r245459] /home/madan/.gradle/caches/transforms-2/files-2.1/748a4d8d2d480e992cff4caa984d3071/jetified-android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-reanimated/android/build/.transforms/1a2f99351653cccfb71aef35126f2288/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-reanimated/android/build/.transforms/09263dd47399a04608d2d19be9a5cc15/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/40253ddb67610b580c3ff0fa5b3550a9/jetified-flipper-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/d388c367c285c36ef0a0ca5cd66ae2d9/jetified-stetho-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a126f49605ff64176a0848742d1c8a6b/jetified-fresco-2.2.0/AndroidManifest.xml:2:1-9:12
@@ -128,42 +128,42 @@ MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] /home/madan/
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c84f7a691fca09427ce483c8af84606/jetified-fbcore-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/6541ce56516c18f50575ca8a944052d2/jetified-ui-common-2.2.0/AndroidManifest.xml:2:1-9:12
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:2:1-8:12
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 	package
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:70-88
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:70-88
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:70-88
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:70-88
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:1-40:12
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:3:5-51
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:1-40:12
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:2:2-64
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:2:2-64
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:15:5-67
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:15:5-67
-MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
-MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
+MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-67
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /home/madan/.gradle/caches/transforms-2/files-2.1/4f59540869e468e346affa3904152e5f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
@@ -189,49 +189,49 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /home
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/8b0cb8507d921ced5de840647f0fafb0/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/8b0cb8507d921ced5de840647f0fafb0/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:2:19-61
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:2:19-61
 uses-permission#android.permission.CAMERA
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:3:2-62
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:3:2-62
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:3:19-59
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:3:19-59
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:5:2-75
-MERGED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:5:2-75
-MERGED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:5:2-75
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:2-75
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:2-75
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:2-75
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:5:19-72
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:19-72
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:6:2-78
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:6:2-78
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:6:19-75
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:6:19-75
 uses-permission#android.permission.VIBRATE
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:7:2-63
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:7:2-63
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:7:19-60
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:7:19-60
 uses-feature#android.hardware.camera
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:8:2-82
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:2-82
 	android:required
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:8:55-79
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:55-79
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:8:16-54
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:16-54
 uses-feature#android.hardware.camera.front
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:9:2-88
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:2-88
 	android:required
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:9:61-85
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:61-85
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:9:16-60
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:16-60
 application
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:2-39:16
-MERGED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:2-39:16
-MERGED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:2-39:16
-MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-17:19
-MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-17:19
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:19
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:19
-MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
-MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-39:16
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-39:16
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-39:16
+MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-17:19
+MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-17:19
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:19
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:19
+MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:16:5-24:19
@@ -299,167 +299,167 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/madan
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/f726e616672625858de40c99d1f257d4/core-1.1.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:47-79
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:47-79
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:47-79
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:47-79
 	tools:ignore
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:7:75-114
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:7:75-114
 	android:roundIcon
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:115-160
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:115-160
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:115-160
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:115-160
 	tools:targetApi
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:7:54-74
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:7:54-74
 	android:icon
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:80-114
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:80-114
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:80-114
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:80-114
 	android:allowBackup
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:161-188
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:161-188
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:161-188
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:161-188
 	android:theme
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:189-220
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:189-220
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:189-220
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:189-220
 	android:usesCleartextTraffic
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:7:18-53
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:7:18-53
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:15-46
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:15-46
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:15-46
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:15-46
 activity#com.chat.MainActivity
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:3-16:14
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:3-16:14
 	android:screenOrientation
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:75-111
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:75-111
 	android:label
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:42-74
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:42-74
 	android:launchMode
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:190-221
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:190-221
 	android:windowSoftInputMode
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:222-264
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:222-264
 	android:configChanges
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:112-189
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:112-189
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:13-41
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:12:4-15:20
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:12:4-15:20
 action#android.intent.action.MAIN
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:13:5-57
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:13:5-57
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:13:13-54
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:13:13-54
 category#android.intent.category.LAUNCHER
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:14:5-65
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:14:5-65
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:14:15-62
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:14:15-62
 meta-data#com.dieam.reactnativepushnotification.notification_channel_name
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:17:3-142
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:3-142
 	android:value
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:17:93-139
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:93-139
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:17:14-92
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:14-92
 meta-data#com.dieam.reactnativepushnotification.notification_channel_description
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:18:3-156
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:3-156
 	android:value
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:18:100-153
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:100-153
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:18:14-99
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:14-99
 meta-data#com.dieam.reactnativepushnotification.notification_color
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:19:3-128
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:3-128
 	android:resource
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:19:86-125
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:86-125
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:19:14-85
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:14-85
 receiver#com.google.android.gms.gcm.GcmReceiver
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:3-25:14
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:3-25:14
 	android:exported
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:67-90
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:67-90
 	android:permission
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:91-151
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:91-151
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:13-66
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:13-66
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.chat
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:21:4-24:20
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:21:4-24:20
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:5-69
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:5-69
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:13-66
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:13-66
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:26:3-104
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:26:3-104
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:26:13-101
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:26:13-101
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:27:3-31:14
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:3-31:14
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:27:13-109
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:13-109
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:28:4-30:20
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:28:4-30:20
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:29:5-67
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:29:13-64
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:13-64
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:32:3-113
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:32:3-113
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:32:12-110
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:32:12-110
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:33:3-37:13
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:3-37:13
 	android:exported
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:33:107-131
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:107-131
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:33:12-106
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:12-106
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:34:4-36:20
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:34:4-36:20
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:5-66
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:5-66
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:13-63
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:13-63
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:38:3-80
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:38:3-80
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:38:13-77
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:38:13-77
 uses-sdk
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/978fddaf6873e2fc867216b68760767b/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/978fddaf6873e2fc867216b68760767b/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/22ffda62c90ed94d54bd4ef84852ad78/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/22ffda62c90ed94d54bd4ef84852ad78/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
-MERGED from [:react-native-vector-icons] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-vector-icons] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_async-storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_async-storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_masked-view] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_viewpager] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_viewpager] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_firestore] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_firestore] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-document-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-document-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-push-notification] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-push-notification] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_viewpager] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_viewpager] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-community/viewpager/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_firestore] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/firestore/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-document-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-document-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c9d26849010692ba095ad001bc858633/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -468,8 +468,8 @@ MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/madan/.gradle/caches/transforms-2/files-2.1/748a4d8d2d480e992cff4caa984d3071/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/madan/.gradle/caches/transforms-2/files-2.1/748a4d8d2d480e992cff4caa984d3071/jetified-android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-reanimated/android/build/.transforms/1a2f99351653cccfb71aef35126f2288/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-reanimated/android/build/.transforms/1a2f99351653cccfb71aef35126f2288/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-reanimated/android/build/.transforms/09263dd47399a04608d2d19be9a5cc15/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-reanimated/android/build/.transforms/09263dd47399a04608d2d19be9a5cc15/jetified-react-native-reanimated-64-jsc/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/40253ddb67610b580c3ff0fa5b3550a9/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/40253ddb67610b580c3ff0fa5b3550a9/jetified-flipper-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/d388c367c285c36ef0a0ca5cd66ae2d9/jetified-stetho-2.2.0/AndroidManifest.xml:5:5-7:41
@@ -648,28 +648,28 @@ MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/madan/.gradle/caches/transf
 MERGED from [com.facebook.fresco:fbcore:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c84f7a691fca09427ce483c8af84606/jetified-fbcore-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/6541ce56516c18f50575ca8a944052d2/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:ui-common:2.2.0] /home/madan/.gradle/caches/transforms-2/files-2.1/6541ce56516c18f50575ca8a944052d2/jetified-ui-common-2.2.0/AndroidManifest.xml:5:5-7:41
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:13:5-79
 MERGED from [io.grpc:grpc-android:1.28.0] /home/madan/.gradle/caches/transforms-2/files-2.1/39a07cea555f9c66a954278b1ee39869/jetified-grpc-android-1.28.0/AndroidManifest.xml:11:5-79
@@ -701,17 +701,17 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /home
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/8b0cb8507d921ced5de840647f0fafb0/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/8b0cb8507d921ced5de840647f0fafb0/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_auth] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/auth/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_database] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/database/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
 MERGED from [com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:5-68
 MERGED from [com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:23:5-68
 MERGED from [com.google.firebase:firebase-iid:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/209f037b3952d23f1e9175e70b841be5/jetified-firebase-iid-21.1.0/AndroidManifest.xml:24:5-68
@@ -727,91 +727,91 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:18.0.2] /home
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/8b0cb8507d921ced5de840647f0fafb0/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/8b0cb8507d921ced5de840647f0fafb0/jetified-play-services-measurement-sdk-api-18.0.2/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
 meta-data#firebase_analytics_collection_enabled
-ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
 	android:value
-		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
 	android:name
-		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+		ADDED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
-ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
-ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
 receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
-ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
 	android:permission
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
 	android:value
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
 	android:value
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
 	android:resource
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
 	android:name
-		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+		ADDED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-80
+ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-80
 	android:name
-		ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-77
+		ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-81
-MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
-MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-81
+MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-78
+		ADDED from [:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-78
 queries
-ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
 intent#action:name:android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 action#android.media.action.IMAGE_CAPTURE
-ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
 	android:name
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
 provider#androidx.core.content.FileProvider
-ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
 	android:authorities
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
 	android:exported
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
 	android:resource
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
 	android:name
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
 	android:theme
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
 	android:name
-		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+		ADDED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19

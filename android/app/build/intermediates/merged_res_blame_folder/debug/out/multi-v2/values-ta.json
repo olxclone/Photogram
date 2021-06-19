@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/madan/Desktop/Documents/Madan/Chat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
+            "outputFile": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta/values-ta.xml",
             "map": [
                 {
                     "source": "/home/madan/.gradle/caches/transforms-2/files-2.1/bc6ee569db194b047754aeaba91d90ea/jetified-play-services-basement-17.1.1/res/values-ta/values.xml",

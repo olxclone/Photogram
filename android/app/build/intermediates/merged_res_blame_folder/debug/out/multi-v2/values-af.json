@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/madan/Desktop/Documents/Madan/Chat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
+            "outputFile": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml",
             "map": [
                 {
                     "source": "/home/madan/.gradle/caches/transforms-2/files-2.1/07c4df061d88f94b8100fc39f51f4566/browser-1.3.0/res/values-af/values-af.xml",

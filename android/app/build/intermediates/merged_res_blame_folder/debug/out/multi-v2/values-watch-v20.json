@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/madan/Desktop/Documents/Madan/Chat/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/res/values-watch-v20/values.xml",

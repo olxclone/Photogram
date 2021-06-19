@@ -9,58 +9,58 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:5:2-75
-11-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:5:19-72
+11-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:2-75
+11-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:19-72
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:2:2-64
-12-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:2:19-61
+12-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:2:2-64
+12-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:2:19-61
 13    <uses-permission android:name="android.permission.CAMERA" />
-13-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:3:2-62
-13-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:3:19-59
+13-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:3:2-62
+13-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:3:19-59
 14    <uses-permission android:name="com.chat.permission.C2D_MESSAGE" />
 15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:6:2-78
-15-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:6:19-75
+15-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:6:2-78
+15-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:6:19-75
 16    <uses-permission android:name="android.permission.VIBRATE" />
-16-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:7:2-63
-16-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:7:19-60
+16-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:7:2-63
+16-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:7:19-60
 17
 18    <uses-feature
-18-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:8:2-82
+18-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:2-82
 19        android:name="android.hardware.camera"
-19-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:8:16-54
+19-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:16-54
 20        android:required="false" />
-20-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:8:55-79
+20-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:55-79
 21    <uses-feature
-21-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:9:2-88
+21-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:2-88
 22        android:name="android.hardware.camera.front"
-22-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:9:16-60
+22-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:16-60
 23        android:required="false" />
-23-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:9:61-85
+23-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:61-85
 24
 25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 25-->[com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
 25-->[com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
 26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-26-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-26-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+26-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+26-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
 27    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- TODO(salakar) Not sure if this should be part of the package manifest or leave to users app manifest code? -->
-27-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
-27-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+27-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+27-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
 28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-28-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-80
-28-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-77
+28-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-80
+28-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-77
 29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-29-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-81
-29-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-78
+29-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-81
+29-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-78
 30
 31    <queries>
-31-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+31-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
 32        <intent>
-32-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+32-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 33            <action android:name="android.media.action.IMAGE_CAPTURE" />
-33-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
-33-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+33-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+33-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
 34        </intent>
 35    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
 36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -124,204 +124,204 @@
 58-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 59
 60    <application
-60-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:2-39:16
+60-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-39:16
 61        android:name="com.chat.MainApplication"
-61-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:15-46
+61-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:15-46
 62        android:allowBackup="false"
-62-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:161-188
+62-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:161-188
 63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 63-->[androidx.core:core:1.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/f726e616672625858de40c99d1f257d4/core-1.1.0/AndroidManifest.xml:24:18-86
 64        android:debuggable="true"
 65        android:icon="@mipmap/ic_launcher"
-65-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:80-114
+65-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:80-114
 66        android:label="@string/app_name"
-66-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:47-79
+66-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:47-79
 67        android:roundIcon="@mipmap/ic_launcher_round"
-67-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:115-160
+67-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:115-160
 68        android:theme="@style/AppTheme"
-68-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:10:189-220
+68-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:189-220
 69        android:usesCleartextTraffic="true" >
-69-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/debug/AndroidManifest.xml:7:18-53
+69-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:7:18-53
 70        <activity
-70-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:3-16:14
+70-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:3-16:14
 71            android:name="com.chat.MainActivity"
-71-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:13-41
+71-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:13-41
 72            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-72-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:112-189
+72-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:112-189
 73            android:label="@string/app_name"
-73-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:42-74
+73-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:42-74
 74            android:launchMode="singleTask"
-74-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:190-221
+74-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:190-221
 75            android:screenOrientation="portrait"
-75-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:75-111
+75-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:75-111
 76            android:windowSoftInputMode="adjustResize" >
-76-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:11:222-264
+76-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:222-264
 77            <intent-filter>
-77-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:12:4-15:20
+77-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:12:4-15:20
 78                <action android:name="android.intent.action.MAIN" />
-78-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:13:5-57
-78-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:13:13-54
+78-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:13:5-57
+78-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:13:13-54
 79
 80                <category android:name="android.intent.category.LAUNCHER" />
-80-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:14:5-65
-80-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:14:15-62
+80-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:14:5-65
+80-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:14:15-62
 81            </intent-filter>
 82        </activity>
 83
 84        <meta-data
-84-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:17:3-142
+84-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:3-142
 85            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
-85-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:17:14-92
+85-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:14-92
 86            android:value="YOUR NOTIFICATION CHANNEL NAME" />
-86-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:17:93-139
+86-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:93-139
 87        <meta-data
-87-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:18:3-156
+87-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:3-156
 88            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
-88-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:18:14-99
+88-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:14-99
 89            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" />
-89-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:18:100-153
+89-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:100-153
 90        <meta-data
-90-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:19:3-128
+90-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:3-128
 91            android:name="com.dieam.reactnativepushnotification.notification_color"
-91-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:19:14-85
+91-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:14-85
 92            android:resource="@android:color/white" />
-92-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:19:86-125
+92-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:86-125
 93
 94        <receiver
-94-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:3-25:14
+94-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:3-25:14
 95            android:name="com.google.android.gms.gcm.GcmReceiver"
-95-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:13-66
+95-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:13-66
 96            android:exported="true"
-96-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:67-90
+96-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:67-90
 97            android:permission="com.google.android.c2dm.permission.SEND" >
-97-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:20:91-151
+97-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:20:91-151
 98            <intent-filter>
-98-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:21:4-24:20
+98-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:21:4-24:20
 99                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-99-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:5-69
-99-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:13-66
+99-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:5-69
+99-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:13-66
 100
 101                <category android:name="com.chat" />
 102            </intent-filter>
 103        </receiver>
 104        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
-104-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:26:3-104
-104-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:26:13-101
+104-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:26:3-104
+104-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:26:13-101
 105        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
-105-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:27:3-31:14
-105-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:27:13-109
+105-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:3-31:14
+105-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:13-109
 106            <intent-filter>
-106-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:28:4-30:20
+106-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:28:4-30:20
 107                <action android:name="android.intent.action.BOOT_COMPLETED" />
-107-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:29:5-67
-107-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:29:13-64
+107-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:5-67
+107-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:13-64
 108            </intent-filter>
 109        </receiver>
 110
 111        <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService" />
-111-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:32:3-113
-111-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:32:12-110
+111-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:32:3-113
+111-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:32:12-110
 112        <service
-112-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:33:3-37:13
+112-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:3-37:13
 113            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
-113-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:33:12-106
+113-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:12-106
 114            android:exported="false" >
-114-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:33:107-131
+114-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:107-131
 115            <intent-filter>
-115-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:34:4-36:20
+115-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:34:4-36:20
 116                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-116-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:5-66
-116-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:13-63
+116-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:5-66
+116-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:13-63
 117            </intent-filter>
 118        </service>
 119
 120        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-120-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:38:3-80
-120-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:38:13-77
+120-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:38:3-80
+120-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:38:13-77
 121
 122        <meta-data
-122-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+122-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
 123            android:name="firebase_analytics_collection_enabled"
-123-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+123-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
 124            android:value="true" />
-124-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+124-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
 125
 126        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
-126-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
-126-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+126-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+126-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
 127        <service
-127-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+127-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
 128            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-128-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+128-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
 129            android:exported="false" >
-129-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+129-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
 130            <intent-filter>
-130-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:34:4-36:20
+130-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:34:4-36:20
 131                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-131-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:5-66
-131-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:13-63
+131-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:5-66
+131-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:13-63
 132            </intent-filter>
 133        </service>
 134
 135        <receiver
-135-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+135-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
 136            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-136-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+136-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
 137            android:exported="true"
-137-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+137-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
 138            android:permission="com.google.android.c2dm.permission.SEND" >
-138-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+138-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
 139            <intent-filter>
-139-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+139-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 140                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-140-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:5-69
-140-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:13-66
+140-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:5-69
+140-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:13-66
 141            </intent-filter>
 142        </receiver>
 143
 144        <meta-data
-144-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+144-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
 145            android:name="firebase_messaging_auto_init_enabled"
-145-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+145-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
 146            android:value="true" />
-146-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+146-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
 147        <meta-data
-147-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+147-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
 148            android:name="com.google.firebase.messaging.default_notification_channel_id"
-148-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+148-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
 149            android:value="" />
-149-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+149-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
 150        <meta-data
-150-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
+150-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:47
 151            android:name="com.google.firebase.messaging.default_notification_color"
-151-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+151-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
 152            android:resource="@color/white" />
-152-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
+152-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-44
 153
 154        <provider
-154-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+154-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
 155            android:name="androidx.core.content.FileProvider"
-155-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+155-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
 156            android:authorities="com.chat.provider"
-156-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+156-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
 157            android:exported="false"
-157-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+157-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
 158            android:grantUriPermissions="true" >
-158-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+158-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
 159            <meta-data
-159-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+159-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
 160                android:name="android.support.FILE_PROVIDER_PATHS"
-160-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+160-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
 161                android:resource="@xml/provider_paths" />
-161-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+161-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
 162        </provider>
 163
 164        <activity
-164-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+164-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
 165            android:name="com.yalantis.ucrop.UCropActivity"
-165-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+165-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
 166            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-166-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/Chat/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+166-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
 167
 168        <service
 168-->[com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:17:9-23:19
@@ -406,10 +406,10 @@
 211            android:permission="com.google.android.c2dm.permission.SEND" >
 211-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
 212            <intent-filter>
-212-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/Chat/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+212-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
 213                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-213-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:5-69
-213-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:22:13-66
+213-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:5-69
+213-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:22:13-66
 214            </intent-filter>
 215        </receiver>
 216        <!--
@@ -425,10 +425,10 @@
 223            android:exported="false" >
 223-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
 224            <intent-filter android:priority="-500" >
-224-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:34:4-36:20
+224-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:34:4-36:20
 225                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-225-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:5-66
-225-->/home/madan/Desktop/Documents/Madan/Chat/android/app/src/main/AndroidManifest.xml:35:13-63
+225-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:5-66
+225-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:13-63
 226            </intent-filter>
 227        </service>
 228        <service
