@@ -8,11 +8,11 @@ INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/s
 	android:name
 		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
-MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-46:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/978fddaf6873e2fc867216b68760767b/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/22ffda62c90ed94d54bd4ef84852ad78/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
@@ -34,6 +34,7 @@ MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Mada
 MERGED from [:react-native-push-notification] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-splash-screen] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c9d26849010692ba095ad001bc858633/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:2:1-26:12
@@ -138,13 +139,13 @@ INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/s
 		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -221,9 +222,9 @@ ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/
 	android:name
 		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:16-60
 application
-ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-39:16
-MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-39:16
-MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-39:16
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-45:16
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-45:16
+MERGED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-45:16
 MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-17:19
 MERGED from [:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-17:19
 MERGED from [:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-41:19
@@ -232,6 +233,8 @@ MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub
 MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:19
 MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
 MERGED from [:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-splash-screen] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:react-native-splash-screen] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:11:5-20
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:16:5-24:19
@@ -408,12 +411,20 @@ action#com.google.firebase.MESSAGING_EVENT
 ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:5-66
 	android:name
 		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:13-63
+activity#com.chat.SplashActivity
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:39:1-43:14
+	android:label
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:4-36
+	android:theme
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:41:4-38
+	android:name
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:40:4-34
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:38:3-80
+ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:44:3-80
 MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
 MERGED from [:react-native-code-push] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-code-push/android/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-86
 	android:name
-		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:38:13-77
+		ADDED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:44:13-77
 uses-sdk
 INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml
@@ -460,6 +471,8 @@ MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Mada
 MERGED from [:react-native-safe-area-context] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-splash-screen] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.64.2] /home/madan/.gradle/caches/transforms-2/files-2.1/57dccaeaedc833d3e5a2430147d03d75/jetified-react-native-0.64.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c9d26849010692ba095ad001bc858633/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41

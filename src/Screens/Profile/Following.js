@@ -7,33 +7,26 @@ export default function Following(prop) {
   let [following, setFollowing] = useState();
   let [followingUserData, setFollowersUserData] = useState([]);
   const fetchUserFollowingData = async () => {
-    try {
-      await firestore()
-        .collection("users")
-        .doc(following)
-        .get()
-        .then((snapshot) => {
-          setFollowersUserData(snapshot.data());
-        });
-    } catch (error) {
-      console.log(error);
-    }
+  
+      const fetchChatUser = async () => {
+        await firestore()
+          .collection("users")
+          .onSnapshot((data) => {
+            console.log(data);
+          });
+      };
   };
 
   useEffect(() => {
     fetchUserFollowingData();
-  }, []);
+  });
 
   return (
     <View>
       <FlatList
         data={followingUserData}
         renderItem={({ item }) => {
-          return (
-            <View>
-              <Text>{item.userName}</Text>
-            </View>
-          );
+          // return <Text>{JSON.stringify(item)}</Text>;
         }}
       />
     </View>

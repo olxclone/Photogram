@@ -114,6 +114,11 @@
             </intent-filter>
         </service>
 
+        <activity
+            android:name="com.chat.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme" >
+        </activity>
         <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
 
         <meta-data

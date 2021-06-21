@@ -15,7 +15,7 @@ export default function Updates() {
 
   useEffect(() => {
     async function getPackageMetadata() {
-      const data = await CodePush.getCurrentPackage();
+      const data = await codePush.getCurrentPackage();
       console.log({data});
       if (data) {
         setPackageMetadata(data);
@@ -26,7 +26,7 @@ export default function Updates() {
   }, []);
 
   const onButtonPress = async () => {
-    CodePush.checkForUpdate().then((update) => {
+    codePush.checkForUpdate().then((update) => {
       if (!update) {
         Alert.alert('UPDATED !', 'The app is up to date!');
       } else {

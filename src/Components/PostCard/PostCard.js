@@ -146,7 +146,7 @@ function PostCard({ item, navigation, onDelete, scale }) {
               {userData ? userData.userName : "Test"}
             </Text>
           </TouchableOpacity>
-          <Text style={{ position: "absolute", top: 42, left: "28%" }}>
+          <Text style={{ position: "absolute", top: height/14, left: "27%" }}>
             {moment(item.createdAt.toDate()).fromNow()}
           </Text>
           <Card.Divider />

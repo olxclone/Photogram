@@ -109,14 +109,17 @@ function Profile({ navigation, route }) {
         .doc(auth().currentUser.uid)
         .update({
           following: firestore.FieldValue.arrayUnion(route.params.uid),
-        });
-      firestore()
-        .collection("users")
-        .doc(route.params ? route.params.uid : "")
-        .update({
-          followers: firestore.FieldValue.arrayUnion(auth().currentUser.uid),
         })
-        
+        .then(() => {
+          firestore()
+            .collection("users")
+            .doc(route.params ? route.params.uid : "")
+            .update({
+              followers: firestore.FieldValue.arrayUnion(
+                auth().currentUser.uid
+              ),
+            });
+        });
     } catch (error) {
       console.log(error);
     }
@@ -129,14 +132,18 @@ function Profile({ navigation, route }) {
         .doc(auth().currentUser.uid)
         .update({
           following: firestore.FieldValue.arrayRemove(route.params.uid),
-        });
-      firestore()
-        .collection("users")
-        .doc(route.params ? route.params.uid : "")
-        .update({
-          followers: firestore.FieldValue.arrayRemove(auth().currentUser.uid),
         })
-        .then(setFollowing(false))
+        .then(() => {
+          firestore()
+            .collection("users")
+            .doc(route.params ? route.params.uid : "")
+            .update({
+              followers: firestore.FieldValue.arrayRemove(
+                auth().currentUser.uid
+              ),
+            });
+        })
+        .then(setFollowing(false));
     } catch (error) {
       console.log(error);
     }
@@ -145,7 +152,6 @@ function Profile({ navigation, route }) {
   const fetchPosts = async () => {
     try {
       const list = [];
-
       await firestore()
         .collection("Posts")
         .where(
@@ -237,7 +243,7 @@ function Profile({ navigation, route }) {
     } else {
       setFollowing(false);
     }
-  }, [navigation, loading, following]);
+  }, [following]);
 
   let ref = React.createRef();
 

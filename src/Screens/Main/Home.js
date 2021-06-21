@@ -150,7 +150,7 @@ function Home({navigation}) {
   useEffect(() => {
     fetchPosts()
     setDeleted(false);
-  },[posts])
+  },[])
 
   return (
     <View style={{flex: 1}}>

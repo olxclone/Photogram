@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, TouchableOpacity, StyleSheet} from 'react-native';
+import {Text, TouchableOpacity, StyleSheet,TextStyle,ViewStyle} from 'react-native';
 
 export function PhotoGramButton({
   title,
@@ -8,6 +8,7 @@ export function PhotoGramButton({
   backgroundColor,
   padding,
   fontSize,
+  TextStyle,
   onPress,
   activeOpacity,
   fontWeight,
@@ -22,6 +23,7 @@ export function PhotoGramButton({
     },
     ButtonText: {
       color: color || '#fff',
+      ...TextStyle,
       fontSize,
       fontWeight: fontWeight === 'h1' ? '700' : 'normal',
     },

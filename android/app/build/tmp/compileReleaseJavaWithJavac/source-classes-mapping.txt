@@ -3,6 +3,8 @@ com/chat/BuildConfig.java
 com/chat/MainApplication.java
  com.chat.MainApplication
  com.chat.MainApplication$1
+com/chat/SplashActivity.java
+ com.chat.SplashActivity
 com/chat/MainActivity.java
  com.chat.MainActivity
 com/facebook/react/PackageList.java

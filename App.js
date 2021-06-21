@@ -1,5 +1,5 @@
 import React, { Children, useEffect } from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { DarkTheme, DefaultTheme, NavigationContainer, useTheme } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import firebase from '@react-native-firebase/app';
@@ -12,11 +12,12 @@ import firestore from '@react-native-firebase/firestore';
 import { View, LogBox, Text, Image, ViewPagerAndroid } from 'react-native';
 import messaging from '@react-native-firebase/messaging';
 import { enableScreens } from 'react-native-screens';
+import SplashScreen from 'react-native-splash-screen'
 enableScreens();
-
 // SCREEN IMPORTS
 import { firebaseConfig } from './src/Utils/firebaseConfig';
 import Loading from './src/Screens/Auth/Loading';
+import OnBoarding from './src/Screens/Auth/onboarding'
 import signIn from './src/Screens/Auth/SignIn';
 import ForgotScreen from './src/Screens/Auth/forgetScreen';
 import signUp from './src/Screens/Auth/signUp';
@@ -57,7 +58,6 @@ const App = ({ navigation }) => {
 
     if (enabled) {
       getFcmToken();
-
       console.log('Authorization status:', authStatus);
     }
   };
@@ -200,14 +200,21 @@ const App = ({ navigation }) => {
       </Tab.Navigator>
     );
   }
+
+  let scheme = useTheme().dark
+
   return (
-      <NavigationContainer>
-        <Stack.Navigator>
+      <NavigationContainer theme={DefaultTheme}>
+        <Stack.Navigator mode="card">
           <Stack.Screen
             name="Loading"
             options={{ headerShown: false }}
             component={Loading}
           />
+          <Stack.Screen component={OnBoarding}
+            options={{ headerShown: false }}
+          
+          name="OnBoarding" />
           <Stack.Screen
             options={{ headerShown: false }}
         
