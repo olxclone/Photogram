@@ -62,7 +62,7 @@ import ChatScreenHeader from '../../Components/headers/ChatScreenHeader';
       .collection('chatrooms')
       .doc(docid)
       .collection('messages')
-      .add({...mymsg, createdAt: firestore.FieldValue.serverTimestamp()});
+      .add({...mymsg,token:'something' ,createdAt: firestore.FieldValue.serverTimestamp()});
   };
 
   return (

@@ -1,5 +1,5 @@
-import React, { useState, useEffect, memo } from 'react';
-
+import React, { useState, useEffect, memo } from "react";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import {
   View,
   Image,
@@ -12,31 +12,33 @@ import {
   Platform,
   ImageBackground,
   StyleSheet,
-} from 'react-native';
-import auth from '@react-native-firebase/auth';
-import storage from '@react-native-firebase/storage';
-import firestore from '@react-native-firebase/firestore';
-import { padding, width, height } from '../../Utils/constants/styles';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import EditProfileheader from '../../Components/headers/header';
-import ImagePicker from 'react-native-image-crop-picker';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-
-import BottomSheet from 'reanimated-bottom-sheet';
-import Animated from 'react-native-reanimated';
+} from "react-native";
+import auth from "@react-native-firebase/auth";
+import storage from "@react-native-firebase/storage";
+import firestore from "@react-native-firebase/firestore";
+import { padding, width, height } from "../../Utils/constants/styles";
+import { SafeAreaView } from "react-native-safe-area-context";
+import EditProfileheader from "../../Components/headers/header";
+import ImagePicker from "react-native-image-crop-picker";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import BottomSheet from "reanimated-bottom-sheet";
+import Animated from "react-native-reanimated";
+import { PhotogramText } from "../../Components/Text/PhotoGramText";
+import { ActivityIndicator } from "react-native-paper";
 
 function EditProfile({ navigation }) {
-  const [imageUri, setImageUri] = useState('');
-  const [imageUrl, setImageUrl] = useState('');
-  const [bio, setBio] = useState('');
-  const [web, setWeb] = useState('');
+  const [imageUri, setImageUri] = useState("");
+  const [imageUrl, setImageUrl] = useState("");
+  const [bio, setBio] = useState("");
+  const [updating, setupdating] = useState(false);
+  const [web, setWeb] = useState("");
   const [transferred, setTransferred] = useState(0);
   const [visible, setVisible] = useState(false);
   const [uploading, setUploading] = useState(false);
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [userData, setUserData] = useState('');
-  const [nickname, setNickName] = useState('');
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [userData, setUserData] = useState("");
+  const [nickname, setNickName] = useState("");
 
   const takePhotoFromCamera = () => {
     ImagePicker.openCamera({
@@ -66,14 +68,14 @@ function EditProfile({ navigation }) {
 
   useEffect(() => {
     const cleanUp = getUser();
-    let userName = firstName + ' ' + lastName;
-    setNickName(userName.replace(/\s/g, ''));
+    let userName = firstName + " " + lastName;
+    setNickName(userName.replace(/\s/g, ""));
     return () => cleanUp;
   }, []);
 
   const getUser = () => {
     let currentUser = firestore()
-      .collection('users')
+      .collection("users")
       .doc(auth().currentUser.uid)
       .get()
       .then((documentSnaphot) => {
@@ -83,15 +85,17 @@ function EditProfile({ navigation }) {
       }, []);
   };
 
-  const handleUpdate = async () => {
-    if (firstName.length < 3 && lastName.length === 0,nickname.length === 3) {
-      Alert.alert('Username should be atleast 3 charactors');
+  const onUpdate = async () => {
+    if (
+      (firstName.length < 3 && lastName.length === 0, nickname.length === 3)
+    ) {
+      Alert.alert("Username should be atleast 3 charactors");
     } else {
       firestore()
-        .collection('users')
+        .collection("users")
         .doc(auth().currentUser.uid)
         .update({
-          userName: firstName + ' ' + lastName,
+          userName: firstName + " " + lastName,
           nickname,
           userImg: imageUrl,
           uid: auth().currentUser.uid,
@@ -99,29 +103,31 @@ function EditProfile({ navigation }) {
           bio,
           web,
         })
-
-        .then(() => navigation.goBack());
+        .then(() => {
+          setupdating(false);
+          navigation.goBack();
+        });
     }
   };
 
   const uploadImage = async () => {
     if (!imageUri) {
-      Alert.alert('Choose a image', 'Please choose a image to continue');
+      Alert.alert("Choose a image", "Please choose a image to continue");
     } else {
       const path = `profile/${Date.now()}/${Date.now()}`;
       return new Promise(async (resolve, rej) => {
         const response = await fetch(imageUri);
         const file = await response.blob();
         let upload = storage().ref(path).put(file);
-        console.log('Post Added');
+        console.log("Post Added");
         upload.on(
-          'state_changed',
+          "state_changed",
           (snapshot) => {
             console.log(
-              `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`,
+              `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`
             );
             setTransferred(
-              Math.round(snapshot.bytesTransferred / snapshot.totalBytes) * 100,
+              Math.round(snapshot.bytesTransferred / snapshot.totalBytes) * 100
             );
             setVisible(true);
           },
@@ -138,7 +144,7 @@ function EditProfile({ navigation }) {
             setImageUri(null);
             setUploading(false);
             return url;
-          },
+          }
         );
       });
     }
@@ -147,23 +153,26 @@ function EditProfile({ navigation }) {
   let renderInner = () => {
     return (
       <View style={styles.panel}>
-        <View style={{ alignItems: 'center' }}>
+        <View style={{ alignItems: "center" }}>
           <Text style={styles.panelTitle}>Upload Photo</Text>
           <Text style={styles.panelSubtitle}>Choose Your Profile Picture</Text>
         </View>
         <TouchableOpacity
           style={styles.panelButton}
-          onPress={takePhotoFromCamera}>
+          onPress={takePhotoFromCamera}
+        >
           <Text style={styles.panelButtonTitle}>Take Photo</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.panelButton}
-          onPress={choosePhotoFromLibrary}>
+          onPress={choosePhotoFromLibrary}
+        >
           <Text style={styles.panelButtonTitle}>Choose From Library</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.panelButton}
-          onPress={() => bs.current.snapTo(1)}>
+          onPress={() => bs.current.snapTo(1)}
+        >
           <Text style={styles.panelButtonTitle}>Cancel</Text>
         </TouchableOpacity>
       </View>
@@ -182,10 +191,55 @@ function EditProfile({ navigation }) {
       </View>
     </View>
   );
+ 
 
   return (
-    <SafeAreaView style={{ backgroundColor: '#fff', flex: 1 }}>
-      <EditProfileheader onUpdate={handleUpdate} navigation={navigation} />
+    <SafeAreaView style={{ backgroundColor: "#fff", flex: 1 }}>
+  
+      <View style={{ backgroundColor: "#FFF", padding: padding - 4 }}>
+        <SafeAreaView
+          style={{ flexDirection: "row", justifyContent: "space-between" }}
+        >
+          <TouchableOpacity onPress={() => navigation.goBack()}>
+            <MaterialIcons name="close" size={28} color="#000" />
+          </TouchableOpacity>
+          <PhotogramText
+            text={"Edit Profile"}
+            fontSize={padding - 3}
+            fontWeight={"h1"}
+            extraStyles={{
+              left: 0,
+              alignSelf: "flex-start",
+              fontWeight: "bold",
+              fontSize: padding - 3,
+            }}
+          />
+          {/* <Text
+          style={{
+            position: 'absolute',
+            left: padding + 18,
+            fontWeight: 'bold',
+            fontSize: padding - 3,
+          }}>
+          Edit Profile
+        </Text> */}
+        {
+          updating ? (
+            <ActivityIndicator color={'#128EF2'} size={24} />
+          ) : (<TouchableOpacity
+            onPress={() => {
+              setupdating(true);
+              onUpdate();
+            }}
+          >
+            <MaterialIcons name="done" size={28} color="#128EF2" />
+          </TouchableOpacity>
+
+          )
+        }
+          
+        </SafeAreaView>
+      </View>
       <BottomSheet
         ref={bs}
         snapPoints={[330, -5]}
@@ -197,10 +251,11 @@ function EditProfile({ navigation }) {
         // callbackNode={fall}
         enabledGestureInteraction={true}
       />
-      <KeyboardAvoidingView enabled={true} behavior={'padding'}>
+      <KeyboardAvoidingView enabled={true} behavior={"padding"}>
         <TouchableOpacity
-          style={{ alignSelf: 'center' }}
-          onPress={() => bs.current.snapTo(0)}>
+          style={{ alignSelf: "center" }}
+          onPress={() => bs.current.snapTo(0)}
+        >
           {/* <View style={{alignSelf: 'center', marginTop: '7%'}}>
             <Image
               source={{
@@ -223,26 +278,28 @@ function EditProfile({ navigation }) {
                 ? imageUri
                 : userData
                 ? userData.userImg ||
-                  'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'
-                : 'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png',
+                  "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
+                : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png",
             }}
             style={{ height: 100, width: 100 }}
-            imageStyle={{ borderRadius: 15 }}>
+            imageStyle={{ borderRadius: 15 }}
+          >
             <View
               style={{
-                backgroundColor: 'rgba(0,0,0,0.20)',
+                backgroundColor: "rgba(0,0,0,0.20)",
                 flex: 1,
-                justifyContent: 'center',
-                alignItems: 'center',
+                justifyContent: "center",
+                alignItems: "center",
                 borderRadius: 15,
-              }}>
+              }}
+            >
               <MaterialCommunityIcons
                 name="camera"
                 size={35}
                 color="#fff"
                 style={{
-                  alignItems: 'center',
-                  justifyContent: 'center',
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
               />
             </View>
@@ -252,11 +309,12 @@ function EditProfile({ navigation }) {
           <Text
             style={{
               fontSize: padding - 6,
-              color: '#128EF2',
-              marginTop: '3%',
-              alignSelf: 'center',
-            }}>
-            {'Set this as profile photo'}
+              color: "#128EF2",
+              marginTop: "3%",
+              alignSelf: "center",
+            }}
+          >
+            {"Set this as profile photo"}
           </Text>
         </TouchableOpacity>
         {/* Main */}
@@ -267,7 +325,7 @@ function EditProfile({ navigation }) {
               onChangeText={(val) => setFirstName(val)}
               style={{
                 fontSize: padding - 4,
-                borderBottomColor: 'rgba(0,0,0,0.4)',
+                borderBottomColor: "rgba(0,0,0,0.4)",
                 marginHorizontal: 18,
                 borderBottomWidth: 1,
               }}
@@ -279,7 +337,7 @@ function EditProfile({ navigation }) {
               onChangeText={(val) => setLastName(val)}
               style={{
                 fontSize: padding - 4,
-                borderBottomColor: 'rgba(0,0,0,0.4)',
+                borderBottomColor: "rgba(0,0,0,0.4)",
                 marginHorizontal: 18,
                 borderBottomWidth: 1,
               }}
@@ -292,7 +350,7 @@ function EditProfile({ navigation }) {
             onChangeText={(val) => setWeb(val)}
             style={{
               fontSize: padding - 4,
-              borderBottomColor: 'rgba(0,0,0,0.4)',
+              borderBottomColor: "rgba(0,0,0,0.4)",
               marginHorizontal: 18,
               borderBottomWidth: 1,
             }}
@@ -304,7 +362,7 @@ function EditProfile({ navigation }) {
             onChangeText={(val) => setBio(val)}
             style={{
               fontSize: padding - 4,
-              borderBottomColor: 'rgba(0,0,0,0.4)',
+              borderBottomColor: "rgba(0,0,0,0.4)",
               marginHorizontal: 18,
               borderBottomWidth: 1,
             }}
@@ -315,26 +373,29 @@ function EditProfile({ navigation }) {
         animationType="slide"
         style={{
           height: height / 2,
-          justifyContent: 'center',
-          alignSelf: 'center',
+          justifyContent: "center",
+          alignSelf: "center",
         }}
-        visible={visible}>
+        visible={visible}
+      >
         <View
           style={{
-            justifyContent: 'center',
-            alignSelf: 'center',
-            marginTop: '50%',
-          }}>
-          <Text style={{ fontWeight: '700', fontSize: height / 18 }}>
+            justifyContent: "center",
+            alignSelf: "center",
+            marginTop: "50%",
+          }}
+        >
+          <Text style={{ fontWeight: "700", fontSize: height / 18 }}>
             Uploading
           </Text>
           <Text
             style={{
-              fontWeight: '700',
+              fontWeight: "700",
               fontSize: height / 28,
-              alignSelf: 'center',
+              alignSelf: "center",
               marginTop: 24,
-            }}>
+            }}
+          >
             {transferred} %
           </Text>
         </View>
@@ -346,24 +407,24 @@ function EditProfile({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: "#fff",
   },
   commandButton: {
     padding: 15,
     borderRadius: 10,
-    backgroundColor: '#FF6347',
-    alignItems: 'center',
+    backgroundColor: "#FF6347",
+    alignItems: "center",
     marginTop: 10,
   },
   panel: {
     padding: 20,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: "#FFFFFF",
     paddingTop: 20,
-    width: '100%',
+    width: "100%",
   },
   header: {
-    backgroundColor: '#FFFFFF',
-    shadowColor: '#333333',
+    backgroundColor: "#FFFFFF",
+    shadowColor: "#333333",
     shadowOffset: { width: -1, height: -3 },
     shadowRadius: 2,
     shadowOpacity: 0.4,
@@ -372,13 +433,13 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 20,
   },
   panelHeader: {
-    alignItems: 'center',
+    alignItems: "center",
   },
   panelHandle: {
     width: 40,
     height: 8,
     borderRadius: 4,
-    backgroundColor: '#00000040',
+    backgroundColor: "#00000040",
     marginBottom: 10,
   },
   panelTitle: {
@@ -387,42 +448,42 @@ const styles = StyleSheet.create({
   },
   panelSubtitle: {
     fontSize: 14,
-    color: 'gray',
+    color: "gray",
     height: 30,
     marginBottom: 10,
   },
   panelButton: {
     padding: 13,
     borderRadius: 10,
-    backgroundColor: '#45A4F9',
-    alignItems: 'center',
+    backgroundColor: "#45A4F9",
+    alignItems: "center",
     marginVertical: 7,
   },
   panelButtonTitle: {
     fontSize: 17,
-    fontWeight: 'bold',
-    color: 'white',
+    fontWeight: "bold",
+    color: "white",
   },
   action: {
-    flexDirection: 'row',
+    flexDirection: "row",
     marginTop: 10,
     marginBottom: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#f2f2f2',
+    borderBottomColor: "#f2f2f2",
     paddingBottom: 5,
   },
   actionError: {
-    flexDirection: 'row',
+    flexDirection: "row",
     marginTop: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#FF0000',
+    borderBottomColor: "#FF0000",
     paddingBottom: 5,
   },
   textInput: {
     flex: 1,
-    marginTop: Platform.OS === 'ios' ? 0 : -12,
+    marginTop: Platform.OS === "ios" ? 0 : -12,
     paddingLeft: 10,
-    color: '#333333',
+    color: "#333333",
   },
 });
 export default EditProfile;

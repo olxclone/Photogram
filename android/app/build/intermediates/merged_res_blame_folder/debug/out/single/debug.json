@@ -12,12 +12,12 @@
         "source": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
