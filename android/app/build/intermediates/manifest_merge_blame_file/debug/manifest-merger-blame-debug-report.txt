@@ -9,359 +9,359 @@
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:2-75
-11-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:5:19-72
+11-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:5:2-75
+11-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:5:19-72
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:2:2-64
-12-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:2:19-61
+12-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:2:2-64
+12-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:2:19-61
 13    <uses-permission android:name="android.permission.CAMERA" />
-13-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:3:2-62
-13-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:3:19-59
+13-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:3:2-62
+13-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:3:19-59
 14    <uses-permission android:name="com.chat.permission.C2D_MESSAGE" />
 15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:6:2-78
-15-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:6:19-75
+15-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:6:2-78
+15-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:6:19-75
 16    <uses-permission android:name="android.permission.VIBRATE" />
-16-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:7:2-63
-16-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:7:19-60
+16-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:7:2-63
+16-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:7:19-60
 17
 18    <uses-feature
-18-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:2-82
+18-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:8:2-82
 19        android:name="android.hardware.camera"
-19-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:16-54
+19-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:8:16-54
 20        android:required="false" />
-20-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:8:55-79
+20-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:8:55-79
 21    <uses-feature
-21-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:2-88
+21-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:9:2-88
 22        android:name="android.hardware.camera.front"
-22-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:16-60
+22-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:9:16-60
 23        android:required="false" />
-23-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:9:61-85
+23-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:9:61-85
 24
 25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-25-->[com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
-25-->[com.facebook.flipper:flipper:0.54.0] /home/madan/.gradle/caches/transforms-2/files-2.1/ff15b094f3d9a8de531f573af90dfd6a/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+25-->[com.facebook.flipper:flipper:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\ff15b094f3d9a8de531f573af90dfd6a\jetified-flipper-0.54.0\AndroidManifest.xml:16:5-76
+25-->[com.facebook.flipper:flipper:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\ff15b094f3d9a8de531f573af90dfd6a\jetified-flipper-0.54.0\AndroidManifest.xml:16:22-73
 26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-26-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
-26-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+26-->[:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+26-->[:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 27    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- TODO(salakar) Not sure if this should be part of the package manifest or leave to users app manifest code? -->
-27-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
-27-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+27-->[:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-68
+27-->[:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-65
 28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-28-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-80
-28-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-77
+28-->[:react-native-firebase_storage] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-80
+28-->[:react-native-firebase_storage] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-77
 29    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-29-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-81
-29-->[:react-native-firebase_storage] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-78
+29-->[:react-native-firebase_storage] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-81
+29-->[:react-native-firebase_storage] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\storage\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-78
 30
 31    <queries>
-31-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+31-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-13:15
 32        <intent>
-32-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+32-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
 33            <action android:name="android.media.action.IMAGE_CAPTURE" />
-33-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
-33-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+33-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-73
+33-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-70
 34        </intent>
 35    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
 36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-36-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
-36-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
+36-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:25:5-82
+36-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:25:22-79
 37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
-37-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:5-110
-37-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:22-107
+37-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
 38    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
 39    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
 40    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
 41    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
 42    <!-- for Samsung -->
 43    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-43-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-43-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+43-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
 44    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-44-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-44-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+44-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
 45    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-45-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-45-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+45-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
 46    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-46-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-46-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+46-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
 47    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-47-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-47-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+47-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
 48    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-48-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-48-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+48-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
 49    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-49-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-49-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
 50    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-50-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-50-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
 51    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-51-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-51-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
 52    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-52-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-52-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
 53    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-53-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-53-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
 54    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-54-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-54-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
 55    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-55-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-55-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
 56    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-56-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-56-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
 57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-57-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-57-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
 58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-58-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-58-->[me.leolin:ShortcutBadger:1.1.22] /home/madan/.gradle/caches/transforms-2/files-2.1/6f6b1e5f8a1310646f4d1a68e595126f/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6f6b1e5f8a1310646f4d1a68e595126f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
 59
 60    <application
-60-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:2-59:16
+60-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:10:2-59:16
 61        android:name="com.chat.MainApplication"
-61-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:15-46
+61-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:10:15-46
 62        android:allowBackup="false"
-62-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:161-188
+62-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:10:161-188
 63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-63-->[androidx.core:core:1.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/f726e616672625858de40c99d1f257d4/core-1.1.0/AndroidManifest.xml:24:18-86
+63-->[androidx.core:core:1.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f726e616672625858de40c99d1f257d4\core-1.1.0\AndroidManifest.xml:24:18-86
 64        android:debuggable="true"
 65        android:icon="@mipmap/ic_launcher"
-65-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:80-114
+65-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:10:80-114
 66        android:label="@string/app_name"
-66-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:47-79
+66-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:10:47-79
 67        android:roundIcon="@mipmap/ic_launcher_round"
-67-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:115-160
+67-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:10:115-160
 68        android:theme="@style/AppTheme"
-68-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:10:189-220
+68-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:10:189-220
 69        android:usesCleartextTraffic="true" >
-69-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/debug/AndroidManifest.xml:7:18-53
+69-->C:\Users\madan\Desktop\Photogram\android\app\src\debug\AndroidManifest.xml:7:18-53
 70        <activity
-70-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:3-16:14
+70-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:11:3-16:14
 71            android:name="com.chat.MainActivity"
-71-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:13-41
+71-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:11:13-41
 72            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-72-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:112-189
+72-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:11:112-189
 73            android:label="@string/app_name"
-73-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:42-74
+73-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:11:42-74
 74            android:launchMode="singleTask"
-74-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:190-221
+74-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:11:190-221
 75            android:screenOrientation="portrait"
-75-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:75-111
+75-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:11:75-111
 76            android:windowSoftInputMode="adjustResize" >
-76-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:11:222-264
+76-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:11:222-264
 77            <intent-filter>
-77-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:12:4-15:20
+77-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:12:4-15:20
 78                <action android:name="android.intent.action.MAIN" />
-78-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:13:5-57
-78-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:13:13-54
+78-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:13:5-57
+78-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:13:13-54
 79
 80                <category android:name="android.intent.category.LAUNCHER" />
-80-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:14:5-65
-80-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:14:15-62
+80-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:14:5-65
+80-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:14:15-62
 81            </intent-filter>
 82        </activity>
 83
 84        <meta-data
-84-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:3-142
+84-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:17:3-142
 85            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
-85-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:14-92
+85-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:17:14-92
 86            android:value="YOUR NOTIFICATION CHANNEL NAME" />
-86-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:17:93-139
+86-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:17:93-139
 87        <meta-data
-87-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:3-156
+87-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:18:3-156
 88            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
-88-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:14-99
+88-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:18:14-99
 89            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" />
-89-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:18:100-153
+89-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:18:100-153
 90        <meta-data
-90-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:9-134
+90-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:19:9-134
 91            android:name="com.dieam.reactnativepushnotification.notification_color"
-91-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:20-91
+91-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:19:20-91
 92            android:resource="@android:color/white" /> <!-- android:resource="@mipmap-hdpi/ic_launcher_round" -->
-92-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:19:92-131
+92-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:19:92-131
 93        <!--
 94 Set color used with incoming notification messages. This is used when no color is set for the incoming
 95     notification message. See README(https://goo.gl/6BKBk7) for more.
 96        -->
 97        <meta-data
-97-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:24:1-26:39
+97-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:24:1-26:39
 98            android:name="com.google.firebase.messaging.default_notification_color"
-98-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:25:5-76
+98-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:25:5-76
 99            android:resource="@color/white" />
-99-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:26:5-36
+99-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:26:5-36
 100
 101        <receiver
-101-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:3-32:14
+101-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:27:3-32:14
 102            android:name="com.google.android.gms.gcm.GcmReceiver"
-102-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:13-66
+102-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:27:13-66
 103            android:exported="true"
-103-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:67-90
+103-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:27:67-90
 104            android:permission="com.google.android.c2dm.permission.SEND" >
-104-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:27:91-151
+104-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:27:91-151
 105            <intent-filter>
-105-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:28:4-31:20
+105-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:28:4-31:20
 106                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-106-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:5-69
-106-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:13-66
+106-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:29:5-69
+106-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:29:13-66
 107
 108                <category android:name="com.chat" />
 109            </intent-filter>
 110        </receiver>
 111        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
-111-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:3-104
-111-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:33:13-101
+111-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:33:3-104
+111-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:33:13-101
 112        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
-112-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:34:3-38:14
-112-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:34:13-109
+112-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:34:3-38:14
+112-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:34:13-109
 113            <intent-filter>
-113-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:35:4-37:20
+113-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:35:4-37:20
 114                <action android:name="android.intent.action.BOOT_COMPLETED" />
-114-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:36:5-67
-114-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:36:13-64
+114-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:36:5-67
+114-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:36:13-64
 115            </intent-filter>
 116        </receiver>
 117
 118        <service android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService" />
-118-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:39:3-113
-118-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:39:12-110
+118-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:39:3-113
+118-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:39:12-110
 119        <service
-119-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:40:3-44:13
+119-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:40:3-44:13
 120            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
-120-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:40:12-106
+120-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:40:12-106
 121            android:exported="false" >
-121-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:40:107-131
+121-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:40:107-131
 122            <intent-filter>
-122-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:41:4-43:20
+122-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:41:4-43:20
 123                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-123-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:5-66
-123-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:13-63
+123-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:5-66
+123-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:13-63
 124            </intent-filter>
 125        </service>
 126        <service
-126-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:45:3-51:11
+126-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:45:3-51:11
 127            android:name="com.chat.java.MyFirebaseMessagingService"
-127-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:46:5-52
+127-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:46:5-52
 128            android:exported="false" >
-128-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:47:5-29
+128-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:47:5-29
 129            <intent-filter>
-129-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:41:4-43:20
+129-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:41:4-43:20
 130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-130-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:5-66
-130-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:13-63
+130-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:5-66
+130-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:13-63
 131            </intent-filter>
 132        </service>
 133
 134        <activity
-134-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:53:1-57:14
+134-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:53:1-57:14
 135            android:name="com.chat.SplashActivity"
-135-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:54:4-34
+135-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:54:4-34
 136            android:label="@string/app_name"
-136-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:56:4-36
+136-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:56:4-36
 137            android:theme="@style/SplashTheme" >
-137-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:55:4-38
+137-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:55:4-38
 138        </activity>
 139        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-139-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:58:3-80
-139-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:58:13-77
+139-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:58:3-80
+139-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:58:13-77
 140
 141        <meta-data
-141-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+141-->[:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-16:36
 142            android:name="firebase_analytics_collection_enabled"
-142-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+142-->[:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-65
 143            android:value="true" />
-143-->[:react-native-firebase_analytics] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+143-->[:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-33
 144
 145        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
-145-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
-145-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+145-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-111
+145-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:18-108
 146        <service
-146-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+146-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:19
 147            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-147-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+147-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-95
 148            android:exported="false" >
-148-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+148-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
 149            <intent-filter>
-149-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:41:4-43:20
+149-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:41:4-43:20
 150                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-150-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:5-66
-150-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:13-63
+150-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:5-66
+150-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:13-63
 151            </intent-filter>
 152        </service>
 153
 154        <receiver
-154-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+154-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-30:20
 155            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-155-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+155-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-96
 156            android:exported="true"
-156-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+156-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-36
 157            android:permission="com.google.android.c2dm.permission.SEND" >
-157-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+157-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-73
 158            <intent-filter>
-158-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+158-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:29
 159                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-159-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:5-69
-159-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:13-66
+159-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:29:5-69
+159-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:29:13-66
 160            </intent-filter>
 161        </receiver>
 162
 163        <meta-data
-163-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+163-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-34:36
 164            android:name="firebase_messaging_auto_init_enabled"
-164-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+164-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-64
 165            android:value="true" />
-165-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+165-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-33
 166        <meta-data
-166-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:32
+166-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-37:32
 167            android:name="com.google.firebase.messaging.default_notification_channel_id"
-167-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+167-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-89
 168            android:value="" />
-168-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-29
+168-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-29
 169
 170        <provider
-170-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+170-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-26:20
 171            android:name="androidx.core.content.FileProvider"
-171-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-62
+171-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-62
 172            android:authorities="com.chat.provider"
-172-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+172-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-60
 173            android:exported="false"
-173-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+173-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
 174            android:grantUriPermissions="true" >
-174-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+174-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-47
 175            <meta-data
-175-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:58
+175-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:58
 176                android:name="android.support.FILE_PROVIDER_PATHS"
-176-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+176-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-67
 177                android:resource="@xml/provider_paths" />
-177-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-55
+177-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-55
 178        </provider>
 179
 180        <activity
-180-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+180-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-30:72
 181            android:name="com.yalantis.ucrop.UCropActivity"
-181-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+181-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-60
 182            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-182-->[:react-native-image-crop-picker] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+182-->[:react-native-image-crop-picker] C:\Users\madan\Desktop\Photogram\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-69
 183
 184        <receiver
-184-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
+184-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:28:9-35:20
 185            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-185-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+185-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:29:13-78
 186            android:exported="true"
-186-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
+186-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:30:13-36
 187            android:permission="com.google.android.c2dm.permission.SEND" >
-187-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
+187-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:31:13-73
 188            <intent-filter>
-188-->[:react-native-firebase_messaging] /home/madan/Desktop/Documents/Madan/GitHub/Photogram/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+188-->[:react-native-firebase_messaging] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\messaging\android\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-29:29
 189                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-189-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:5-69
-189-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:29:13-66
+189-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:29:5-69
+189-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:29:13-66
 190            </intent-filter>
 191        </receiver>
 192        <!--
@@ -369,296 +369,296 @@
 194             but set to not exported to explicitly avoid allowing another app to call it.
 195        -->
 196        <service
-196-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+196-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:41:9-48:19
 197            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-197-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+197-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:42:13-82
 198            android:directBootAware="true"
-198-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+198-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:43:13-43
 199            android:exported="false" >
-199-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+199-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:44:13-37
 200            <intent-filter android:priority="-500" >
-200-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:41:4-43:20
+200-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:41:4-43:20
 201                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-201-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:5-66
-201-->/home/madan/Desktop/Documents/Madan/GitHub/Photogram/android/app/src/main/AndroidManifest.xml:42:13-63
+201-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:5-66
+201-->C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:42:13-63
 202            </intent-filter>
 203        </service>
 204        <service
-204-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+204-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:49:9-55:19
 205            android:name="com.google.firebase.components.ComponentDiscoveryService"
-205-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+205-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:50:13-84
 206            android:directBootAware="true"
-206-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+206-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
 207            android:exported="false" >
-207-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+207-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:51:13-37
 208            <meta-data
-208-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+208-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:52:13-54:85
 209                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-209-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+209-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:53:17-119
 210                android:value="com.google.firebase.components.ComponentRegistrar" />
-210-->[com.google.firebase:firebase-messaging:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/a0ffc9056e93fbc71e2fbdf7ad68b1df/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+210-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:54:17-82
 211            <meta-data
-211-->[com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:20:13-22:85
+211-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\10938f418a20492245368ae7fca9d41b\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
 212                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-212-->[com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:21:17-111
+212-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\10938f418a20492245368ae7fca9d41b\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
 213                android:value="com.google.firebase.components.ComponentRegistrar" />
-213-->[com.google.firebase:firebase-firestore:22.1.2] /home/madan/.gradle/caches/transforms-2/files-2.1/10938f418a20492245368ae7fca9d41b/jetified-firebase-firestore-22.1.2/AndroidManifest.xml:22:17-82
+213-->[com.google.firebase:firebase-firestore:22.1.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\10938f418a20492245368ae7fca9d41b\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
 214            <meta-data
-214-->[com.google.firebase:firebase-datatransport:17.0.10] /home/madan/.gradle/caches/transforms-2/files-2.1/cb1e13202ab95eb35b63a92e86d7850b/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+214-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\cb1e13202ab95eb35b63a92e86d7850b\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
 215                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-215-->[com.google.firebase:firebase-datatransport:17.0.10] /home/madan/.gradle/caches/transforms-2/files-2.1/cb1e13202ab95eb35b63a92e86d7850b/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+215-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\cb1e13202ab95eb35b63a92e86d7850b\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
 216                android:value="com.google.firebase.components.ComponentRegistrar" />
-216-->[com.google.firebase:firebase-datatransport:17.0.10] /home/madan/.gradle/caches/transforms-2/files-2.1/cb1e13202ab95eb35b63a92e86d7850b/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+216-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\cb1e13202ab95eb35b63a92e86d7850b\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
 217            <meta-data
-217-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:77:13-79:85
+217-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:77:13-79:85
 218                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-218-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:78:17-109
+218-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:78:17-109
 219                android:value="com.google.firebase.components.ComponentRegistrar" />
-219-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:79:17-82
+219-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:79:17-82
 220            <meta-data
-220-->[com.google.firebase:firebase-storage:19.2.2] /home/madan/.gradle/caches/transforms-2/files-2.1/6da7baf9c7cae68fdcfbc7209a09690c/jetified-firebase-storage-19.2.2/AndroidManifest.xml:33:13-35:85
+220-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6da7baf9c7cae68fdcfbc7209a09690c\jetified-firebase-storage-19.2.2\AndroidManifest.xml:33:13-35:85
 221                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-221-->[com.google.firebase:firebase-storage:19.2.2] /home/madan/.gradle/caches/transforms-2/files-2.1/6da7baf9c7cae68fdcfbc7209a09690c/jetified-firebase-storage-19.2.2/AndroidManifest.xml:34:17-107
+221-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6da7baf9c7cae68fdcfbc7209a09690c\jetified-firebase-storage-19.2.2\AndroidManifest.xml:34:17-107
 222                android:value="com.google.firebase.components.ComponentRegistrar" />
-222-->[com.google.firebase:firebase-storage:19.2.2] /home/madan/.gradle/caches/transforms-2/files-2.1/6da7baf9c7cae68fdcfbc7209a09690c/jetified-firebase-storage-19.2.2/AndroidManifest.xml:35:17-82
+222-->[com.google.firebase:firebase-storage:19.2.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\6da7baf9c7cae68fdcfbc7209a09690c\jetified-firebase-storage-19.2.2\AndroidManifest.xml:35:17-82
 223            <meta-data
-223-->[com.google.firebase:firebase-database:19.7.0] /home/madan/.gradle/caches/transforms-2/files-2.1/f75dc26c2a0c0131c5493bd4c187ef3e/jetified-firebase-database-19.7.0/AndroidManifest.xml:32:13-34:85
+223-->[com.google.firebase:firebase-database:19.7.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f75dc26c2a0c0131c5493bd4c187ef3e\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
 224                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-224-->[com.google.firebase:firebase-database:19.7.0] /home/madan/.gradle/caches/transforms-2/files-2.1/f75dc26c2a0c0131c5493bd4c187ef3e/jetified-firebase-database-19.7.0/AndroidManifest.xml:33:17-109
+224-->[com.google.firebase:firebase-database:19.7.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f75dc26c2a0c0131c5493bd4c187ef3e\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
 225                android:value="com.google.firebase.components.ComponentRegistrar" />
-225-->[com.google.firebase:firebase-database:19.7.0] /home/madan/.gradle/caches/transforms-2/files-2.1/f75dc26c2a0c0131c5493bd4c187ef3e/jetified-firebase-database-19.7.0/AndroidManifest.xml:34:17-82
+225-->[com.google.firebase:firebase-database:19.7.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f75dc26c2a0c0131c5493bd4c187ef3e\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
 226            <meta-data
-226-->[com.google.firebase:firebase-iid:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/209f037b3952d23f1e9175e70b841be5/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+226-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\209f037b3952d23f1e9175e70b841be5\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
 227                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-227-->[com.google.firebase:firebase-iid:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/209f037b3952d23f1e9175e70b841be5/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+227-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\209f037b3952d23f1e9175e70b841be5\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
 228                android:value="com.google.firebase.components.ComponentRegistrar" />
-228-->[com.google.firebase:firebase-iid:21.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/209f037b3952d23f1e9175e70b841be5/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+228-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\209f037b3952d23f1e9175e70b841be5\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
 229            <meta-data
-229-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/5662960bb252eae97018bb4842974f5c/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
+229-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5662960bb252eae97018bb4842974f5c\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
 230                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-230-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/5662960bb252eae97018bb4842974f5c/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:31:17-139
+230-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5662960bb252eae97018bb4842974f5c\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
 231                android:value="com.google.firebase.components.ComponentRegistrar" />
-231-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/5662960bb252eae97018bb4842974f5c/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:32:17-82
+231-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5662960bb252eae97018bb4842974f5c\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
 232            <meta-data
-232-->[com.google.firebase:firebase-installations:16.3.5] /home/madan/.gradle/caches/transforms-2/files-2.1/8251d76032f8315cc99ea8f328966c0d/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+232-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\8251d76032f8315cc99ea8f328966c0d\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
 233                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-233-->[com.google.firebase:firebase-installations:16.3.5] /home/madan/.gradle/caches/transforms-2/files-2.1/8251d76032f8315cc99ea8f328966c0d/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+233-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\8251d76032f8315cc99ea8f328966c0d\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
 234                android:value="com.google.firebase.components.ComponentRegistrar" />
-234-->[com.google.firebase:firebase-installations:16.3.5] /home/madan/.gradle/caches/transforms-2/files-2.1/8251d76032f8315cc99ea8f328966c0d/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+234-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\8251d76032f8315cc99ea8f328966c0d\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
 235            <!--
 236                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
 237                clients to use it as well, by defining this registrar in their own core/common library.
 238            -->
 239            <meta-data
-239-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+239-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
 240                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
-240-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+240-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
 241                android:value="com.google.firebase.components.ComponentRegistrar" />
-241-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+241-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
 242        </service>
 243        <service
-243-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/madan/.gradle/caches/transforms-2/files-2.1/4f59540869e468e346affa3904152e5f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4f59540869e468e346affa3904152e5f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
 244            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-244-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/madan/.gradle/caches/transforms-2/files-2.1/4f59540869e468e346affa3904152e5f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+244-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4f59540869e468e346affa3904152e5f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
 245            android:exported="false" >
-245-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/madan/.gradle/caches/transforms-2/files-2.1/4f59540869e468e346affa3904152e5f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+245-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4f59540869e468e346affa3904152e5f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
 246            <meta-data
-246-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/madan/.gradle/caches/transforms-2/files-2.1/4f59540869e468e346affa3904152e5f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+246-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4f59540869e468e346affa3904152e5f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
 247                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-247-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/madan/.gradle/caches/transforms-2/files-2.1/4f59540869e468e346affa3904152e5f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+247-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4f59540869e468e346affa3904152e5f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
 248                android:value="cct" />
-248-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /home/madan/.gradle/caches/transforms-2/files-2.1/4f59540869e468e346affa3904152e5f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+248-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4f59540869e468e346affa3904152e5f\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
 249        </service>
 250        <service
-250-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/madan/.gradle/caches/transforms-2/files-2.1/4ee5f90977be434c4af1b54789dd150d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+250-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4ee5f90977be434c4af1b54789dd150d\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
 251            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-251-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/madan/.gradle/caches/transforms-2/files-2.1/4ee5f90977be434c4af1b54789dd150d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+251-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4ee5f90977be434c4af1b54789dd150d\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
 252            android:exported="false"
-252-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/madan/.gradle/caches/transforms-2/files-2.1/4ee5f90977be434c4af1b54789dd150d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+252-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4ee5f90977be434c4af1b54789dd150d\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
 253            android:permission="android.permission.BIND_JOB_SERVICE" >
-253-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/madan/.gradle/caches/transforms-2/files-2.1/4ee5f90977be434c4af1b54789dd150d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+253-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4ee5f90977be434c4af1b54789dd150d\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
 254        </service>
 255
 256        <receiver
-256-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/madan/.gradle/caches/transforms-2/files-2.1/4ee5f90977be434c4af1b54789dd150d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+256-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4ee5f90977be434c4af1b54789dd150d\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
 257            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-257-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/madan/.gradle/caches/transforms-2/files-2.1/4ee5f90977be434c4af1b54789dd150d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+257-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4ee5f90977be434c4af1b54789dd150d\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
 258            android:exported="false" />
-258-->[com.google.android.datatransport:transport-runtime:2.2.5] /home/madan/.gradle/caches/transforms-2/files-2.1/4ee5f90977be434c4af1b54789dd150d/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+258-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\4ee5f90977be434c4af1b54789dd150d\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
 259
 260        <activity
-260-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+260-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
 261            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-261-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+261-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
 262            android:excludeFromRecents="true"
-262-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+262-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
 263            android:exported="false"
-263-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+263-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
 264            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-264-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+264-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
 265        <!--
 266            Service handling Google Sign-In user revocation. For apps that do not integrate with
 267            Google Sign-In, this service will never be started.
 268        -->
 269        <service
-269-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+269-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
 270            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-270-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+270-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
 271            android:exported="true"
-271-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+271-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
 272            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-272-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+272-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
 273            android:visibleToInstantApps="true" />
-273-->[com.google.android.gms:play-services-auth:19.0.0] /home/madan/.gradle/caches/transforms-2/files-2.1/71e101588be14289a5c21fd86d02163c/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+273-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\71e101588be14289a5c21fd86d02163c\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
 274
 275        <activity
-275-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:27:9-44:20
+275-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:27:9-44:20
 276            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-276-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:28:13-80
+276-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:28:13-80
 277            android:excludeFromRecents="true"
-277-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:29:13-46
+277-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:29:13-46
 278            android:exported="true"
-278-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:30:13-36
+278-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:30:13-36
 279            android:launchMode="singleTask"
-279-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:31:13-44
+279-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:31:13-44
 280            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-280-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:32:13-72
+280-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:32:13-72
 281            <intent-filter>
-281-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:33:13-43:29
+281-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:33:13-43:29
 282                <action android:name="android.intent.action.VIEW" />
-282-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:17-69
-282-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:25-66
+282-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
+282-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
 283
 284                <category android:name="android.intent.category.DEFAULT" />
-284-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
-284-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+284-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+284-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
 285                <category android:name="android.intent.category.BROWSABLE" />
-285-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:17-78
-285-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:27-75
+285-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
+285-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
 286
 287                <data
-287-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:39:17-42:51
+287-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
 288                    android:host="firebase.auth"
-288-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:40:21-49
+288-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
 289                    android:path="/"
-289-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:41:21-37
+289-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
 290                    android:scheme="genericidp" />
-290-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:42:21-48
+290-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
 291            </intent-filter>
 292        </activity>
 293        <activity
-293-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:45:9-62:20
+293-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:45:9-62:20
 294            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-294-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:46:13-79
+294-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:46:13-79
 295            android:excludeFromRecents="true"
-295-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:47:13-46
+295-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:47:13-46
 296            android:exported="true"
-296-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:48:13-36
+296-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:48:13-36
 297            android:launchMode="singleTask"
-297-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:49:13-44
+297-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:49:13-44
 298            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-298-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:50:13-72
+298-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:50:13-72
 299            <intent-filter>
-299-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:51:13-61:29
+299-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:51:13-61:29
 300                <action android:name="android.intent.action.VIEW" />
-300-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:17-69
-300-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:34:25-66
+300-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:17-69
+300-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:34:25-66
 301
 302                <category android:name="android.intent.category.DEFAULT" />
-302-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
-302-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+302-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+302-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
 303                <category android:name="android.intent.category.BROWSABLE" />
-303-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:17-78
-303-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:37:27-75
+303-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:17-78
+303-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:37:27-75
 304
 305                <data
-305-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:39:17-42:51
+305-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:39:17-42:51
 306                    android:host="firebase.auth"
-306-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:40:21-49
+306-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:40:21-49
 307                    android:path="/"
-307-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:41:21-37
+307-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:41:21-37
 308                    android:scheme="recaptcha" />
-308-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:42:21-48
+308-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:42:21-48
 309            </intent-filter>
 310        </activity>
 311
 312        <service
-312-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:64:9-73:19
+312-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:64:9-73:19
 313            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-313-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:65:13-101
+313-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:65:13-101
 314            android:enabled="true"
-314-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:66:13-35
+314-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:66:13-35
 315            android:exported="false" >
-315-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:67:13-37
+315-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:67:13-37
 316            <intent-filter>
-316-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:68:13-72:29
+316-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:68:13-72:29
 317                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-317-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:69:17-89
-317-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:69:25-86
+317-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:17-89
+317-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:69:25-86
 318
 319                <category android:name="android.intent.category.DEFAULT" />
-319-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:17-76
-319-->[com.google.firebase:firebase-auth:20.0.3] /home/madan/.gradle/caches/transforms-2/files-2.1/f93872322f62a8acc5813b7b0e4c9f43/jetified-firebase-auth-20.0.3/AndroidManifest.xml:36:27-73
+319-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:17-76
+319-->[com.google.firebase:firebase-auth:20.0.3] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f93872322f62a8acc5813b7b0e4c9f43\jetified-firebase-auth-20.0.3\AndroidManifest.xml:36:27-73
 320            </intent-filter>
 321        </service>
 322
 323        <activity
-323-->[com.google.android.gms:play-services-base:17.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c7bdfc61503019dbd48123c99c72577c/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+323-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\c7bdfc61503019dbd48123c99c72577c\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 324            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-324-->[com.google.android.gms:play-services-base:17.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c7bdfc61503019dbd48123c99c72577c/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+324-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\c7bdfc61503019dbd48123c99c72577c\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 325            android:exported="false"
-325-->[com.google.android.gms:play-services-base:17.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c7bdfc61503019dbd48123c99c72577c/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+325-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\c7bdfc61503019dbd48123c99c72577c\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 326            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-326-->[com.google.android.gms:play-services-base:17.1.0] /home/madan/.gradle/caches/transforms-2/files-2.1/c7bdfc61503019dbd48123c99c72577c/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+326-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\c7bdfc61503019dbd48123c99c72577c\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 327
 328        <provider
-328-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+328-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 329            android:name="com.google.firebase.provider.FirebaseInitProvider"
-329-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+329-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
 330            android:authorities="com.chat.firebaseinitprovider"
-330-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+330-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 331            android:directBootAware="true"
-331-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+331-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
 332            android:exported="false"
-332-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+332-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
 333            android:initOrder="100" />
-333-->[com.google.firebase:firebase-common:19.5.0] /home/madan/.gradle/caches/transforms-2/files-2.1/5c5b150e8f100fd089b6559790e349f3/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+333-->[com.google.firebase:firebase-common:19.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\5c5b150e8f100fd089b6559790e349f3\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
 334
 335        <receiver
-335-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:29:9-33:20
+335-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
 336            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-336-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:30:13-85
+336-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
 337            android:enabled="true"
-337-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:31:13-35
+337-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
 338            android:exported="false" >
-338-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:32:13-37
+338-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
 339        </receiver>
 340
 341        <service
-341-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:35:9-38:40
+341-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
 342            android:name="com.google.android.gms.measurement.AppMeasurementService"
-342-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:36:13-84
+342-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
 343            android:enabled="true"
-343-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:37:13-35
+343-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
 344            android:exported="false" />
-344-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:38:13-37
+344-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
 345        <service
-345-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:39:9-43:72
+345-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
 346            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-346-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:40:13-87
+346-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
 347            android:enabled="true"
-347-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:41:13-35
+347-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
 348            android:exported="false"
-348-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:42:13-37
+348-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
 349            android:permission="android.permission.BIND_JOB_SERVICE" />
-349-->[com.google.android.gms:play-services-measurement:18.0.2] /home/madan/.gradle/caches/transforms-2/files-2.1/7624f9ebfab34eba771941f0de3b15da/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:43:13-69
+349-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7624f9ebfab34eba771941f0de3b15da\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
 350
 351        <meta-data
-351-->[com.google.android.gms:play-services-basement:17.1.1] /home/madan/.gradle/caches/transforms-2/files-2.1/bc6ee569db194b047754aeaba91d90ea/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+351-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\bc6ee569db194b047754aeaba91d90ea\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
 352            android:name="com.google.android.gms.version"
-352-->[com.google.android.gms:play-services-basement:17.1.1] /home/madan/.gradle/caches/transforms-2/files-2.1/bc6ee569db194b047754aeaba91d90ea/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+352-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\bc6ee569db194b047754aeaba91d90ea\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
 353            android:value="@integer/google_play_services_version" />
-353-->[com.google.android.gms:play-services-basement:17.1.1] /home/madan/.gradle/caches/transforms-2/files-2.1/bc6ee569db194b047754aeaba91d90ea/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+353-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\bc6ee569db194b047754aeaba91d90ea\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
 354    </application>
 355
 356</manifest>
