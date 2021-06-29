@@ -14,7 +14,8 @@ import FontAwesome from "react-native-vector-icons/FontAwesome";
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import Entypo from "react-native-vector-icons/Entypo";
 import firestore from "@react-native-firebase/firestore";
-import { View, LogBox, Text, Image, ViewPagerAndroid } from "react-native";
+import auth from "@react-native-firebase/auth";
+import { View, LogBox, Text, Image, ViewPagerAndroid, AppState } from "react-native";
 import messaging from "@react-native-firebase/messaging";
 import { enableScreens } from "react-native-screens";
 import SplashScreen from "react-native-splash-screen";
@@ -44,6 +45,15 @@ const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
 const App = ({ navigation }) => {
+// if(AppState.currentState ==="active"){
+//   firestore().collection('users').doc(auth().currentUser.uid).update({
+//     status : 'online'
+//   })
+// }else {
+//   firestore().collection('users').doc(auth().currentUser.uid).update({
+//     status : firestore.FieldValue.serverTimestamp()
+//   })
+// }
   useEffect(() => {
     PushNotification.configure({
       onRegister: function (token) {

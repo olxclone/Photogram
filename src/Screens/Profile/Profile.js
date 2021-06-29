@@ -7,10 +7,8 @@ import {
   StyleSheet,
   ScrollView,
   FlatList,
-  Animated,
+  Modal,
   SafeAreaView,
-  Alert,
-  Button,
 } from "react-native";
 import auth from "@react-native-firebase/auth";
 import firestore from "@react-native-firebase/firestore";
@@ -18,8 +16,10 @@ import { height, padding, width } from "../../Utils/constants/styles";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
 import { Tab } from "../../Components/customTab/Tab";
+
 import { Transitioning, Transition } from "react-native-reanimated";
 import ProfileHeader from "../../Components/headers/ProfileHeader";
+import { DotIndicator } from "react-native-indicators";
 
 function Profile({ navigation, route }) {
   const [posts, setPosts] = useState([]);
@@ -28,27 +28,12 @@ function Profile({ navigation, route }) {
   const [following, setFollowing] = useState(false);
   const [userData, setUserData] = useState(null);
   const [currentUser, setCurrentUser] = useState(null);
+  const [
+    modalVisible,
+    setModalVisible
+  ] = useState(false)
   const [chatUser, setChatUser] = useState();
   const _isMounted = React.useRef(true);
-
-  const handleDelete = (postId) => {
-    Alert.alert(
-      "Delete post",
-      "Are you sure?",
-      [
-        {
-          text: "Cancel",
-          onPress: () => console.log("Cancel Pressed!"),
-          style: "cancel",
-        },
-        {
-          text: "Confirm",
-          onPress: () => deletePost(postId),
-        },
-      ],
-      { cancelable: false }
-    );
-  };
 
   const fetchChatUser = async () => {
     await firestore()
@@ -57,49 +42,6 @@ function Profile({ navigation, route }) {
       .onSnapshot((data) => {
         setChatUser(data.data());
       });
-  };
-
-  const deletePost = (postId) => {
-    firestore()
-      .collection("Posts")
-      .doc(postId)
-      .get()
-      .then((documentSnapshot) => {
-        _isMounted.current = true;
-        if (documentSnapshot.exists) {
-          const { image } = documentSnapshot.data();
-          if (image !== null) {
-            const storageRef = storage().refFromURL(image);
-            const imageRef = storage().ref(storageRef.fullPath);
-            imageRef
-              .delete()
-              .then(() => {
-                deleteFirestoreData(postId);
-              })
-              .catch((e) => {
-                console.log("Error while deleting the image. ", e);
-              });
-          } else {
-            deleteFirestoreData(postId);
-          }
-        }
-      });
-  };
-
-  const deleteFirestoreData = (postId) => {
-    firestore()
-      .collection("posts")
-      .doc(postId)
-      .delete()
-      .then(() => {
-        console.log(postId);
-        Alert.alert(
-          "Post deleted!",
-          "Your post has been deleted successfully!"
-        );
-        setDeleted(true);
-      })
-      .catch((e) => console.log("Error deleting post.", e));
   };
 
   const onFollow = () => {
@@ -126,6 +68,7 @@ function Profile({ navigation, route }) {
   };
 
   const onUnFollow = () => {
+    setModalVisible(true)
     try {
       firestore()
         .collection("users")
@@ -143,7 +86,7 @@ function Profile({ navigation, route }) {
               ),
             });
         })
-        .then(setFollowing(false));
+        setModalVisible(false)
     } catch (error) {
       console.log(error);
     }
@@ -223,27 +166,40 @@ function Profile({ navigation, route }) {
       });
   };
 
+useEffect(() => {
+  let unmount = getUser();    
+  return () => unmount;
+
+},[userData])
+
   useEffect(() => {
-    getCurrentUser();
-    fetchChatUser();
-  }, [currentUser]);
+    let unmount =  fetchChatUser();   
+  return () => unmount;
+
+  }, []);
+
+  useEffect(() => {
+
+   let unmount = fetchPosts();
+  return () => unmount;
+  },[posts])
 
   useEffect(() => {
     ref.current.animateNextTransition();
-    getUser();
-    fetchPosts();
-    if (
+   let unmount = getCurrentUser()
+      if (
       currentUser
         ? currentUser.following.indexOf(
             route.params ? route.params.uid : null
           ) > -1
-        : "7KCwD3cW1CW8ehN5r8Oa0ykkxIz2"
+        : ""
     ) {
       setFollowing(true);
     } else {
       setFollowing(false);
     }
-  }, [following]);
+    return ()=> unmount;
+  }, [currentUser]);
 
   let ref = React.createRef();
 
@@ -261,6 +217,9 @@ function Profile({ navigation, route }) {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
+   <Modal visible={modalVisible} >
+         <DotIndicator color="#45A4FF" />
+        </Modal>
       <ProfileHeader
         navigation={navigation}
         userName={userData ? userData.userName : "Test"}
@@ -506,7 +465,7 @@ function Profile({ navigation, route }) {
   );
 }
 
-export default Profile;
+export default memo(Profile);
 
 const styles = StyleSheet.create({
   container: {

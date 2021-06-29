@@ -1,6 +1,6 @@
 import React, { memo, useEffect, useState } from 'react';
-import { View, Image, TouchableOpacity, Text, Modal, ActivityIndicator } from 'react-native';
-import { GiftedChat, Bubble, InputToolbar, MessageImage } from 'react-native-gifted-chat';
+import { View, Image, TouchableOpacity, Text, Modal as RNModal, ActivityIndicator } from 'react-native';
+import { GiftedChat, Bubble, InputToolbar, MessageImage, Send } from 'react-native-gifted-chat';
 import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
 import AntDesign from 'react-native-vector-icons/AntDesign'
@@ -15,6 +15,7 @@ function chatRoom({ route, navigation }) {
   const [uploading, setUploading] = useState('');
   const [transferred, setTransferred] = useState('');
   const [messageImage, setMessageImage] = useState('');
+  const [text, setText] = useState()
   const [userData, setUserData] = useState()
 
   const getUser = async () => {
@@ -110,12 +111,12 @@ function chatRoom({ route, navigation }) {
     }
   };
 
-
   const onSend = (messageArray) => {
     const msg = messageArray[0];
     console.log(msg)
     const mymsg = {
       ...msg,
+      text: text ? text : null,
       sentBy: auth().currentUser.uid,
       sentTo: route.params.uid,
       image: messageImage || null,
@@ -139,22 +140,23 @@ function chatRoom({ route, navigation }) {
     <View style={{ flex: 1, backgroundColor: '#fff' }}>
       <ChatScreenHeader navigation={navigation} userName={route.params.userName} userImg={route.params.userImg} />
       <GiftedChat
-
+        onInputTextChanged={(text) => setText(text)}
         // showAvatarForEveryMessage={true}
+        renderSend={(props) => <Send {...props} disabled={messageImage || text ? false : true} />}
         renderMessageImage={(props) => {
-          return <MessageImage {...props} imageStyle={{ width: width / 2, height: height / 4.5 }} />
+          return <MessageImage {...props} imageStyle={{ width: width / 1.2, height: height / 4.5 }} />
         }}
-        // showUserAvatar={true}
-        alwaysShowSend
-        renderLoading={() => <Text>Loading........</Text>}
+
+        alwaysShowSend={messageImage ? true : false}
+        // renderLoading={() => <View style={{ alignSelf: 'center', justifyContent: 'center', display: 'flex' }}> <Text >Loading........</Text> </View>}
         isLoadingEarlier
         messages={messages}
         renderActions={() => {
-          return <TouchableOpacity onPress={() => choosePhotoFromLibrary()}>
-            <AntDesign name="camera" size={24} color="black" />
+          return <TouchableOpacity style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} onPress={() => choosePhotoFromLibrary()}>
+            <AntDesign name="camera" style={{ marginTop: 4, marginLeft: 8 }} size={24} color="black" />
           </TouchableOpacity>
         }}
-        renderInputToolbar={(props) => <InputToolbar {...props} />}
+        // renderInputToolbar={(props) => <InputToolbar {...props} />}
         renderBubble={(props) => {
           return (
             <Bubble
@@ -164,7 +166,7 @@ function chatRoom({ route, navigation }) {
                   backgroundColor: '#229AC9',
                 },
                 left: {
-                  backgroundColor: '#DFDFD F'
+                  backgroundColor: '#DFDFDF'
                 }
               }}
             />
@@ -176,7 +178,7 @@ function chatRoom({ route, navigation }) {
         }}
         onSend={(messages) => onSend(messages)}
       />
-      <Modal visible={messageImageUri || uploading ? true : false}>
+      <RNModal visible={messageImageUri || uploading ? true : false}>
         <View style={{ display: 'flex', justifyContent: 'center', alignItems: "center" }}>
           <Image source={{ uri: messageImageUri }} style={{ width, height: height / 4 }} />
           {uploading ? (
@@ -211,7 +213,7 @@ function chatRoom({ route, navigation }) {
             </TouchableOpacity>
           )}
         </View>
-      </Modal>
+      </RNModal>
     </View>
   );
 }

@@ -6,6 +6,7 @@ import {
   SafeAreaView,
   Text,
   Animated,
+  BackHandler,
 } from 'react-native';
 import storage from '@react-native-firebase/storage';
 import firestore from '@react-native-firebase/firestore';
@@ -140,6 +141,12 @@ function Home({navigation}) {
   const scrollY = React.useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
+    BackHandler.addEventListener('hardwareBackPress',() => {
+      firestore().collection('users').doc(auth().currentUser.uid).update({
+        status : firestore.FieldValue.serverTimestamp()
+      })
+      BackHandler.exitApp()
+    })
     getUser();
     return () => {
       null;

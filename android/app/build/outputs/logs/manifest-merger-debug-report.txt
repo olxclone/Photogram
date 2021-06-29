@@ -13,6 +13,7 @@ INJECTED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManif
 INJECTED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:1:1-60:12
 INJECTED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:1:1-60:12
 MERGED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml:1:1-60:12
+MERGED from [hermes-debug.aar] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\25b0ec1a442b800fbdc713cb8fa96401\jetified-hermes-debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\ff15b094f3d9a8de531f573af90dfd6a\jetified-flipper-0.54.0\AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\978fddaf6873e2fc867216b68760767b\jetified-flipper-network-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\22ffda62c90ed94d54bd4ef84852ad78\jetified-flipper-fresco-plugin-0.54.0\AndroidManifest.xml:8:1-15:12
@@ -39,8 +40,7 @@ MERGED from [com.facebook.react:react-native:0.64.2] C:\Users\madan\.gradle\cach
 MERGED from [com.google.firebase:firebase-messaging:21.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a0ffc9056e93fbc71e2fbdf7ad68b1df\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:17:1-58:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\c9d26849010692ba095ad001bc858633\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\10938f418a20492245368ae7fca9d41b\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:2:1-26:12
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\748a4d8d2d480e992cff4caa984d3071\jetified-android-jsc-r245459\AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-reanimated] C:\Users\madan\Desktop\Photogram\node_modules\react-native-reanimated\android\build\.transforms\e6bf8a827b63a8c638ab7e450b9846c6\jetified-react-native-reanimated-64-jsc\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\madan\Desktop\Photogram\node_modules\react-native-reanimated\android\build\.transforms\eb585c1c94a025f4832113735ff889b5\jetified-react-native-reanimated-64-hermes\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\40253ddb67610b580c3ff0fa5b3550a9\jetified-flipper-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:stetho:2.2.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\d388c367c285c36ef0a0ca5cd66ae2d9\jetified-stetho-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fresco:2.2.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a126f49605ff64176a0848742d1c8a6b\jetified-fresco-2.2.0\AndroidManifest.xml:2:1-9:12
@@ -443,6 +443,8 @@ uses-sdk
 INJECTED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManifest.xml
+MERGED from [hermes-debug.aar] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\25b0ec1a442b800fbdc713cb8fa96401\jetified-hermes-debug\AndroidManifest.xml:5:5-44
+MERGED from [hermes-debug.aar] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\25b0ec1a442b800fbdc713cb8fa96401\jetified-hermes-debug\AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\ff15b094f3d9a8de531f573af90dfd6a\jetified-flipper-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\ff15b094f3d9a8de531f573af90dfd6a\jetified-flipper-0.54.0\AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\978fddaf6873e2fc867216b68760767b\jetified-flipper-network-plugin-0.54.0\AndroidManifest.xml:11:5-13:41
@@ -495,10 +497,8 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\mada
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\c9d26849010692ba095ad001bc858633\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\10938f418a20492245368ae7fca9d41b\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\10938f418a20492245368ae7fca9d41b\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\748a4d8d2d480e992cff4caa984d3071\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
-MERGED from [org.webkit:android-jsc:r245459] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\748a4d8d2d480e992cff4caa984d3071\jetified-android-jsc-r245459\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] C:\Users\madan\Desktop\Photogram\node_modules\react-native-reanimated\android\build\.transforms\e6bf8a827b63a8c638ab7e450b9846c6\jetified-react-native-reanimated-64-jsc\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-reanimated] C:\Users\madan\Desktop\Photogram\node_modules\react-native-reanimated\android\build\.transforms\e6bf8a827b63a8c638ab7e450b9846c6\jetified-react-native-reanimated-64-jsc\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\madan\Desktop\Photogram\node_modules\react-native-reanimated\android\build\.transforms\eb585c1c94a025f4832113735ff889b5\jetified-react-native-reanimated-64-hermes\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\madan\Desktop\Photogram\node_modules\react-native-reanimated\android\build\.transforms\eb585c1c94a025f4832113735ff889b5\jetified-react-native-reanimated-64-hermes\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\40253ddb67610b580c3ff0fa5b3550a9\jetified-flipper-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:flipper:2.2.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\40253ddb67610b580c3ff0fa5b3550a9\jetified-flipper-2.2.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:stetho:2.2.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\d388c367c285c36ef0a0ca5cd66ae2d9\jetified-stetho-2.2.0\AndroidManifest.xml:5:5-7:41
