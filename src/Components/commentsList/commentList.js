@@ -6,6 +6,8 @@ import { PhotogramText } from "../Text/PhotoGramText";
 import { Modal } from "react-native";
 import { TouchableOpacity } from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import { Navigation } from "react-native-navigation";
 
 export default function CommentList({ item, route, navigation, docId }) {
   const [userData, setUserData] = useState();
@@ -26,39 +28,85 @@ export default function CommentList({ item, route, navigation, docId }) {
   }, []);
 
   return (
-    <View>
+    <View style={{ backgroundColor: "#FFF" }}>
       <View style={{ borderBottomColor: "#333", borderBottomWidth: 0.5 }} />
-      <View style={{ flexDirection: "row", marginVertical: padding - 10 }}>
-        <Image
-          style={{
-            width: 50,
-            borderRadius: 55,
-            padding,
-            height: 50,
-            marginLeft: 12,
-          }}
-          source={{
-            uri: userData
-              ? userData.userImg
+      <View style={{ flexDirection: "column", marginVertical: padding - 10 }}>
+        <View style={{ flexDirection: "row" }}>
+          <Image
+            style={{
+              width: 50,
+              borderRadius: 55,
+              padding,
+              height: 50,
+              marginLeft: 12,
+            }}
+            source={{
+              uri: userData
                 ? userData.userImg
-                : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
-              : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png",
-          }}
-        />
-        <View>
-          <PhotogramText
-            text={userData ? "@" + userData.userName : "Test"}
-            fontWeight={"h1"}
-            fontSize={14}
-            extraStyles={{ marginLeft: padding - 10 }}
+                  ? userData.userImg
+                  : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
+                : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png",
+            }}
           />
-          <TouchableOpacity onPress={() => setVisible(true)}>
+          <View>
             <PhotogramText
-              numberOfLines={31}
-              extraStyles={{ marginHorizontal:24 }}
-              text={item.commentText}
+              text={userData ? "@" + userData.userName : "Test"}
+              fontWeight={"h1"}
+              fontSize={14}
+              extraStyles={{ marginLeft: padding - 10 }}
             />
-          </TouchableOpacity>
+            <TouchableOpacity onPress={() => setVisible(true)}>
+              <PhotogramText
+                numberOfLines={31}
+                extraStyles={{ marginLeft: 24, marginRight: width / 3.5 }}
+                text={item.commentText}
+              />
+            </TouchableOpacity>
+          </View>
+        </View>
+
+        <View
+          style={{
+            flexDirection: "row",
+            justifyContent: "space-between",
+            display: "flex",
+          }}
+        >
+          <View style={{ flexDirection: "row", alignItems: "center", flex: 1 }}>
+            <AntDesign
+              name="like1"
+              style={{ marginHorizontal: 24, marginVertical: 8 }}
+              color="#000"
+              size={24}
+            />
+            <AntDesign
+              name="dislike1"
+              style={{ marginVertical: 8 }}
+              size={24}
+              color="black"
+            />
+          </View>
+          <MaterialIcons
+            name="comment"
+            
+            onPress={() => Navigation.push(props.componentId , {
+              component : {
+                name: 'REPLIES_SCREEN',
+                id :'REPLIES_SCREEN',
+                passProps : {
+                  user,
+                  item
+                }
+              
+              }
+            }) }
+            style={{
+              marginHorizontal: 24,
+              marginVertical: 8,
+            }}
+            size={24}
+            color="black"
+          />
         </View>
       </View>
       <Modal visible={visible} animationType="fade">
@@ -80,7 +128,7 @@ export default function CommentList({ item, route, navigation, docId }) {
             fontWeight={"h1"}
             text={`Commented By ${userData ? userData.userName : "Test"}`}
           />
-          <Text>{}</Text>
+          {/* <Text>{}</Text> */}
         </View>
         <Image
           style={{

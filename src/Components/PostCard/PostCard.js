@@ -299,19 +299,18 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
                       color="black"
                       style={{ marginVertical: padding - 4, marginLeft: 32 }}
                       onPress={() => {
-                        Navigation.showModal({
-                          stack: {
-                            children: [
-                              {
-                                component: {
-                                  name: "COMMENTS_SCREEN",
-                                  id: "COMMENTS_SCREEN",
-                                  passProps: {
-                                    params: item.id,
-                                  },
-                                },
+                        Navigation.push(props.componentId, {
+                          component: {
+                            name: "COMMENTS_SCREEN",
+                            id: "COMMENTS_SCREEN",
+                            passProps: {
+                              params: item.id,
+                            },
+                            options: {
+                              bottomTabs: {
+                                visible: false,
                               },
-                            ],
+                            },
                           },
                         });
                       }}

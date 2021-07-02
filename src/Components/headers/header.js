@@ -13,7 +13,11 @@ export default function EditProfileheader({ onUpdate, navigation }) {
       <SafeAreaView
         style={{ flexDirection: "row", justifyContent: "space-between" }}
       >
-        <TouchableOpacity onPress={() => Navigation.pop(props.componentId)}>
+        <TouchableOpacity onPress={() => Navigation.pop(props.componentId,{
+          bottomTabs : {
+            visible:true
+          }
+        })}>
           <MaterialIcons name="close" size={28} color="#000" />
         </TouchableOpacity>
         <PhotogramText

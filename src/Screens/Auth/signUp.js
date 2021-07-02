@@ -16,9 +16,8 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 import { Alert } from "react-native";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { ActivityIndicator } from "react-native-paper";
-import AsyncStorage from "@react-native-community/async-storage";
 
-function signUp({ navigation }) {
+function signUp() {
   const [password, setPassword] = useState("");
   const [loggingIn, setLoggginIn] = useState(false);
   const [keyboard, setKeyboard] = useState(false);
@@ -72,12 +71,10 @@ function signUp({ navigation }) {
               web: "",
             });
           })
-          // .then((result) => AsyncStorage.setItem("token", result.uid))/\\
           .catch((error) => {
             setLoggginIn(false)
             Alert.alert(error.message);
           });
-        // alert("hello");
       }
     }
   }

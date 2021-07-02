@@ -31,7 +31,6 @@ function Profile(props) {
   const [currentUser, setCurrentUser] = useState(null);
   const [modalVisible, setModalVisible] = useState(false);
   const [chatUser, setChatUser] = useState();
-  const _isMounted = React.useRef(true);
 
   const fetchChatUser = async () => {
     await firestore()
@@ -164,9 +163,9 @@ function Profile(props) {
       });
   };
 
-  useEffect(()=> {
-    fetchChatUser()
-  },[])
+  useEffect(() => {
+    fetchChatUser();
+  }, []);
 
   useEffect(() => {
     ref.current.animateNextTransition();
@@ -187,6 +186,24 @@ function Profile(props) {
   }, []);
 
   let ref = React.createRef();
+
+  useEffect(() => {
+    Navigation.events().registerScreenPoppedListener(() => {
+      if (props.componentId === "HOME_PROFILE_SCREEN") {
+        Navigation.mergeOptions(props.componentId, {
+          bottomTabs: {
+            visible: false,
+          },
+        });
+      } else {
+        return Navigation.mergeOptions(props.componentId, {
+          bottomTabs: {
+            visible: true,
+          },
+        });
+      }
+    });
+  }, []);
 
   const transition = (
     <Transition.Together>

@@ -7,6 +7,7 @@ import SIGNUP_SCREEN from "./Auth/signUp";
 import COMMENTS_SCREEN from "./Main/Comments";
 import HOME_SCREEN from "./Main/Home";
 import POST_SCREEN from "./Main/PostScreen";
+import REPLIES from "./Main/Replies";
 import SEARCH_SCREEN from "./Main/Search";
 import CHATROOM_SCREEN from "./Profile/ChatScreen";
 import EDITPROFILE_SCREEN from "./Profile/EditProfile";
@@ -21,6 +22,7 @@ export default {
     EDITPROFILE_SCREEN,
     ONBOARDING_SCREEN,
     POST_SCREEN,
+    REPLIES,
     PROFILE_SCREEN,
     CHATROOM_SCREEN,
     CHOOSEAUTH_SCREEN,
@@ -42,6 +44,7 @@ export {
     EDITPROFILE_SCREEN,
     POST_SCREEN,
     PROFILE_SCREEN,
+    REPLIES,
     CHOOSEAUTH_SCREEN,
     IMAGEDETIALS_SCREEN,
     UPDATES_SCREEN,

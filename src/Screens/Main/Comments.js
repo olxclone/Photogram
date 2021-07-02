@@ -12,6 +12,7 @@ import { width } from "../../Utils/constants/styles";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import CommentList from "../../Components/commentsList/commentList";
 import { Navigation } from "react-native-navigation";
+import CommentScreenHeader from "../../Components/headers/CommentScreenHeader";
 export default function Comments(props) {
   let [commentText, setCommentText] = useState("");
   let [comments, setComments] = useState([]);
@@ -69,13 +70,14 @@ export default function Comments(props) {
 
   return (
     <View style={{ flex: 1 }}>
+      <CommentScreenHeader props={props} userData={user}  />
       <View>
         <FlatList
           style={{ marginBottom: "15%" }}
           showsVerticalScrollIndicator={false}
           data={comments}
           renderItem={({ item }) => (
-            <CommentList docId={props.params} item={item} />
+            <CommentList docId={props.params} props={props} item={item} />
           )}
         />
       </View>
@@ -85,11 +87,12 @@ export default function Comments(props) {
         >
           <TextInput
             placeholderTextColor="#000"
+            numberOfLines={4}
             placeholder={"Comment ....."}
             onChangeText={(text) => setCommentText(text)}
             style={{
               borderRadius: 35,
-              padding: 10,
+              padding: 0,
               width: width - 32,
               color: "#000",
               marginHorizontal: 5,

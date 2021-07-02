@@ -6,7 +6,6 @@ import { PhotogramTextInput } from "../../Components/TextInput/PhotoGramTextInpu
 import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import * as Animatable from "react-native-animatable";
-import AsyncStorage from "@react-native-community/async-storage";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import { ActivityIndicator } from "react-native-paper";
 
@@ -38,7 +37,6 @@ function signIn({ navigation }) {
     setLoggingIn(true)
     auth()
       .signInWithEmailAndPassword(email, password)
-      .then((result) => AsyncStorage.setItem("token", result.user.uid))
       .catch((error) => {
         setLoggingIn(false)
         Alert.alert(error.message);

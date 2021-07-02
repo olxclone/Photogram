@@ -8,6 +8,7 @@ export function PhotogramTextInput({
   secureTextEntry,
   placeholderTextColor,
   padding,
+  numOfLines,
   onFocus,
   fontSize,
   fontFamily,
@@ -30,6 +31,7 @@ export function PhotogramTextInput({
   return (
     <View>
       <TextInput
+      numberOfLines={numOfLines}
         placeholderTextColor={placeholderTextColor}
         placeholder={placeholder}
         onFocus={onFocus}

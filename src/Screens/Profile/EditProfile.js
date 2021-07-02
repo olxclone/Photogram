@@ -67,24 +67,24 @@ function EditProfile(props) {
     });
   };
 
-  useEffect(() => {
-    const cleanUp = getUser();
-    let userName = firstName + " " + lastName;
-    setNickName(userName.replace(/\s/g, ""));
-    return () => cleanUp;
-  }, [userData]);
-
   const getUser = () => {
-    let currentUser = firestore()
+    firestore()
       .collection("users")
       .doc(auth().currentUser.uid)
       .get()
       .then((documentSnaphot) => {
         if (documentSnaphot.exists) {
+          console.log(documentSnaphot.data());
           setUserData(documentSnaphot.data());
         }
-      }, []);
+      });
   };
+  useEffect(() => {
+    const cleanUp = getUser();
+    let userName = firstName + " " + lastName;
+    setNickName(userName.replace(/\s/g, ""));
+    return () => cleanUp;
+  }, []);
 
   const onUpdate = async () => {
     if (
@@ -98,14 +98,14 @@ function EditProfile(props) {
         .update({
           userName: firstName + " " + lastName,
           nickname,
-          userImg: imageUrl,
+          userImg: imageUrl || null,
           uid: auth().currentUser.uid,
           createdAt: Date.now(),
           bio,
           web,
         })
         .then(() => {
-          Navigation.popToRoot(props.componentId)
+          Navigation.popToRoot(props.componentId);
           setupdating(false);
         });
     }
@@ -115,39 +115,47 @@ function EditProfile(props) {
     if (!imageUri) {
       Alert.alert("Choose a image", "Please choose a image to continue");
     } else {
-      const path = `profile/${Date.now()}/${Date.now()}`;
-      return new Promise(async (resolve, rej) => {
-        const response = await fetch(imageUri);
-        const file = await response.blob();
-        let upload = storage().ref(path).put(file);
-        console.log("Post Added");
-        upload.on(
-          "state_changed",
-          (snapshot) => {
-            console.log(
-              `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`
-            );
-            setTransferred(
-              Math.round(snapshot.bytesTransferred / snapshot.totalBytes) * 100
-            );
-            setVisible(true);
-          },
+      setUploading(true);
+      if (userData ? userData.userImg : null) {
+        storage()
+          .refFromURL(userData ? userData.userImg : null)
+          .delete();
+      } else {
+        const path = `profile/${auth().currentUser.uid}}`;
+        return new Promise(async (resolve, rej) => {
+          const response = await fetch(imageUri);
+          const file = await response.blob();
+          let upload = storage().ref(path).put(file);
+          console.log("Post Added");
+          upload.on(
+            "state_changed",
+            (snapshot) => {
+              console.log(
+                `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`
+              );
+              setTransferred(
+                Math.round(snapshot.bytesTransferred / snapshot.totalBytes) *
+                  100
+              );
+              setVisible(true);
+            },
 
-          (err) => {
-            rej(err);
-          },
-          async () => {
-            const url = await upload.snapshot.ref.getDownloadURL();
-            console.log(url);
-            setImageUrl(url);
-            resolve(url);
-            setVisible(false);
-            setImageUri(null);
-            setUploading(false);
-            return url;
-          }
-        );
-      });
+            (err) => {
+              rej(err);
+            },
+            async () => {
+              const url = await upload.snapshot.ref.getDownloadURL();
+              console.log(url);
+              setImageUrl(url);
+              resolve(url);
+              setVisible(false);
+              setImageUri(null);
+              setUploading(false);
+              return url;
+            }
+          );
+        });
+      }
     }
   };
 

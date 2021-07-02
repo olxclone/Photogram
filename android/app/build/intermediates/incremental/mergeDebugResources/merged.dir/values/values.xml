@@ -1151,7 +1151,6 @@
     <item name="fab_label" type="id"/>
     <item name="flipper_skip_empty_view_group_traversal" type="id"/>
     <item name="flipper_skip_view_traversal" type="id"/>
-    <item name="fragment_container_view_tag" type="id"/>
     <item name="fragment_screen_content" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
@@ -1210,7 +1209,6 @@
     <item name="view_offset_helper" type="id"/>
     <item name="view_tag_instance_handle" type="id"/>
     <item name="view_tag_native_id" type="id"/>
-    <item name="visible_removing_fragment_view_tag" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="app_bar_elevation_anim_duration">150</integer>
@@ -1243,7 +1241,7 @@
     <item quantity="one"><ns1:g id="count">%d</ns1:g> new notification</item>
     <item quantity="other"><ns1:g id="count">%d</ns1:g> new notifications</item>
   </plurals>
-    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1625204829221"</string>
+    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1625237904275"</string>
     <string moduleConfig="true" name="CodePushDeploymentKey">WLpQIdg7Um5Vlwme3a1oVwUeleCUGQqutmZSE</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -6417,15 +6415,6 @@
     <attr name="android:foregroundGravity"/>
     <attr format="boolean" name="foregroundInsidePadding"/>
   </declare-styleable>
-    <declare-styleable name="Fragment">
-        <attr name="android:name"/>
-        <attr name="android:id"/>
-        <attr name="android:tag"/>
-    </declare-styleable>
-    <declare-styleable name="FragmentContainerView">
-        <attr name="android:name"/>
-        <attr name="android:tag"/>
-    </declare-styleable>
     <declare-styleable name="GenericDraweeHierarchy">
 
     

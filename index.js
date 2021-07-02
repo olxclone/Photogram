@@ -17,6 +17,7 @@ import {
   CHOOSEAUTH_SCREEN,
   SIGNIN_SCREEN,
   SIGNUP_SCREEN,
+  REPLIES,
 } from "./src/Screens";
 import { LogBox } from "react-native";
 
@@ -79,7 +80,10 @@ Navigation.registerComponent("ONBOARDING_SCREEN", () =>
   CodePush(CodePushOptions)(ONBOARDING_SCREEN)
 );
 
-LogBox.ignoreAllLogs()
+Navigation.registerComponent("REPLIES_SCREEN", () =>
+  CodePush(CodePushOptions)(REPLIES)
+);
+LogBox.ignoreAllLogs();
 
 const LoginRoot = {
   root: {
@@ -99,9 +103,11 @@ Navigation.events().registerAppLaunchedListener(async () => {
   Navigation.setRoot(LoginRoot);
 });
 
-PROFILE_SCREEN.options =  {
-
-}
+PROFILE_SCREEN.options = {
+  bottomTabs: {
+    visible: true,
+  },
+};
 
 Navigation.setDefaultOptions({
   topBar: {

@@ -1,15 +1,9 @@
-import React, {
-  useEffect,
-  useState,
-  useRef,
-  memo,
-  PureComponent,
-  useMemo,
-} from "react";
+import React, { useEffect, useState, useRef } from "react";
 import {
   View,
   RefreshControl,
   Alert,
+  ScrollView,
   SafeAreaView,
   Text,
   Animated,
@@ -18,14 +12,15 @@ import {
 import storage from "@react-native-firebase/storage";
 import firestore from "@react-native-firebase/firestore";
 import auth from "@react-native-firebase/auth";
-
+import SkeletonPlaceholder from "react-native-skeleton-placeholder";
 import { width } from "../../Utils/constants/styles";
 import PostCard from "../../Components/PostCard/PostCard";
+import { Navigation } from "react-native-navigation";
 
 function Home(props) {
   const [posts, setPosts] = useState(null);
   const [user, setUser] = useState();
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [refresing, setRefreshing] = useState();
   const [deleted, setDeleted] = useState();
   const _isMounted = useRef(true);
@@ -87,6 +82,16 @@ function Home(props) {
       });
   };
 
+  useEffect(() => {
+    Navigation.events().registerScreenPoppedListener(() => {
+      Navigation.mergeOptions(props.componentId, {
+        bottomTabs: {
+          visible: true,
+        },
+      });
+    });
+  }, []);
+
   const deleteFirestoreData = (postId) => {
     console.log(postId);
     firestore()
@@ -105,6 +110,7 @@ function Home(props) {
   };
 
   const fetchPosts = async () => {
+    setLoading(true);
     try {
       const Lists = [];
       await firestore()
@@ -157,13 +163,66 @@ function Home(props) {
     getUser();
     setDeleted(false);
     return () => {
-      null;
+      getUser();
     };
   }, [deleted]);
 
   useEffect(() => {
     fetchPosts();
+    return () => {
+      fetchPosts();
+    };
   }, []);
+
+  // if(loading) {
+  //   return (
+  //     <ScrollView
+  //     showsVerticalScrollIndicator={false}
+  //     style={{flex: 1,marginTop:24}}
+  //     contentContainerStyle={{alignItems: 'center',flex:1}}>
+  //     <SkeletonPlaceholder speed={1000}>
+  //       <View style={{flexDirection: 'row', alignItems: 'center'}}>
+  //         <View style={{width: 60, height: 60, borderRadius: 50}} />
+  //         <View style={{marginLeft: 20}}>
+  //           <View style={{width: 120, height: 20, borderRadius: 4}} />
+  //           <View
+  //             style={{marginTop: 6, width: 80, height: 20, borderRadius: 4}}
+  //           />
+  //         </View>
+  //       </View>
+  //       <View style={{marginTop: 10, marginBottom: 30}}>
+  //         <View style={{width: 300, height: 20, borderRadius: 4}} />
+  //         <View
+  //           style={{marginTop: 6, width: 250, height: 20, borderRadius: 4}}
+  //         />
+  //         <View
+  //           style={{marginTop: 6, width: 350, height: 200, borderRadius: 4}}
+  //         />
+  //       </View>
+  //     </SkeletonPlaceholder>
+  //     <SkeletonPlaceholder>
+  //       <View style={{flexDirection: 'row', alignItems: 'center'}}>
+  //         <View style={{width: 60, height: 60, borderRadius: 50}} />
+  //         <View style={{marginLeft: 20}}>
+  //           <View style={{width: 120, height: 20, borderRadius: 4}} />
+  //           <View
+  //             style={{marginTop: 6, width: 80, height: 20, borderRadius: 4}}
+  //           />
+  //         </View>
+  //       </View>
+  //       <View style={{marginTop: 10, marginBottom: 30}}>
+  //         <View style={{width: 300, height: 20, borderRadius: 4}} />
+  //         <View
+  //           style={{marginTop: 6, width: 250, height: 20, borderRadius: 4}}
+  //         />
+  //         <View
+  //           style={{marginTop: 6, width: 350, height: 200, borderRadius: 4}}
+  //         />
+  //       </View>
+  //     </SkeletonPlaceholder>
+  //   </ScrollView>
+  //   )
+  // }
 
   return (
     <View style={{ flex: 1 }}>

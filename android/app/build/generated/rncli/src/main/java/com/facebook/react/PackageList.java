@@ -11,12 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-// @react-native-community/async-storage
-import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-community/masked-view
 import org.reactnative.maskedview.RNCMaskedViewPackage;
-// @react-native-community/viewpager
-import com.reactnativecommunity.viewpager.RNCViewPagerPackage;
 // @react-native-firebase/analytics
 import io.invertase.firebase.analytics.ReactNativeFirebaseAnalyticsPackage;
 // @react-native-firebase/app
@@ -33,8 +29,6 @@ import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // react-native-code-push
 import com.microsoft.codepush.react.CodePush;
-// react-native-document-picker
-import io.github.elyx0.reactnativedocumentpicker.DocumentPickerPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-image-crop-picker
@@ -47,8 +41,6 @@ import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
-// react-native-screens
-import com.swmansion.rnscreens.RNScreensPackage;
 // react-native-splash-screen
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 // react-native-vector-icons
@@ -98,9 +90,7 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
-      new AsyncStoragePackage(),
       new RNCMaskedViewPackage(),
-      new RNCViewPagerPackage(),
       new ReactNativeFirebaseAnalyticsPackage(),
       new ReactNativeFirebaseAppPackage(),
       new ReactNativeFirebaseAuthPackage(),
@@ -109,14 +99,12 @@ public class PackageList {
       new ReactNativeFirebaseMessagingPackage(),
       new ReactNativeFirebaseStoragePackage(),
       new CodePush(getResources().getString(com.chat.R.string.CodePushDeploymentKey), getApplicationContext(), com.chat.BuildConfig.DEBUG),
-      new DocumentPickerPackage(),
       new RNGestureHandlerPackage(),
       new PickerPackage(),
       new NavigationPackage(reactNativeHost),
       new ReactNativePushNotificationPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
-      new RNScreensPackage(),
       new SplashScreenReactPackage(),
       new VectorIconsPackage()
     ));
