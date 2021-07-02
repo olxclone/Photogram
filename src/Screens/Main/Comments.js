@@ -4,20 +4,15 @@ import auth from "@react-native-firebase/auth";
 import {
   View,
   FlatList,
-  Image,
   TextInput,
   Keyboard,
-  Text,
-  TextInputComponent,
-  KeyboardAvoidingView,
   TouchableOpacity,
 } from "react-native";
-import { PhotogramTextInput } from "../../Components/TextInput/PhotoGramTextInput";
-import { height, padding, width } from "../../Utils/constants/styles";
-import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
+import { width } from "../../Utils/constants/styles";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import CommentList from "../../Components/commentsList/commentList";
-export default function Comments({ route, navigation }) {
+import { Navigation } from "react-native-navigation";
+export default function Comments(props) {
   let [commentText, setCommentText] = useState("");
   let [comments, setComments] = useState([]);
   let [keyboardShow, setKeyboardShow] = useState();
@@ -40,7 +35,7 @@ export default function Comments({ route, navigation }) {
   let getAllComments = async () => {
     await firestore()
       .collection("Posts")
-      .doc(route.params.docId)
+      .doc(props.params)
       .collection("comments")
       .onSnapshot((data) => {
         const Allcomments = data.docs.map((doc) => {
@@ -58,13 +53,13 @@ export default function Comments({ route, navigation }) {
     return () => {
       getAllComments();
     };
-  }, [route.params.docId]);
+  }, [props.params]);
 
   let onSendComment = () => {
-    setCommentText('')
+    setCommentText("");
     firestore()
       .collection("Posts")
-      .doc(route.params.docId)
+      .doc(props.params)
       .collection("comments")
       .add({
         commentText,
@@ -80,11 +75,7 @@ export default function Comments({ route, navigation }) {
           showsVerticalScrollIndicator={false}
           data={comments}
           renderItem={({ item }) => (
-            <CommentList
-              navigation={navigation}
-              docId={route.params.docId}
-              item={item}
-            />
+            <CommentList docId={props.params} item={item} />
           )}
         />
       </View>
@@ -106,9 +97,12 @@ export default function Comments({ route, navigation }) {
               backgroundColor: "rgba(0,0,0,0.12)",
             }}
           />
-          <TouchableOpacity  onPress={() => {onSendComment()
-          setCommentText('')
-          }}>
+          <TouchableOpacity
+            onPress={() => {
+              onSendComment();
+              setCommentText("");
+            }}
+          >
             <MaterialCommunityIcons
               style={{ marginTop: 18 }}
               name="send"

@@ -25,8 +25,9 @@ import BottomSheet from "reanimated-bottom-sheet";
 import Animated from "react-native-reanimated";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { ActivityIndicator } from "react-native-paper";
+import { Navigation } from "react-native-navigation";
 
-function EditProfile({ navigation }) {
+function EditProfile(props) {
   const [imageUri, setImageUri] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [bio, setBio] = useState("");
@@ -71,7 +72,7 @@ function EditProfile({ navigation }) {
     let userName = firstName + " " + lastName;
     setNickName(userName.replace(/\s/g, ""));
     return () => cleanUp;
-  }, []);
+  }, [userData]);
 
   const getUser = () => {
     let currentUser = firestore()
@@ -104,8 +105,8 @@ function EditProfile({ navigation }) {
           web,
         })
         .then(() => {
+          Navigation.popToRoot(props.componentId)
           setupdating(false);
-          navigation.goBack();
         });
     }
   };
@@ -191,16 +192,14 @@ function EditProfile({ navigation }) {
       </View>
     </View>
   );
- 
 
   return (
     <SafeAreaView style={{ backgroundColor: "#fff", flex: 1 }}>
-  
       <View style={{ backgroundColor: "#FFF", padding: padding - 4 }}>
         <SafeAreaView
           style={{ flexDirection: "row", justifyContent: "space-between" }}
         >
-          <TouchableOpacity onPress={() => navigation.goBack()}>
+          <TouchableOpacity onPress={() => Navigation.pop(props.componentId)}>
             <MaterialIcons name="close" size={28} color="#000" />
           </TouchableOpacity>
           <PhotogramText
@@ -223,21 +222,18 @@ function EditProfile({ navigation }) {
           }}>
           Edit Profile
         </Text> */}
-        {
-          updating ? (
-            <ActivityIndicator color={'#128EF2'} size={24} />
-          ) : (<TouchableOpacity
-            onPress={() => {
-              setupdating(true);
-              onUpdate();
-            }}
-          >
-            <MaterialIcons name="done" size={28} color="#128EF2" />
-          </TouchableOpacity>
-
-          )
-        }
-          
+          {updating ? (
+            <ActivityIndicator color={"#128EF2"} size={24} />
+          ) : (
+            <TouchableOpacity
+              onPress={() => {
+                setupdating(true);
+                onUpdate();
+              }}
+            >
+              <MaterialIcons name="done" size={28} color="#128EF2" />
+            </TouchableOpacity>
+          )}
         </SafeAreaView>
       </View>
       <BottomSheet
@@ -256,22 +252,6 @@ function EditProfile({ navigation }) {
           style={{ alignSelf: "center" }}
           onPress={() => bs.current.snapTo(0)}
         >
-          {/* <View style={{alignSelf: 'center', marginTop: '7%'}}>
-            <Image
-              source={{
-                uri: imageUri
-                  ? imageUri
-                  : userData
-                  ? userData.userImg
-                  : 'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png',
-              }}
-              style={{
-                width: 105,
-                borderRadius: 100,
-                height: 105,
-              }}
-            />
-          </View> */}
           <ImageBackground
             source={{
               uri: imageUri

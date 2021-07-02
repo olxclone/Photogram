@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\madan\\.gradle\\caches\\transforms-2\\files-2.1\\73ee15f240a4add92873b8d1d0988c7a\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\madan\\.gradle\\caches\\transforms-2\\files-2.1\\d7cb6c4e72b013d33bd8347bd8366f57\\material-1.2.0-alpha03\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

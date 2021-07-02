@@ -1,27 +1,40 @@
-import React, { memo, useEffect, useState } from 'react';
-import { View, Image, TouchableOpacity, Text, Modal as RNModal, ActivityIndicator } from 'react-native';
-import { GiftedChat, Bubble, InputToolbar, MessageImage, Send } from 'react-native-gifted-chat';
-import auth from '@react-native-firebase/auth';
-import firestore from '@react-native-firebase/firestore';
-import AntDesign from 'react-native-vector-icons/AntDesign'
-import storage from '@react-native-firebase/storage'
-import ChatScreenHeader from '../../Components/headers/ChatScreenHeader';
-import { height, width } from '../../Utils/constants/styles';
-import ImagePicker from 'react-native-image-crop-picker'
+import React, { memo, useEffect, useState } from "react";
+import {
+  View,
+  Image,
+  TouchableOpacity,
+  Text,
+  Modal as RNModal,
+  ActivityIndicator,
+} from "react-native";
+import {
+  GiftedChat,
+  Bubble,
+  InputToolbar,
+  MessageImage,
+  Send,
+} from "react-native-gifted-chat";
+import auth from "@react-native-firebase/auth";
+import firestore from "@react-native-firebase/firestore";
+import AntDesign from "react-native-vector-icons/AntDesign";
+import storage from "@react-native-firebase/storage";
+import ChatScreenHeader from "../../Components/headers/ChatScreenHeader";
+import { height, width } from "../../Utils/constants/styles";
+import ImagePicker from "react-native-image-crop-picker";
 
-function chatRoom({ route, navigation }) {
+function chatRoom(props) {
   const [messages, setMessages] = useState([]);
-  const [messageImageUri, setMessageImageUri] = useState('');
-  const [uploading, setUploading] = useState('');
-  const [transferred, setTransferred] = useState('');
-  const [messageImage, setMessageImage] = useState('');
-  const [text, setText] = useState()
-  const [userData, setUserData] = useState()
+  const [messageImageUri, setMessageImageUri] = useState("");
+  const [uploading, setUploading] = useState("");
+  const [transferred, setTransferred] = useState("");
+  const [messageImage, setMessageImage] = useState("");
+  const [text, setText] = useState();
+  const [userData, setUserData] = useState();
 
   const getUser = async () => {
     await firestore()
       .collection("users")
-      .doc(route.params ? route.params.uid : auth().currentUser.uid)
+      .doc(props.params ? props.params.uid : auth().currentUser.uid)
       .onSnapshot((documentSnapshot) => {
         if (documentSnapshot.exists) {
           setUserData(documentSnapshot.data());
@@ -30,16 +43,16 @@ function chatRoom({ route, navigation }) {
   };
 
   useEffect(() => {
-    getUser()
+    getUser();
     const docid =
-      route.params.uid > auth().currentUser.uid
-        ? auth().currentUser.uid + '-' + route.params.uid
-        : route.params.uid + '-' + auth().currentUser.uid;
+      props.params.uid > auth().currentUser.uid
+        ? auth().currentUser.uid + "-" + props.params.uid
+        : props.params.uid + "-" + auth().currentUser.uid;
     const messageRef = firestore()
-      .collection('chatrooms')
+      .collection("chatrooms")
       .doc(docid)
-      .collection('messages')
-      .orderBy('createdAt', 'desc');
+      .collection("messages")
+      .orderBy("createdAt", "desc");
     const unSubscribe = messageRef.onSnapshot((querySnap) => {
       const allmsg = querySnap.docs.map((docSanp) => {
         const data = docSanp.data();
@@ -56,7 +69,6 @@ function chatRoom({ route, navigation }) {
         }
       });
       setMessages(allmsg);
-      console.log(route.params.userImg);
     });
     return () => {
       unSubscribe();
@@ -85,7 +97,7 @@ function chatRoom({ route, navigation }) {
         upload.on(
           "state_changed",
           (snapshot) => {
-            setUploading(true)
+            setUploading(true);
             console.log(
               `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`
             );
@@ -101,7 +113,7 @@ function chatRoom({ route, navigation }) {
             const url = await upload.snapshot.ref.getDownloadURL();
             console.log(url);
             setMessageImage(url);
-            setMessageImageUri(null)
+            setMessageImageUri(null);
             resolve(url);
             setUploading(false);
             return url;
@@ -113,80 +125,125 @@ function chatRoom({ route, navigation }) {
 
   const onSend = (messageArray) => {
     const msg = messageArray[0];
-    console.log(msg)
+    console.log(msg);
     const mymsg = {
       ...msg,
       text: text ? text : null,
       sentBy: auth().currentUser.uid,
-      sentTo: route.params.uid,
+      sentTo: props.params.uid,
       image: messageImage || null,
       createdAt: new Date(),
     };
     setMessages((previousMessages) =>
-      GiftedChat.append(previousMessages, mymsg),
+      GiftedChat.append(previousMessages, mymsg)
     );
     const docid =
-      route.params.uid > auth().currentUser.uid
-        ? auth().currentUser.uid + '-' + route.params.uid
-        : route.params.uid + '-' + auth().currentUser.uid;
+      props.params.uid > auth().currentUser.uid
+        ? auth().currentUser.uid + "-" + props.params.uid
+        : props.params.uid + "-" + auth().currentUser.uid;
     firestore()
-      .collection('chatrooms')
+      .collection("chatrooms")
       .doc(docid)
-      .collection('messages')
-      .add({ ...mymsg, token: 'something', createdAt: firestore.FieldValue.serverTimestamp() });
+      .collection("messages")
+      .add({
+        ...mymsg,
+        token: "something",
+        createdAt: firestore.FieldValue.serverTimestamp(),
+      });
   };
 
   return (
-    <View style={{ flex: 1, backgroundColor: '#fff' }}>
-      <ChatScreenHeader navigation={navigation} userName={route.params.userName} userImg={route.params.userImg} />
+    <View style={{ flex: 1, backgroundColor: "#fff" }}>
+      <ChatScreenHeader
+        props={props}
+        status={props.params ? props.params.status : "offline"}
+        navigation={props}
+        userName={props.params ? props.params.userName : 'test'}
+        userImg={
+          props.params
+            ? props.params.userImg
+            : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
+        }
+      />
       <GiftedChat
         onInputTextChanged={(text) => setText(text)}
         // showAvatarForEveryMessage={true}
-        renderSend={(props) => <Send {...props} disabled={messageImage || text ? false : true} />}
+        renderSend={(props) => (
+          <Send {...props} disabled={messageImage || text ? false : true} />
+        )}
         renderMessageImage={(props) => {
-          return <MessageImage {...props} imageStyle={{ width: width / 1.2, height: height / 4.5 }} />
+          return (
+            <MessageImage
+              {...props}
+              imageStyle={{ width: width / 1.2, height: height / 4.5 }}
+            />
+          );
         }}
-
         alwaysShowSend={messageImage ? true : false}
         // renderLoading={() => <View style={{ alignSelf: 'center', justifyContent: 'center', display: 'flex' }}> <Text >Loading........</Text> </View>}
         isLoadingEarlier
         messages={messages}
         renderActions={() => {
-          return <TouchableOpacity style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} onPress={() => choosePhotoFromLibrary()}>
-            <AntDesign name="camera" style={{ marginTop: 4, marginLeft: 8 }} size={24} color="black" />
-          </TouchableOpacity>
+          return (
+            <TouchableOpacity
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+              onPress={() => choosePhotoFromLibrary()}
+            >
+              <AntDesign
+                name="camera"
+                style={{ marginTop: 4, marginLeft: 8 }}
+                size={24}
+                color="black"
+              />
+            </TouchableOpacity>
+          );
         }}
-        // renderInputToolbar={(props) => <InputToolbar {...props} />}
         renderBubble={(props) => {
           return (
             <Bubble
               {...props}
               wrapperStyle={{
                 right: {
-                  backgroundColor: '#229AC9',
+                  backgroundColor: "#229AC9",
                 },
                 left: {
-                  backgroundColor: '#DFDFDF'
-                }
+                  backgroundColor: "#DFDFDF",
+                },
               }}
             />
           );
         }}
         user={{
           _id: auth().currentUser.uid,
-          avatar: userData ? userData.userImg : 'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png',
+          avatar: userData
+            ? userData.userImg
+            : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png",
         }}
         onSend={(messages) => onSend(messages)}
       />
       <RNModal visible={messageImageUri || uploading ? true : false}>
-        <View style={{ display: 'flex', justifyContent: 'center', alignItems: "center" }}>
-          <Image source={{ uri: messageImageUri }} style={{ width, height: height / 4 }} />
+        <View
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Image
+            source={{ uri: messageImageUri }}
+            style={{ width, height: height / 4 }}
+          />
           {uploading ? (
             <View
               style={{
-                justifyContent: 'center',
-                alignItems: 'center',
-              }}>
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
               <Text>{transferred} % Completed!</Text>
               <ActivityIndicator size="large" color="#45A4F9" />
             </View>
@@ -195,9 +252,9 @@ function chatRoom({ route, navigation }) {
               onPress={() => uploadImage()}
               activeOpacity={3}
               style={{
-                flexDirection: 'row',
-                justifyContent: 'center',
-                backgroundColor: '#2e64e515',
+                flexDirection: "row",
+                justifyContent: "center",
+                backgroundColor: "#2e64e515",
                 borderRadius: 5,
                 padding: 10,
               }}
@@ -205,9 +262,10 @@ function chatRoom({ route, navigation }) {
               <Text
                 style={{
                   fontSize: 18,
-                  fontWeight: 'bold',
-                  color: '#4657',
-                }}>
+                  fontWeight: "bold",
+                  color: "#4657",
+                }}
+              >
                 <AntDesign name="check" size={24} color="black" />
               </Text>
             </TouchableOpacity>
@@ -218,4 +276,4 @@ function chatRoom({ route, navigation }) {
   );
 }
 
-export default chatRoom
+export default chatRoom;

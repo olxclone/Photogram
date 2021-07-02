@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { View, Text, Image, TouchableOpacity, Animated } from "react-native";
 import auth from "@react-native-firebase/auth";
 import moment from "moment";
+import LightBox from "react-native-lightbox";
 import firestore from "@react-native-firebase/firestore";
 import { padding, width, height } from "../../Utils/constants/styles";
 import { Card } from "react-native-elements";
@@ -9,8 +10,9 @@ import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityI
 import AntDesign from "react-native-vector-icons/AntDesign";
 import { PhotogramText } from "../Text/PhotoGramText";
 import { TapGestureHandler } from "react-native-gesture-handler";
+import { Navigation } from "react-native-navigation";
 
-function PostCard({ item, navigation, onDelete, scale }) {
+function PostCard({ item, navigation, onDelete, scale, props }) {
   const [userData, setUserData] = useState();
   const [likes, setLikes] = useState();
   const [favorited, setfavorited] = useState(false);
@@ -98,7 +100,12 @@ function PostCard({ item, navigation, onDelete, scale }) {
   let likeIconColor = liked === true ? "#000" : "#333";
 
   return (
-    <TapGestureHandler numberOfTaps={2} ref={DoublePress} maxDelayMs={200} onHandlerStateChange={() => AddAsfavorited()}>
+    <TapGestureHandler
+      numberOfTaps={2}
+      ref={DoublePress}
+      maxDelayMs={200}
+      onHandlerStateChange={() => AddAsfavorited()}
+    >
       <View
         style={{
           width,
@@ -116,7 +123,21 @@ function PostCard({ item, navigation, onDelete, scale }) {
           }}
         >
           <TouchableOpacity
-            onPress={() => navigation.navigate("HomeProfile", item)}
+            onPress={() => {
+              Navigation.push(props.componentId, {
+                component: {
+                  name: "HOME_PROFILE_SCREEN",
+                  id: "HOME_PROFILE_SCREEN",
+                  passProps: {
+                    item: item,
+                  },options:{
+                    bottomTabs:{
+                      visible:false
+                    }
+                  }
+                },
+              });
+            }}
             style={{ flexDirection: "row" }}
           >
             <Image
@@ -146,7 +167,7 @@ function PostCard({ item, navigation, onDelete, scale }) {
               {userData ? userData.userName : "Test"}
             </Text>
           </TouchableOpacity>
-          <Text style={{ position: "absolute", top: height/14, left: "27%" }}>
+          <Text style={{ position: "absolute", top: height / 14, left: "27%" }}>
             {moment(item.createdAt.toDate()).fromNow()}
           </Text>
           <Card.Divider />
@@ -183,8 +204,19 @@ function PostCard({ item, navigation, onDelete, scale }) {
                     color="black"
                     style={{ marginVertical: padding - 4, marginLeft: 42 }}
                     onPress={() => {
-                      navigation.navigate("Comments", {
-                        docId: item.id,
+                      Navigation.push(props.componentId, {
+                        component: {
+                          name: "COMMENTS_SCREEN",
+                          id: "COMMENTS_SCREEN",
+                          passProps: {
+                            params: item.id,
+                          },
+                          options: {
+                            bottomTabs: {
+                              visible: false,
+                            },
+                          },
+                        },
                       });
                     }}
                   />
@@ -267,8 +299,20 @@ function PostCard({ item, navigation, onDelete, scale }) {
                       color="black"
                       style={{ marginVertical: padding - 4, marginLeft: 32 }}
                       onPress={() => {
-                        navigation.navigate("Comments", {
-                          docId: item.id,
+                        Navigation.showModal({
+                          stack: {
+                            children: [
+                              {
+                                component: {
+                                  name: "COMMENTS_SCREEN",
+                                  id: "COMMENTS_SCREEN",
+                                  passProps: {
+                                    params: item.id,
+                                  },
+                                },
+                              },
+                            ],
+                          },
                         });
                       }}
                     />

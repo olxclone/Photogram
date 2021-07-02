@@ -4,8 +4,10 @@ import {padding} from '../../Utils/constants/styles';
 import {PhotogramText} from '../Text/PhotoGramText';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import {TouchableOpacity} from 'react-native';
+import { Navigation } from 'react-native-navigation';
+import { MainRoot } from '../../Screens/Auth/Loading';
 
-export default function ProfileHeader({userName, navigation}) {
+export default function ProfileHeader({userName,props}) {
   return (
     <View
       style={{
@@ -16,7 +18,7 @@ export default function ProfileHeader({userName, navigation}) {
         flexDirection: 'row',
         justifyContent: 'space-between',
       }}>
-      <TouchableOpacity onPress={() => navigation.navigate('Home')}>
+      <TouchableOpacity onPress={() => Navigation.popToRoot(props.componentId)}>
         <AntDesign name="left" size={24} color="black" />
       </TouchableOpacity>
 

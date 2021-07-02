@@ -5,6 +5,7 @@ import { height, width } from "../../Utils/constants/styles";
 import * as Animatable from "react-native-animatable";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { FlatList } from "react-native-gesture-handler";
+import { Navigation } from "react-native-navigation";
 
 export default function ChooseAuth(props) {
   let Data = [
@@ -116,7 +117,28 @@ export default function ChooseAuth(props) {
         <PhotoGramButton
           title={"Sign In"}
           padding={18}
-          onPress={() => props.navigation.navigate("signIn")}
+          onPress={() =>
+            Navigation.push(props.componentId, {
+              component: {
+                name: "SIGNIN_SCREEN",
+                id: "SIGNIN_SCREEN",
+                options: {
+                  animations: {
+                    push: {
+                      content: {
+                        translationX: {
+                          from: require("react-native").Dimensions.get("window")
+                            .width,
+                          to: 0,
+                          duration: 300,
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            })
+          }
           extraStyles={{
             shadowColor: "#000",
             elevation: 8,
@@ -127,7 +149,28 @@ export default function ChooseAuth(props) {
         />
         <PhotoGramButton
           padding={18}
-          onPress={() => props.navigation.navigate("signUp")}
+          onPress={() =>
+            Navigation.push(props.componentId, {
+              component: {
+                name: "SIGNUP_SCREEN",
+                id: "SIGNUP_SCREEN",
+                options: {
+                  animations: {
+                    push: {
+                      content: {
+                        translationX: {
+                          from: require("react-native").Dimensions.get("window")
+                            .width,
+                          to: 0,
+                          duration: 300,
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            })
+          }
           backgroundColor={"#fff"}
           color={"#000"}
           extraStyles={{

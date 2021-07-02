@@ -15,9 +15,12 @@ import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import { Alert } from "react-native";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
+import { ActivityIndicator } from "react-native-paper";
+import AsyncStorage from "@react-native-community/async-storage";
 
 function signUp({ navigation }) {
   const [password, setPassword] = useState("");
+  const [loggingIn, setLoggginIn] = useState(false);
   const [keyboard, setKeyboard] = useState(false);
   const [email, setEmail] = useState("");
   const [focus, setFocus] = useState();
@@ -38,7 +41,6 @@ function signUp({ navigation }) {
 
   useEffect(() => {
     userNameExists ? setuserNameExists(false) : setuserNameExists(true);
-
     Keyboard.addListener("keyboardDidShow", () => setKeyboard(true));
     Keyboard.addListener("keyboardDidHide", () => setKeyboard(false));
     let nickname = userName.toLowerCase().replace(/\s/g, "");
@@ -47,36 +49,35 @@ function signUp({ navigation }) {
   });
 
   async function signUp() {
+    setLoggginIn(true)
     if (email.length < 20 && password.length > 24) {
       Alert.alert("Please provide a valid credentials");
     } else {
-      if (!userNameExists) {
+      if (userNameExists) {
         Alert.alert("userName Already Exists");
       } else {
-        // auth()
-        //   .createUserWithEmailAndPassword(email, password)
-        //   .then((userCredential) => {
-        //     userCredential.user.updateProfile({
-        //       displayName: userName,
-        //       photoURL: imageUrl,
-        //     });
-        //     firestore().collection("users").doc(userCredential.user.uid).set({
-        //       userName,
-        //       nickName,
-        //       userImg: "",
-        //       email,
-        //       following: [],
-        //       followers: [],
-        //       uid: userCredential.user.uid,
-        //       createdAt: Date.now(),
-        //       bio: "",
-        //       web: "",
-        //     });
-        //   })
-        //   .catch((error) => {
-        //     Alert.alert(error.message);
-        //   });
-        alert("hello");
+        auth()
+          .createUserWithEmailAndPassword(email, password)
+          .then((user) => {
+            firestore().collection("users").doc(user.user.uid).set({
+              userName,
+              nickName,
+              userImg: "",
+              email,
+              following: [],
+              followers: [],
+              uid: user.user.uid,
+              createdAt: Date.now(),
+              bio: "",
+              web: "",
+            });
+          })
+          // .then((result) => AsyncStorage.setItem("token", result.uid))/\\
+          .catch((error) => {
+            setLoggginIn(false)
+            Alert.alert(error.message);
+          });
+        // alert("hello");
       }
     }
   }
@@ -269,11 +270,26 @@ function signUp({ navigation }) {
             }}
             backgroundColor={"#45A4F976"}
           />
-        ) : (
+        ) : !loggingIn ? (
           <PhotoGramButton
             onPress={() => signUp()}
             padding={10}
             title={"Register"}
+            fontSize={padding - 4}
+            extraStyles={{
+              alignSelf: "center",
+              padding: 10,
+              borderRadius: 75,
+              width: width - 40,
+              marginTop: height / 12,
+            }}
+            backgroundColor="#45A4F9"
+          />
+        ) : (
+          <PhotoGramButton
+            onPress={() => signUp()}
+            padding={10}
+            title={loggingIn ? <ActivityIndicator color="#fff" /> : 'Register'}
             fontSize={padding - 4}
             extraStyles={{
               alignSelf: "center",
@@ -290,7 +306,7 @@ function signUp({ navigation }) {
   );
 }
 
-export default memo(signUp);
+export default signUp;
 
 {
   /*

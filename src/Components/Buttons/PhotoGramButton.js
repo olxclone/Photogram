@@ -6,6 +6,7 @@ export function PhotoGramButton({
   extraStyles,
   color,
   backgroundColor,
+  LoggingInComponent,
   padding,
   fontSize,
   TextStyle,
@@ -31,6 +32,7 @@ export function PhotoGramButton({
 
   return (
     <TouchableOpacity activeOpacity={activeOpacity} onPress={onPress} style={styles.Button}>
+   {LoggingInComponent}
       <Text style={styles.ButtonText}>{title}</Text>
     </TouchableOpacity>
   );

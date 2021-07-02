@@ -39,6 +39,8 @@ import io.github.elyx0.reactnativedocumentpicker.DocumentPickerPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 // react-native-image-crop-picker
 import com.reactnative.ivpusic.imagepicker.PickerPackage;
+// react-native-navigation
+import com.reactnativenavigation.react.NavigationPackage;
 // react-native-push-notification
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 // react-native-reanimated
@@ -110,6 +112,7 @@ public class PackageList {
       new DocumentPickerPackage(),
       new RNGestureHandlerPackage(),
       new PickerPackage(),
+      new NavigationPackage(reactNativeHost),
       new ReactNativePushNotificationPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),

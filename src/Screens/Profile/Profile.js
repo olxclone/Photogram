@@ -20,25 +20,23 @@ import { Tab } from "../../Components/customTab/Tab";
 import { Transitioning, Transition } from "react-native-reanimated";
 import ProfileHeader from "../../Components/headers/ProfileHeader";
 import { DotIndicator } from "react-native-indicators";
+import { Navigation } from "react-native-navigation";
 
-function Profile({ navigation, route }) {
+function Profile(props) {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [isSelected, setIsSelected] = useState(0);
   const [following, setFollowing] = useState(false);
   const [userData, setUserData] = useState(null);
   const [currentUser, setCurrentUser] = useState(null);
-  const [
-    modalVisible,
-    setModalVisible
-  ] = useState(false)
+  const [modalVisible, setModalVisible] = useState(false);
   const [chatUser, setChatUser] = useState();
   const _isMounted = React.useRef(true);
 
   const fetchChatUser = async () => {
     await firestore()
       .collection("users")
-      .doc(route.params.uid)
+      .doc(props.item.uid)
       .onSnapshot((data) => {
         setChatUser(data.data());
       });
@@ -50,12 +48,12 @@ function Profile({ navigation, route }) {
         .collection("users")
         .doc(auth().currentUser.uid)
         .update({
-          following: firestore.FieldValue.arrayUnion(route.params.uid),
+          following: firestore.FieldValue.arrayUnion(props.item.uid),
         })
         .then(() => {
           firestore()
             .collection("users")
-            .doc(route.params ? route.params.uid : "")
+            .doc(props.item ? props.item.uid : "")
             .update({
               followers: firestore.FieldValue.arrayUnion(
                 auth().currentUser.uid
@@ -68,13 +66,13 @@ function Profile({ navigation, route }) {
   };
 
   const onUnFollow = () => {
-    setModalVisible(true)
+    setModalVisible(true);
     try {
       firestore()
         .collection("users")
         .doc(auth().currentUser.uid)
         .update({
-          following: firestore.FieldValue.arrayRemove(route.params.uid),
+          following: firestore.FieldValue.arrayRemove(props.item.uid),
         })
         .then(() => {
           firestore()
@@ -85,8 +83,8 @@ function Profile({ navigation, route }) {
                 auth().currentUser.uid
               ),
             });
-        })
-        setModalVisible(false)
+        });
+      setModalVisible(false);
     } catch (error) {
       console.log(error);
     }
@@ -100,7 +98,7 @@ function Profile({ navigation, route }) {
         .where(
           "uid",
           "==",
-          route.params ? route.params.uid : auth().currentUser.uid
+          props.item ? props.item.uid : auth().currentUser.uid
         )
         .orderBy("createdAt", "desc")
         .get()
@@ -147,7 +145,7 @@ function Profile({ navigation, route }) {
   const getUser = async () => {
     await firestore()
       .collection("users")
-      .doc(route.params ? route.params.uid : auth().currentUser.uid)
+      .doc(props.item ? props.item.uid : auth().currentUser.uid)
       .onSnapshot((documentSnapshot) => {
         if (documentSnapshot.exists) {
           setUserData(documentSnapshot.data());
@@ -166,40 +164,27 @@ function Profile({ navigation, route }) {
       });
   };
 
-useEffect(() => {
-  let unmount = getUser();    
-  return () => unmount;
-
-},[userData])
-
-  useEffect(() => {
-    let unmount =  fetchChatUser();   
-  return () => unmount;
-
-  }, []);
-
-  useEffect(() => {
-
-   let unmount = fetchPosts();
-  return () => unmount;
-  },[posts])
+  useEffect(()=> {
+    fetchChatUser()
+  },[])
 
   useEffect(() => {
     ref.current.animateNextTransition();
-   let unmount = getCurrentUser()
-      if (
+    fetchPosts();
+    getCurrentUser();
+    getUser();
+    let unmount = getCurrentUser();
+    if (
       currentUser
-        ? currentUser.following.indexOf(
-            route.params ? route.params.uid : null
-          ) > -1
+        ? currentUser.following.indexOf(props.item ? props.item.uid : null) > -1
         : ""
     ) {
       setFollowing(true);
     } else {
       setFollowing(false);
     }
-    return ()=> unmount;
-  }, [currentUser]);
+    return () => unmount;
+  }, []);
 
   let ref = React.createRef();
 
@@ -207,21 +192,22 @@ useEffect(() => {
     <Transition.Together>
       <Transition.In
         type="slide-right"
-        durationMs={5000}
+        durationMs={200}
         interpolation={"easeInOut"}
       />
-      <Transition.In type="fade" durationMs={5000} />
+      <Transition.In type="fade" durationMs={2000} />
       <Transition.Change />
     </Transition.Together>
   );
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-   <Modal visible={modalVisible} >
-         <DotIndicator color="#45A4FF" />
-        </Modal>
+      <Modal visible={modalVisible}>
+        <DotIndicator color="#45A4FF" />
+      </Modal>
       <ProfileHeader
-        navigation={navigation}
+        // navigation={navigation}
+        props={props}
         userName={userData ? userData.userName : "Test"}
       />
       <View style={{ flexDirection: "row" }}>
@@ -251,13 +237,13 @@ useEffect(() => {
             <TouchableOpacity
               onPress={() =>
                 navigation.navigate(
-                  "Following",
-                  route.params ? userData : currentUser
+                  "Following"
+                  // route.params ? userData : currentUser
                 )
               }
             >
               <Text style={styles.userInfoTitle}>
-                {!route.params
+                {!props.item
                   ? currentUser
                     ? currentUser.following.length
                     : 1
@@ -270,14 +256,19 @@ useEffect(() => {
           </View>
         </View>
       </View>
-      <Text style={styles.userName}>
-        {userData ? userData.userName || "Test" : "Test"}
-      </Text>
+      <View
+        style={{ flex: 0, alignItems: "center", alignContent: "flex-start" }}
+      >
+        <Text style={styles.userName}>
+          {userData ? userData.userName || "Test" : "Test"}
+        </Text>
+      </View>
+
       <Text style={styles.aboutUser}>
         {userData ? userData.bio || "No details added." : ""}
       </Text>
-      {route.params ? (
-        route.params.uid === auth().currentUser.uid ? (
+      {props.item ? (
+        props.item.uid === auth().currentUser.uid ? (
           <PhotoGramButton
             backgroundColor={"#fff"}
             color={"#000"}
@@ -289,7 +280,30 @@ useEffect(() => {
               elevation: 8,
               marginHorizontal: 12,
             }}
-            onPress={() => navigation.navigate("EditScreen")}
+            onPress={() =>
+              Navigation.push(props.componentId, {
+                component: {
+                  name: "EDITPROFILE_SCREEN",
+                  id: "EDITPROFILE_SCREEN",
+                  options: {
+                    bottomTabs: { visible: false },
+                    animations: {
+                      push: {
+                        content: {
+                          translationX: {
+                            from: require("react-native").Dimensions.get(
+                              "window"
+                            ).width,
+                            to: 0,
+                            duration: 300,
+                          },
+                        },
+                      },
+                    },
+                  },
+                },
+              })
+            }
           />
         ) : (
           <>
@@ -337,7 +351,17 @@ useEffect(() => {
                 marginHorizontal: 12,
                 marginVertical: 12,
               }}
-              onPress={() => navigation.navigate("ChatRoom", chatUser)}
+              onPress={() =>
+                Navigation.showModal({
+                  component: {
+                    name: "CHATROOM_SCREEN",
+                    id: "CHATROOM_SCREEN",
+                    passProps: {
+                      params: chatUser,
+                    },
+                  },
+                })
+              }
             />
           </>
         )
@@ -346,7 +370,30 @@ useEffect(() => {
           <PhotoGramButton
             title={"Edit Profile"}
             padding={10}
-            onPress={() => navigation.navigate("EditScreen")}
+            onPress={() =>
+              Navigation.push(props.componentId, {
+                component: {
+                  name: "EDITPROFILE_SCREEN",
+                  id: "EDITPROFILE_SCREEN",
+                  options: {
+                    bottomTabs: { visible: false },
+                    animations: {
+                      push: {
+                        content: {
+                          translationX: {
+                            from: require("react-native").Dimensions.get(
+                              "window"
+                            ).width,
+                            to: 0,
+                            duration: 300,
+                          },
+                        },
+                      },
+                    },
+                  },
+                },
+              })
+            }
             backgroundColor={"#fff"}
             fontWeight={"h1"}
             color={"#000"}
@@ -465,7 +512,7 @@ useEffect(() => {
   );
 }
 
-export default memo(Profile);
+export default Profile;
 
 const styles = StyleSheet.create({
   container: {
@@ -483,11 +530,17 @@ const styles = StyleSheet.create({
     borderRadius: 75,
   },
   userName: {
+    // fontSize: 18,
+    // fontWeight: "bold",
+    // marginTop: 10,
+    // left: 40,
+    // marginBottom: 10,
     fontSize: 18,
     fontWeight: "bold",
     marginTop: 10,
-    left: 40,
     marginBottom: 10,
+    alignSelf: "flex-start",
+    marginLeft: width / 15,
   },
   aboutUser: {
     fontSize: 12,
