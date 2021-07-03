@@ -174,7 +174,7 @@ function Home(props) {
     return function () {
       cleanUp;
     };
-  }, [loading,posts]);
+  }, [loading]);
 
   if (loading) {
     return (
