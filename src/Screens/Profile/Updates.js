@@ -66,7 +66,7 @@ export default function Updates() {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <PhotoGramButton
-        backgroundColor="#898989"
+        backgroundColor="#45A4FF"
         padding={10}
         fontSize={24}
         title={"Check for updates now"}
