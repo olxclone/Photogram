@@ -16,7 +16,6 @@ import Shimmer from "react-native-shimmer";
 import { height, width } from "../../Utils/constants/styles";
 import PostCard from "../../Components/PostCard/PostCard";
 import { Navigation } from "react-native-navigation";
-import { clean } from "react-native-image-crop-picker";
 
 function Home(props) {
   const [posts, setPosts] = useState(null);
@@ -151,8 +150,6 @@ function Home(props) {
     }
   };
 
-  const scrollY = React.useRef(new Animated.Value(0)).current;
-
   useEffect(() => {
     BackHandler.addEventListener("hardwareBackPress", () => {
       firestore().collection("users").doc(auth().currentUser.uid).update({
@@ -160,9 +157,9 @@ function Home(props) {
       });
       BackHandler.exitApp();
     });
-  let cleanUp = getUser(); 
+    let cleanUp = getUser();
     setDeleted(false);
-    return function(){
+    return function () {
       cleanUp;
     };
   }, [deleted]);
@@ -174,10 +171,10 @@ function Home(props) {
     } else {
       setLoading(false);
     }
-    return function(){
+    return function () {
       cleanUp;
     };
-  }, [loading]);
+  }, [loading,posts]);
 
   if (loading) {
     return (
@@ -361,19 +358,7 @@ function Home(props) {
         }
         showsVerticalScrollIndicator={false}
         showsHorizontalScrollIndicator={false}
-        renderItem={({ item, index }) => {
-          const inputRange = [
-            -5,
-            0,
-            (width / 1.2) * index,
-            (width / 1.2) * (index + 2),
-          ];
-
-          const scale = scrollY.interpolate({
-            inputRange,
-            outputRange: [1, 1, 1, 0],
-          });
-
+        renderItem={({ item }) => {
           return <PostCard item={item} onDelete={handleDelete} props={props} />;
         }}
       />
