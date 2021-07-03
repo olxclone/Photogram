@@ -17,6 +17,7 @@ INJECTED from C:\Users\madan\Desktop\Photogram\android\app\src\main\AndroidManif
 MERGED from [hermes-release.aar] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\c2c807e21f20d2a3678a7a02d1097e8f\jetified-hermes-release\AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vector-icons] C:\Users\madan\Desktop\Photogram\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-splash-screen] C:\Users\madan\Desktop\Photogram\node_modules\react-native-splash-screen\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-shimmer] C:\Users\madan\Desktop\Photogram\node_modules\react-native-shimmer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-19:12
 MERGED from [:react-native-firebase_auth] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\auth\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-13:12
@@ -122,6 +123,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\madan\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\7720c9c03f0a11b9721abe31ffdbc699\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\2113ef0a116751e913eb83cb4ae27fb7\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f7713a4afd8569a8184fafae0ca637c0\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a8c7626ecab6213bb164751e44fce520\jetified-shimmer-0.5.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.github.clans:fab:1.6.4] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\50d08b1afc4c74abec63ace6fe5e0462\jetified-fab-1.6.4\AndroidManifest.xml:2:1-14:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\2842bf06cad118ee39340b5176e1768f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:2:1-52:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\be349e37d746df21c85eb4315669357b\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
@@ -437,6 +439,8 @@ MERGED from [:react-native-vector-icons] C:\Users\madan\Desktop\Photogram\node_m
 MERGED from [:react-native-vector-icons] C:\Users\madan\Desktop\Photogram\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-splash-screen] C:\Users\madan\Desktop\Photogram\node_modules\react-native-splash-screen\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-splash-screen] C:\Users\madan\Desktop\Photogram\node_modules\react-native-splash-screen\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-shimmer] C:\Users\madan\Desktop\Photogram\node_modules\react-native-shimmer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-shimmer] C:\Users\madan\Desktop\Photogram\node_modules\react-native-shimmer\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-community\masked-view\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-firebase_analytics] C:\Users\madan\Desktop\Photogram\node_modules\@react-native-firebase\analytics\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:5:5-7:41
@@ -647,6 +651,8 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\madan\.gradle\caches
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\2113ef0a116751e913eb83cb4ae27fb7\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f7713a4afd8569a8184fafae0ca637c0\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\f7713a4afd8569a8184fafae0ca637c0\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a8c7626ecab6213bb164751e44fce520\jetified-shimmer-0.5.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\a8c7626ecab6213bb164751e44fce520\jetified-shimmer-0.5.0\AndroidManifest.xml:5:5-44
 MERGED from [com.github.clans:fab:1.6.4] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\50d08b1afc4c74abec63ace6fe5e0462\jetified-fab-1.6.4\AndroidManifest.xml:8:5-10:41
 MERGED from [com.github.clans:fab:1.6.4] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\50d08b1afc4c74abec63ace6fe5e0462\jetified-fab-1.6.4\AndroidManifest.xml:8:5-10:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\madan\.gradle\caches\transforms-2\files-2.1\2842bf06cad118ee39340b5176e1768f\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41

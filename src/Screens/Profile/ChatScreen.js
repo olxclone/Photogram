@@ -21,6 +21,7 @@ import storage from "@react-native-firebase/storage";
 import ChatScreenHeader from "../../Components/headers/ChatScreenHeader";
 import { height, width } from "../../Utils/constants/styles";
 import ImagePicker from "react-native-image-crop-picker";
+import { Navigation } from "react-native-navigation";
 
 function chatRoom(props) {
   const [messages, setMessages] = useState([]);
@@ -31,19 +32,7 @@ function chatRoom(props) {
   const [text, setText] = useState();
   const [userData, setUserData] = useState();
 
-  const getUser = async () => {
-    await firestore()
-      .collection("users")
-      .doc(props.params ? props.params.uid : auth().currentUser.uid)
-      .onSnapshot((documentSnapshot) => {
-        if (documentSnapshot.exists) {
-          setUserData(documentSnapshot.data());
-        }
-      });
-  };
-
   useEffect(() => {
-    getUser();
     const docid =
       props.params.uid > auth().currentUser.uid
         ? auth().currentUser.uid + "-" + props.params.uid
@@ -154,7 +143,13 @@ function chatRoom(props) {
 
   return (
     <View style={{ flex: 1, backgroundColor: "#fff" }}>
-      <ChatScreenHeader
+      <TouchableOpacity
+        onPress={() => Navigation.pop(props.componentId)}
+        style={{ position: "absolute", marginLeft: 8, top: 8, left: 0 }}
+      >
+        <AntDesign name="close" color="#000" size={24} />
+      </TouchableOpacity>
+      {/* <ChatScreenHeader
         props={props}
         status={props.params ? props.params.status : "offline"}
         navigation={props}
@@ -164,10 +159,9 @@ function chatRoom(props) {
             ? props.params.userImg
             : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
         }
-      />
+      /> */}
       <GiftedChat
         onInputTextChanged={(text) => setText(text)}
-        // showAvatarForEveryMessage={true}
         renderSend={(props) => (
           <Send {...props} disabled={messageImage || text ? false : true} />
         )}
@@ -179,9 +173,6 @@ function chatRoom(props) {
             />
           );
         }}
-        alwaysShowSend={messageImage ? true : false}
-        // renderLoading={() => <View style={{ alignSelf: 'center', justifyContent: 'center', display: 'flex' }}> <Text >Loading........</Text> </View>}
-        isLoadingEarlier
         messages={messages}
         renderActions={() => {
           return (
@@ -195,7 +186,7 @@ function chatRoom(props) {
             >
               <AntDesign
                 name="camera"
-                style={{ marginTop: 4, marginLeft: 8 }}
+                style={{ marginBottom: 6, marginLeft: 8 }}
                 size={24}
                 color="black"
               />
@@ -219,9 +210,6 @@ function chatRoom(props) {
         }}
         user={{
           _id: auth().currentUser.uid,
-          avatar: userData
-            ? userData.userImg
-            : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png",
         }}
         onSend={(messages) => onSend(messages)}
       />

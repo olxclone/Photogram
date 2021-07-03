@@ -41,6 +41,8 @@ import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
+// react-native-shimmer
+import com.oblador.shimmer.RNShimmerPackage;
 // react-native-splash-screen
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 // react-native-vector-icons
@@ -105,6 +107,7 @@ public class PackageList {
       new ReactNativePushNotificationPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
+      new RNShimmerPackage(),
       new SplashScreenReactPackage(),
       new VectorIconsPackage()
     ));

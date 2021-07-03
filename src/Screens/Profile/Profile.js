@@ -12,6 +12,7 @@ import {
 } from "react-native";
 import auth from "@react-native-firebase/auth";
 import firestore from "@react-native-firebase/firestore";
+
 import { height, padding, width } from "../../Utils/constants/styles";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
@@ -164,12 +165,9 @@ function Profile(props) {
   };
 
   useEffect(() => {
-    fetchChatUser();
-  }, []);
-
-  useEffect(() => {
     ref.current.animateNextTransition();
     fetchPosts();
+    fetchChatUser();
     getCurrentUser();
     getUser();
     let unmount = getCurrentUser();
@@ -369,10 +367,15 @@ function Profile(props) {
                 marginVertical: 12,
               }}
               onPress={() =>
-                Navigation.showModal({
+                Navigation.push(props.componentId, {
                   component: {
                     name: "CHATROOM_SCREEN",
                     id: "CHATROOM_SCREEN",
+                    options: {
+                      bottomTabs: {
+                        visible: false,
+                      },
+                    },
                     passProps: {
                       params: chatUser,
                     },
@@ -482,13 +485,13 @@ function Profile(props) {
             keyExtractor={(item) => "_" + item.id}
             data={posts}
             renderItem={({ item }) => {
-              return posts.length < 0 ? (
+              return posts.length === 0 ? (
                 <PhotogramText
                   text={"No Posts Yet"}
                   fontWeight={"h1"}
                   fontSize={18}
                 />
-              ) : (
+              ) : posts.image !== null ? (
                 <TouchableOpacity
                   activeOpacity={3}
                   onPress={() =>
@@ -508,6 +511,8 @@ function Profile(props) {
                     }}
                   />
                 </TouchableOpacity>
+              ) : (
+                <></>
               );
             }}
           />

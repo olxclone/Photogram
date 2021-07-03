@@ -13041,6 +13041,31 @@ com.facebook.react.views.view.ReactViewGroup:
     private static final int DEFAULT_BACKGROUND_COLOR
 com.facebook.react.views.view.ViewGroupClickEvent:
     private static final java.lang.String EVENT_NAME
+com.facebook.shimmer.BuildConfig
+com.facebook.shimmer.R$attr
+com.facebook.shimmer.R$id
+com.facebook.shimmer.R$styleable:
+    private void <init>()
+com.facebook.shimmer.R
+com.facebook.shimmer.Shimmer$Builder:
+    public com.facebook.shimmer.Shimmer$Builder consumeAttributes(android.content.Context,android.util.AttributeSet)
+    public com.facebook.shimmer.Shimmer$Builder copyFrom(com.facebook.shimmer.Shimmer)
+com.facebook.shimmer.Shimmer$Direction
+com.facebook.shimmer.Shimmer$Shape
+com.facebook.shimmer.Shimmer:
+    private static final int COMPONENT_COUNT
+    void updateBounds(int,int)
+com.facebook.shimmer.ShimmerDrawable:
+    public void startShimmer()
+com.facebook.shimmer.ShimmerFrameLayout:
+    public void <init>(android.content.Context,android.util.AttributeSet)
+    public void <init>(android.content.Context,android.util.AttributeSet,int)
+    public void <init>(android.content.Context,android.util.AttributeSet,int,int)
+    public void hideShimmer()
+    public boolean isShimmerStarted()
+    public boolean isShimmerVisible()
+    public void showShimmer(boolean)
+    public void startShimmer()
 com.facebook.soloader.Api18TraceUtils:
     private static final int MAX_SECTION_NAME_LENGTH
 com.facebook.soloader.ApkSoSource:
@@ -30049,6 +30074,27 @@ com.nimbusds.jwt.proc.JWTProcessorConfiguration
 com.nimbusds.jwt.proc.package-info
 com.nimbusds.jwt.util.DateUtils
 com.nimbusds.jwt.util.package-info
+com.oblador.shimmer.BuildConfig
+com.oblador.shimmer.R$anim
+com.oblador.shimmer.R$attr
+com.oblador.shimmer.R$bool
+com.oblador.shimmer.R$color
+com.oblador.shimmer.R$dimen
+com.oblador.shimmer.R$drawable
+com.oblador.shimmer.R$id
+com.oblador.shimmer.R$integer
+com.oblador.shimmer.R$layout
+com.oblador.shimmer.R$string
+com.oblador.shimmer.R$style
+com.oblador.shimmer.R$styleable
+com.oblador.shimmer.R$xml
+com.oblador.shimmer.R
+com.oblador.shimmer.RNShimmerPackage:
+    public java.util.List createJSModules()
+com.oblador.shimmer.RNShimmeringView:
+    public void <init>(android.content.Context,android.util.AttributeSet)
+    public void <init>(android.content.Context,android.util.AttributeSet,int)
+    public void <init>(android.content.Context,android.util.AttributeSet,int,int)
 com.oblador.vectoricons.BuildConfig
 com.oblador.vectoricons.R$anim
 com.oblador.vectoricons.R$attr

@@ -12,10 +12,11 @@ import {
 import storage from "@react-native-firebase/storage";
 import firestore from "@react-native-firebase/firestore";
 import auth from "@react-native-firebase/auth";
-import SkeletonPlaceholder from "react-native-skeleton-placeholder";
-import { width } from "../../Utils/constants/styles";
+import Shimmer from "react-native-shimmer";
+import { height, width } from "../../Utils/constants/styles";
 import PostCard from "../../Components/PostCard/PostCard";
 import { Navigation } from "react-native-navigation";
+import { clean } from "react-native-image-crop-picker";
 
 function Home(props) {
   const [posts, setPosts] = useState(null);
@@ -110,7 +111,6 @@ function Home(props) {
   };
 
   const fetchPosts = async () => {
-    setLoading(true);
     try {
       const Lists = [];
       await firestore()
@@ -160,72 +160,180 @@ function Home(props) {
       });
       BackHandler.exitApp();
     });
-    getUser();
+  let cleanUp = getUser(); 
     setDeleted(false);
-    return () => {
-      getUser();
+    return function(){
+      cleanUp;
     };
   }, [deleted]);
 
   useEffect(() => {
-    fetchPosts();
-    return () => {
-      fetchPosts();
+    let cleanUp = fetchPosts();
+    if (posts === null || undefined) {
+      setLoading(true);
+    } else {
+      setLoading(false);
+    }
+    return function(){
+      cleanUp;
     };
-  }, []);
+  }, [loading]);
 
-  // if(loading) {
-  //   return (
-  //     <ScrollView
-  //     showsVerticalScrollIndicator={false}
-  //     style={{flex: 1,marginTop:24}}
-  //     contentContainerStyle={{alignItems: 'center',flex:1}}>
-  //     <SkeletonPlaceholder speed={1000}>
-  //       <View style={{flexDirection: 'row', alignItems: 'center'}}>
-  //         <View style={{width: 60, height: 60, borderRadius: 50}} />
-  //         <View style={{marginLeft: 20}}>
-  //           <View style={{width: 120, height: 20, borderRadius: 4}} />
-  //           <View
-  //             style={{marginTop: 6, width: 80, height: 20, borderRadius: 4}}
-  //           />
-  //         </View>
-  //       </View>
-  //       <View style={{marginTop: 10, marginBottom: 30}}>
-  //         <View style={{width: 300, height: 20, borderRadius: 4}} />
-  //         <View
-  //           style={{marginTop: 6, width: 250, height: 20, borderRadius: 4}}
-  //         />
-  //         <View
-  //           style={{marginTop: 6, width: 350, height: 200, borderRadius: 4}}
-  //         />
-  //       </View>
-  //     </SkeletonPlaceholder>
-  //     <SkeletonPlaceholder>
-  //       <View style={{flexDirection: 'row', alignItems: 'center'}}>
-  //         <View style={{width: 60, height: 60, borderRadius: 50}} />
-  //         <View style={{marginLeft: 20}}>
-  //           <View style={{width: 120, height: 20, borderRadius: 4}} />
-  //           <View
-  //             style={{marginTop: 6, width: 80, height: 20, borderRadius: 4}}
-  //           />
-  //         </View>
-  //       </View>
-  //       <View style={{marginTop: 10, marginBottom: 30}}>
-  //         <View style={{width: 300, height: 20, borderRadius: 4}} />
-  //         <View
-  //           style={{marginTop: 6, width: 250, height: 20, borderRadius: 4}}
-  //         />
-  //         <View
-  //           style={{marginTop: 6, width: 350, height: 200, borderRadius: 4}}
-  //         />
-  //       </View>
-  //     </SkeletonPlaceholder>
-  //   </ScrollView>
-  //   )
-  // }
+  if (loading) {
+    return (
+      <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
+        <View style={{ flex: 1, marginTop: 24 }}>
+          <View style={{ flexDirection: "row" }}>
+            <Shimmer
+              style={{
+                marginHorizontal: 24,
+              }}
+            >
+              <View
+                style={{
+                  backgroundColor: "grey",
+                  width: width / 5.5,
+                  height: height / 11,
+                  borderRadius: 100,
+                }}
+              ></View>
+            </Shimmer>
+            <View>
+              <Shimmer style={{ marginTop: 12, width: width / 2, height: 20 }}>
+                <View
+                  style={{
+                    backgroundColor: "grey",
+                  }}
+                ></View>
+              </Shimmer>
+              <Shimmer style={{ marginTop: 12, width: width / 4, height: 20 }}>
+                <View
+                  style={{
+                    backgroundColor: "grey",
+                  }}
+                ></View>
+              </Shimmer>
+            </View>
+          </View>
+          <View style={{ marginHorizontal: 24 }}>
+            <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
+              <View
+                style={{
+                  backgroundColor: "grey",
+                }}
+              ></View>
+            </Shimmer>
+            <Shimmer
+              style={{
+                marginTop: 12,
+                marginLeft: 0,
+                width: width / 1.5,
+                height: 20,
+              }}
+            >
+              <View
+                style={{
+                  backgroundColor: "grey",
+                }}
+              ></View>
+            </Shimmer>
+          </View>
+
+          <Shimmer
+            style={{
+              marginHorizontal: 24,
+              marginTop: 8,
+            }}
+          >
+            <View
+              style={{
+                marginHorizontal: 24,
+
+                height: height / 3.5,
+                backgroundColor: "grey",
+              }}
+            ></View>
+          </Shimmer>
+        </View>
+        <View style={{ flex: 1, marginTop: height / 18, marginBottom: 24 }}>
+          <View style={{ flexDirection: "row" }}>
+            <Shimmer
+              style={{
+                marginHorizontal: 24,
+              }}
+            >
+              <View
+                style={{
+                  backgroundColor: "grey",
+                  width: width / 5.5,
+                  height: height / 11,
+                  borderRadius: 100,
+                }}
+              ></View>
+            </Shimmer>
+            <View>
+              <Shimmer style={{ marginTop: 12, width: width / 2, height: 20 }}>
+                <View
+                  style={{
+                    backgroundColor: "grey",
+                  }}
+                ></View>
+              </Shimmer>
+              <Shimmer style={{ marginTop: 12, width: width / 4, height: 20 }}>
+                <View
+                  style={{
+                    backgroundColor: "grey",
+                  }}
+                ></View>
+              </Shimmer>
+            </View>
+          </View>
+          <View style={{ marginHorizontal: 24 }}>
+            <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
+              <View
+                style={{
+                  backgroundColor: "grey",
+                }}
+              ></View>
+            </Shimmer>
+            <Shimmer
+              style={{
+                marginTop: 12,
+                marginLeft: 0,
+                width: width / 1.5,
+                height: 20,
+              }}
+            >
+              <View
+                style={{
+                  backgroundColor: "grey",
+                }}
+              ></View>
+            </Shimmer>
+          </View>
+
+          <Shimmer
+            style={{
+              marginHorizontal: 24,
+              marginTop: 8,
+            }}
+          >
+            <View
+              style={{
+                marginHorizontal: 24,
+
+                height: height / 3.5,
+                backgroundColor: "grey",
+              }}
+            ></View>
+          </Shimmer>
+        </View>
+      </ScrollView>
+    );
+  }
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, backgroundColor: "#fff" }}>
       <View style={{ backgroundColor: "#FFF", padding: 16 }}>
         <SafeAreaView>
           <Text

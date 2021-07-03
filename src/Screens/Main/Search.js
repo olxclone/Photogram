@@ -96,11 +96,14 @@ export default function Search(props) {
                     component: {
                       name: "HOME_PROFILE_SCREEN",
                       id: "HOME_PROFILE_SCREEN",
-                    options : {
-                      bottomTabs : {
-                        visible : false
-                      }
-                    }
+                      passProps : {
+                        item
+                      },
+                      options: {
+                        bottomTabs: {
+                          visible: false,
+                        },
+                      },
                     },
                   })
                 }

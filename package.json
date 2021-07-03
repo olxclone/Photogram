@@ -10,6 +10,7 @@
     "app:release": "cd android && ./gradlew assembleRelease && cd ..",
     "app:clean": "cd android && ./gradlew clean && cd ..",
     "app:bundleRelease": "cd android && ./gradlew bundleRelease && cd ..",
+    "app:commit": "git commit -m 'some Chages' ",
     "test": "jest",
     "code-push:android": "npx appcenter codepush release-react -a madanbhat2007/Photogram -d Production",
     "lint": "eslint ."
@@ -44,6 +45,7 @@
     "react-native-push-notification": "^7.3.1",
     "react-native-reanimated": "^2.2.0",
     "react-native-safe-area-context": "^3.1.9",
+    "react-native-shimmer": "^0.6.0",
     "react-native-skeleton-placeholder": "^4.0.0",
     "react-native-splash-screen": "^3.2.0",
     "react-native-vector-icons": "^8.1.0",

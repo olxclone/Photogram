@@ -1,4 +1,4 @@
-#Fri Jul 02 18:58:19 IST 2021
+#Sat Jul 03 20:30:49 IST 2021
 base.0=C\:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

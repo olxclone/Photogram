@@ -24,24 +24,24 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "x86"
-        }
-      ],
-      "versionCode": 2097153,
-      "versionName": "1.0",
-      "outputFile": "app-x86-debug.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
           "value": "armeabi-v7a"
         }
       ],
       "versionCode": 1048577,
       "versionName": "1.0",
       "outputFile": "app-armeabi-v7a-debug.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "x86"
+        }
+      ],
+      "versionCode": 2097153,
+      "versionName": "1.0",
+      "outputFile": "app-x86-debug.apk"
     },
     {
       "type": "ONE_OF_MANY",

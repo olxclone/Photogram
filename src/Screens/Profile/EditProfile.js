@@ -116,12 +116,7 @@ function EditProfile(props) {
       Alert.alert("Choose a image", "Please choose a image to continue");
     } else {
       setUploading(true);
-      if (userData ? userData.userImg : null) {
-        storage()
-          .refFromURL(userData ? userData.userImg : null)
-          .delete();
-      } else {
-        const path = `profile/${auth().currentUser.uid}}`;
+        const path = `profile/${auth().currentUser.uid+Date.now()}}`;
         return new Promise(async (resolve, rej) => {
           const response = await fetch(imageUri);
           const file = await response.blob();
@@ -156,7 +151,6 @@ function EditProfile(props) {
           );
         });
       }
-    }
   };
 
   let renderInner = () => {
@@ -251,8 +245,6 @@ function EditProfile(props) {
         renderHeader={renderHeader}
         initialSnap={1}
         callbackNode={fall}
-        // callbackThreshold
-        // callbackNode={fall}
         enabledGestureInteraction={true}
       />
       <KeyboardAvoidingView enabled={true} behavior={"padding"}>
