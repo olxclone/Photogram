@@ -18,10 +18,10 @@ import auth from "@react-native-firebase/auth";
 import firestore from "@react-native-firebase/firestore";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import storage from "@react-native-firebase/storage";
-import ChatScreenHeader from "../../Components/headers/ChatScreenHeader";
 import { height, width } from "../../Utils/constants/styles";
 import ImagePicker from "react-native-image-crop-picker";
 import { Navigation } from "react-native-navigation";
+import ChatScreenHeader from "../../Components/headers/ChatScreenHeader";
 
 function chatRoom(props) {
   const [messages, setMessages] = useState([]);
@@ -143,23 +143,18 @@ function chatRoom(props) {
 
   return (
     <View style={{ flex: 1, backgroundColor: "#fff" }}>
-      <TouchableOpacity
-        onPress={() => Navigation.pop(props.componentId)}
-        style={{ position: "absolute", marginLeft: 8, top: 8, left: 0 }}
-      >
-        <AntDesign name="close" color="#000" size={24} />
-      </TouchableOpacity>
-      {/* <ChatScreenHeader
-        props={props}
+      <ChatScreenHeader
         status={props.params ? props.params.status : "offline"}
-        navigation={props}
-        userName={props.params ? props.params.userName : 'test'}
+        props={props}
+        userName={props.params ? props.params.userName : "Test"}
         userImg={
           props.params
             ? props.params.userImg
             : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
         }
-      /> */}
+      />
+
+   
       <GiftedChat
         onInputTextChanged={(text) => setText(text)}
         renderSend={(props) => (

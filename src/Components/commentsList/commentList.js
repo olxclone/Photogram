@@ -3,15 +3,19 @@ import { View, Text, Alert, Image } from "react-native";
 import firestore from "@react-native-firebase/firestore";
 import { height, padding, width } from "../../Utils/constants/styles";
 import { PhotogramText } from "../Text/PhotoGramText";
+import auth from "@react-native-firebase/auth";
 import { Modal } from "react-native";
 import { TouchableOpacity } from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import { Navigation } from "react-native-navigation";
 
-export default function CommentList({ item, route, navigation, docId }) {
+export default function CommentList({ item, props, params }) {
   const [userData, setUserData] = useState();
+  const [liked, setLiked] = useState(false);
+  const [disLiked, setDisLiked] = useState(false);
   const [visible, setVisible] = useState(false);
+
   const getUser = async () => {
     await firestore()
       .collection("users")
@@ -23,9 +27,103 @@ export default function CommentList({ item, route, navigation, docId }) {
       }, []);
   };
 
+  let likeComment = (id) => {
+    try {
+      disLiked
+        ? firestore()
+            .collection("Posts")
+            .doc(params)
+            .collection("comments")
+            .doc(id)
+            .update({
+              disLikes: firestore.FieldValue.arrayRemove(
+                auth().currentUser.uid
+              ),
+            })
+            .then(() => {
+              firestore()
+                .collection("Posts")
+                .doc(params)
+                .collection("comments")
+                .doc(id)
+                .update({
+                  likes: !liked
+                    ? firestore.FieldValue.arrayUnion(auth().currentUser.uid)
+                    : firestore.FieldValue.arrayRemove(auth().currentUser.uid),
+                });
+            })
+        : firestore()
+            .collection("Posts")
+            .doc(params)
+            .collection("comments")
+            .doc(id)
+            .update({
+              likes: !liked
+                ? firestore.FieldValue.arrayUnion(auth().currentUser.uid)
+                : firestore.FieldValue.arrayRemove(auth().currentUser.uid),
+            });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  let disLikeComment = (id) => {
+    try {
+      liked
+        ? firestore()
+            .collection("Posts")
+            .doc(params)
+            .collection("comments")
+            .doc(id)
+            .update({
+              likes: firestore.FieldValue.arrayRemove(auth().currentUser.uid),
+            })
+            .then(() => {
+              firestore()
+                .collection("Posts")
+                .doc(params)
+                .collection("comments")
+                .doc(id)
+                .update({
+                  disLikes: !disLiked
+                    ? firestore.FieldValue.arrayUnion(auth().currentUser.uid)
+                    : firestore.FieldValue.arrayRemove(auth().currentUser.uid),
+                });
+            })
+        : firestore()
+            .collection("Posts")
+            .doc(params)
+            .collection("comments")
+            .doc(id)
+            .update({
+              disLikes: !disLiked
+                ? firestore.FieldValue.arrayUnion(auth().currentUser.uid)
+                : firestore.FieldValue.arrayRemove(auth().currentUser.uid),
+            });
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   useEffect(() => {
     getUser();
-  }, []);
+    if (item.likes.indexOf(auth().currentUser.uid) > -1) {
+      setLiked(true);
+    } else {
+      setLiked(false);
+    }
+
+    if (item.disLikes.indexOf(auth().currentUser.uid) > -1) {
+      setDisLiked(true);
+    } else {
+      setDisLiked(false);
+    }
+  }, [disLiked, liked]);
+
+  let likeIcon = liked ? "like1" : "like2";
+  let disLikeIcon = disLiked ? "dislike1" : "dislike2";
+  let likeIconColor = liked === true ? "#000" : "#333";
+  let dislikeColor = disLiked === true ? "#000" : "#333";
 
   return (
     <View style={{ backgroundColor: "#FFF" }}>
@@ -73,33 +171,60 @@ export default function CommentList({ item, route, navigation, docId }) {
           }}
         >
           <View style={{ flexDirection: "row", alignItems: "center", flex: 1 }}>
-            <AntDesign
-              name="like1"
-              style={{ marginHorizontal: 24, marginVertical: 8 }}
-              color="#000"
-              size={24}
-            />
-            <AntDesign
-              name="dislike1"
-              style={{ marginVertical: 8 }}
-              size={24}
-              color="black"
-            />
+            <View
+              style={{
+                flexDirection: "row",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <TouchableOpacity onPress={() => likeComment(item.id)}>
+                <AntDesign
+                  name={likeIcon}
+                  style={{ marginLeft: 24, marginVertical: 8 }}
+                  color={likeIconColor}
+                  size={24}
+                />
+              </TouchableOpacity>
+              <Text style={{ fontWeight: "bold", marginLeft: 6 }}>
+                {item.likes.length}
+              </Text>
+            </View>
+
+            <View
+              style={{
+                flexDirection: "row",
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <TouchableOpacity onPress={() => disLikeComment(item.id)}>
+                <AntDesign
+                  name={disLikeIcon}
+                  style={{ marginVertical: 8, marginLeft: 24 }}
+                  size={24}
+                  color={dislikeColor}
+                />
+              </TouchableOpacity>
+              <Text style={{ fontWeight: "bold", marginLeft: 6 }}>
+                {item.disLikes.length}
+              </Text>
+            </View>
           </View>
           <MaterialIcons
             name="comment"
-            
-            onPress={() => Navigation.push(props.componentId , {
-              component : {
-                name: 'REPLIES_SCREEN',
-                id :'REPLIES_SCREEN',
-                passProps : {
-                  user,
-                  item
-                }
-              
-              }
-            }) }
+            onPress={() =>
+              Navigation.push(props.componentId, {
+                component: {
+                  name: "REPLIES_SCREEN",
+                  id: "REPLIES_SCREEN",
+                  passProps: {
+                    userData,
+                    item,
+                  },
+                },
+              })
+            }
             style={{
               marginHorizontal: 24,
               marginVertical: 8,

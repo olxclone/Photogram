@@ -50,7 +50,7 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
 
     setLikes(item.likes.length);
     return () => null;
-  }, [likes, liked, favorited, item]);
+  }, [item]);
 
   const setUpdates = (postId) => {
     try {

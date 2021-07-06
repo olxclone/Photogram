@@ -178,32 +178,74 @@ function Home(props) {
 
   if (loading) {
     return (
-      <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
-        <View style={{ flex: 1, marginTop: 24 }}>
-          <View style={{ flexDirection: "row" }}>
-            <Shimmer
+      <View>
+        <View style={{ backgroundColor: "#FFF", padding: 16 }}>
+          <SafeAreaView>
+            <Text
               style={{
-                marginHorizontal: 24,
+                alignSelf: "center",
+                fontWeight: "bold",
+                fontSize: 32,
               }}
             >
-              <View
+              Photogram
+            </Text>
+          </SafeAreaView>
+        </View>
+        <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
+          <View style={{ flex: 1, marginTop: 24 }}>
+            <View style={{ flexDirection: "row" }}>
+              <Shimmer
                 style={{
-                  backgroundColor: "grey",
-                  width: width / 5.5,
-                  height: height / 11,
-                  borderRadius: 100,
+                  marginHorizontal: 24,
                 }}
-              ></View>
-            </Shimmer>
-            <View>
-              <Shimmer style={{ marginTop: 12, width: width / 2, height: 20 }}>
+              >
+                <View
+                  style={{
+                    backgroundColor: "grey",
+                    width: width / 5.5,
+                    height: height / 11,
+                    borderRadius: 100,
+                  }}
+                ></View>
+              </Shimmer>
+              <View>
+                <Shimmer
+                  style={{ marginTop: 12, width: width / 2, height: 20 }}
+                >
+                  <View
+                    style={{
+                      backgroundColor: "grey",
+                    }}
+                  ></View>
+                </Shimmer>
+                <Shimmer
+                  style={{ marginTop: 12, width: width / 4, height: 20 }}
+                >
+                  <View
+                    style={{
+                      backgroundColor: "grey",
+                    }}
+                  ></View>
+                </Shimmer>
+              </View>
+            </View>
+            <View style={{ marginHorizontal: 24 }}>
+              <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
                 <View
                   style={{
                     backgroundColor: "grey",
                   }}
                 ></View>
               </Shimmer>
-              <Shimmer style={{ marginTop: 12, width: width / 4, height: 20 }}>
+              <Shimmer
+                style={{
+                  marginTop: 12,
+                  marginLeft: 0,
+                  width: width / 1.5,
+                  height: 20,
+                }}
+              >
                 <View
                   style={{
                     backgroundColor: "grey",
@@ -211,72 +253,76 @@ function Home(props) {
                 ></View>
               </Shimmer>
             </View>
-          </View>
-          <View style={{ marginHorizontal: 24 }}>
-            <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
-              <View
-                style={{
-                  backgroundColor: "grey",
-                }}
-              ></View>
-            </Shimmer>
+
             <Shimmer
               style={{
-                marginTop: 12,
-                marginLeft: 0,
-                width: width / 1.5,
-                height: 20,
+                marginHorizontal: 24,
+                marginTop: 8,
               }}
             >
               <View
                 style={{
+                  marginHorizontal: 24,
+
+                  height: height / 3.5,
                   backgroundColor: "grey",
                 }}
               ></View>
             </Shimmer>
           </View>
-
-          <Shimmer
-            style={{
-              marginHorizontal: 24,
-              marginTop: 8,
-            }}
-          >
-            <View
-              style={{
-                marginHorizontal: 24,
-
-                height: height / 3.5,
-                backgroundColor: "grey",
-              }}
-            ></View>
-          </Shimmer>
-        </View>
-        <View style={{ flex: 1, marginTop: height / 18, marginBottom: 24 }}>
-          <View style={{ flexDirection: "row" }}>
-            <Shimmer
-              style={{
-                marginHorizontal: 24,
-              }}
-            >
-              <View
+          <View style={{ flex: 1, marginTop: height / 18, marginBottom: 24 }}>
+            <View style={{ flexDirection: "row" }}>
+              <Shimmer
                 style={{
-                  backgroundColor: "grey",
-                  width: width / 5.5,
-                  height: height / 11,
-                  borderRadius: 100,
+                  marginHorizontal: 24,
                 }}
-              ></View>
-            </Shimmer>
-            <View>
-              <Shimmer style={{ marginTop: 12, width: width / 2, height: 20 }}>
+              >
+                <View
+                  style={{
+                    backgroundColor: "grey",
+                    width: width / 5.5,
+                    height: height / 11,
+                    borderRadius: 100,
+                  }}
+                ></View>
+              </Shimmer>
+              <View>
+                <Shimmer
+                  style={{ marginTop: 12, width: width / 2, height: 20 }}
+                >
+                  <View
+                    style={{
+                      backgroundColor: "grey",
+                    }}
+                  ></View>
+                </Shimmer>
+                <Shimmer
+                  style={{ marginTop: 12, width: width / 4, height: 20 }}
+                >
+                  <View
+                    style={{
+                      backgroundColor: "grey",
+                    }}
+                  ></View>
+                </Shimmer>
+              </View>
+            </View>
+            <View style={{ marginHorizontal: 24 }}>
+              <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
                 <View
                   style={{
                     backgroundColor: "grey",
                   }}
                 ></View>
               </Shimmer>
-              <Shimmer style={{ marginTop: 12, width: width / 4, height: 20 }}>
+              <Shimmer
+                style={{
+                  marginTop: 12,
+                  marginLeft: 0,
+                  width: width / 1.5,
+                  height: 20,
+                }}
+              >
                 <View
                   style={{
                     backgroundColor: "grey",
@@ -284,48 +330,25 @@ function Home(props) {
                 ></View>
               </Shimmer>
             </View>
-          </View>
-          <View style={{ marginHorizontal: 24 }}>
-            <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
-              <View
-                style={{
-                  backgroundColor: "grey",
-                }}
-              ></View>
-            </Shimmer>
+
             <Shimmer
               style={{
-                marginTop: 12,
-                marginLeft: 0,
-                width: width / 1.5,
-                height: 20,
+                marginHorizontal: 24,
+                marginTop: 8,
               }}
             >
               <View
                 style={{
+                  marginHorizontal: 24,
+
+                  height: height / 3.5,
                   backgroundColor: "grey",
                 }}
               ></View>
             </Shimmer>
           </View>
-
-          <Shimmer
-            style={{
-              marginHorizontal: 24,
-              marginTop: 8,
-            }}
-          >
-            <View
-              style={{
-                marginHorizontal: 24,
-
-                height: height / 3.5,
-                backgroundColor: "grey",
-              }}
-            ></View>
-          </Shimmer>
-        </View>
-      </ScrollView>
+        </ScrollView>
+      </View>
     );
   }
 

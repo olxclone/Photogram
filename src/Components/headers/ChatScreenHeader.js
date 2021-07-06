@@ -1,70 +1,42 @@
 import React from "react";
-import { View, Text } from "react-native";
-import { TouchableOpacity } from "react-native-gesture-handler";
+import { View, TouchableOpacity, Text, Image } from "react-native";
 import AntDesign from "react-native-vector-icons/AntDesign";
-import { PhotogramText } from "../Text/PhotoGramText";
-import { height, padding } from "../../Utils/constants/styles";
-import { Image } from "react-native-animatable";
 import { Navigation } from "react-native-navigation";
-
-export default function ChatScreenHeader({
-  userName,
-  userImg,
-  props,
-  navigation,
-  status,
-}) {
+import moment from "moment";
+export default function ChatScreenHeader({ props, userName, userImg, status }) {
   return (
     <View
-      style={{
-        padding: padding - 8,
-        backgroundColor: "#ffff",
-        shadowColor: "#000",
-        elevation: 8,
-        flexDirection: "row",
-      }}
+      style={{ flexDirection: "row", display: "flex", alignItems: "center" }}
     >
-      <TouchableOpacity onPress={() => Navigation.pop(props.componentId)}>
-        <AntDesign name="left" size={24} color="black" />
+      <TouchableOpacity
+        activeOpacity={0.5}
+        onPress={() => Navigation.pop(props.componentId)}
+        style={{ marginTop: 8, marginLeft: 8 }}
+      >
+        <AntDesign name="close" color="#000" size={24} />
       </TouchableOpacity>
       <Image
-        source={{
-          uri: userImg
-            ? userImg
-            : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png",
-        }}
+        source={{ uri: userImg }}
         style={{
-          width: 36,
-          height: 36,
-          borderRadius: 300,
+          height: 40,
+          width: 40,
           marginLeft: 12,
-          marginTop: height/101,
+          marginTop: 8,
+          borderRadius: 204,
         }}
       />
-      <View>
-        <PhotogramText
-          alignSelf={"center"}
-          fontWeight={"h1"}
-          extraStyles={{
-            marginLeft: 12,
-          }}
-          fontSize={20}
-          text={userName}
-        />
-        <PhotogramText
-          alignSelf={"center"}
-          // fontWeight={"h1"}
-          extraStyles={{
-            marginLeft: 12,
-          }}
-          // fontSize={20}
-          text={status}
-        />
+      <View style={{ justifyContent: "center", marginTop: 8 }}>
+        <Text style={{ fontSize: 18, fontWeight: "bold", marginLeft: 8 }}>
+          {userName}
+        </Text>
+        <Text style={{ marginLeft: 8 }}>
+          {status === "offline" ? (
+            "offline"
+          ) : (
+            <> {moment(status.toDate()).fromNow()}</>
+          )}
+        </Text>
       </View>
-
-      <TouchableOpacity>
-        {/* <AntDesign name="ellipsis1" size={24} color="black" /> */}
-      </TouchableOpacity>
     </View>
   );
 }

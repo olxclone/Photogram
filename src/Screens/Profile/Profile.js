@@ -181,7 +181,7 @@ function Profile(props) {
       setFollowing(false);
     }
     return () => unmount;
-  }, []);
+  }, [following]);
 
   let ref = React.createRef();
 
@@ -467,13 +467,13 @@ function Profile(props) {
             flexDirection: "row",
           }}
         >
-          <TouchableOpacity style={{ flex: 1 }} onPress={() => selectTab(0)}>
+          <TouchableOpacity style={{ flex: 1 }} activeOpacity={3} onPress={() => selectTab(0)}>
             <Tab
               icon={"md-grid"}
               isSelected={isSelected === 0 ? true : false}
             />
           </TouchableOpacity>
-          <TouchableOpacity style={{ flex: 1 }} onPress={() => selectTab(1)}>
+          <TouchableOpacity style={{ flex: 1 }} activeOpacity={3} onPress={() => selectTab(1)}>
             <Tab icon={"people"} isSelected={isSelected === 0 ? false : true} />
           </TouchableOpacity>
         </View>

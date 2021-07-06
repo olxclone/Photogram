@@ -3,15 +3,17 @@ import firestore from "@react-native-firebase/firestore";
 import auth from "@react-native-firebase/auth";
 import {
   View,
+  Image,
   FlatList,
   TextInput,
+  KeyboardAvoidingView,
   Keyboard,
   TouchableOpacity,
+  ScrollView,
 } from "react-native";
 import { width } from "../../Utils/constants/styles";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import CommentList from "../../Components/commentsList/commentList";
-import { Navigation } from "react-native-navigation";
 import CommentScreenHeader from "../../Components/headers/CommentScreenHeader";
 export default function Comments(props) {
   let [commentText, setCommentText] = useState("");
@@ -64,29 +66,42 @@ export default function Comments(props) {
       .collection("comments")
       .add({
         commentText,
+        likes: [],
+        disLikes: [],
         uid: auth().currentUser.uid,
       });
   };
 
   return (
-    <View style={{ flex: 1 }}>
-      <CommentScreenHeader props={props} userData={user}  />
-      <View>
-        <FlatList
-          style={{ marginBottom: "15%" }}
-          showsVerticalScrollIndicator={false}
-          data={comments}
-          renderItem={({ item }) => (
-            <CommentList docId={props.params} props={props} item={item} />
-          )}
-        />
+    <View>
+      <CommentScreenHeader props={props} userData={user} />
+      <View style={{ flex: 0 }}>
+          <FlatList
+            // style={{ marginBottom: "5%" }}s
+            // showsVerticalScrollIndicator={false}
+            data={comments}
+            renderItem={({ item }) => (
+              <CommentList
+                docId={props.params}
+                props={props}
+                params={props.params}
+                item={item}
+              />
+            )}
+          />
       </View>
-      <View style={{ flex: 1, justifyContent: "flex-end" }}>
-        <View
-          style={{ flexDirection: "row", position: "absolute", zIndex: 10 }}
-        >
+      <KeyboardAvoidingView
+      // style={{ justifyContent: "flex-end", flex: 0, display: "flex" }}
+      >
+        <View style={{ flexDirection: "row" }}>
+          <Image
+            source={{ uri: user ? user.userImg : null }}
+            height={50}
+            width={50}
+          />
           <TextInput
             placeholderTextColor="#000"
+            value={commentText}
             numberOfLines={4}
             placeholder={"Comment ....."}
             onChangeText={(text) => setCommentText(text)}
@@ -101,6 +116,9 @@ export default function Comments(props) {
             }}
           />
           <TouchableOpacity
+            disabled={
+              commentText.replace(/\s/g, "").length === 0 ? true : false
+            }
             onPress={() => {
               onSendComment();
               setCommentText("");
@@ -114,7 +132,51 @@ export default function Comments(props) {
             />
           </TouchableOpacity>
         </View>
-      </View>
+      </KeyboardAvoidingView>
     </View>
   );
 }
+//  <KeyboardAvoidingView
+//         style={{ flex: 1, justifyContent: "flex-end" }}
+//         behavior={"position"}
+//       >
+//         <View style={{ flexDirection: "row" }}>
+//           <Image
+//             source={{ uri: user ? user.userImg : null }}
+//             height={50}
+//             width={50}
+//           />
+//           <TextInput
+//             placeholderTextColor="#000"
+//             value={commentText}
+//             numberOfLines={4}
+//             placeholder={"Comment ....."}
+//             onChangeText={(text) => setCommentText(text)}
+//             style={{
+//               borderRadius: 35,
+//               padding: 0,
+//               width: width - 32,
+//               color: "#000",
+//               marginHorizontal: 5,
+//               marginVertical: 8,
+//               backgroundColor: "rgba(0,0,0,0.12)",
+//             }}
+//           />
+//           <TouchableOpacity
+//             disabled={
+//               commentText.replace(/\s/g, "").length === 0 ? true : false
+//             }
+//             onPress={() => {
+//               onSendComment();
+//               setCommentText("");
+//             }}
+//           >
+//             <MaterialCommunityIcons
+//               style={{ marginTop: 18 }}
+//               name="send"
+//               size={24}
+//               color="black"
+//             />
+//           </TouchableOpacity>
+//         </View>
+//       </KeyboardAvoidingView>
