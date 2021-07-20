@@ -1,16 +1,16 @@
-import React, { useEffect, useState, useRef } from "react";
-import { View, Text, Image, TouchableOpacity, Animated } from "react-native";
-import auth from "@react-native-firebase/auth";
-import moment from "moment";
-import LightBox from "react-native-lightbox";
-import firestore from "@react-native-firebase/firestore";
-import { padding, width, height } from "../../Utils/constants/styles";
-import { Card } from "react-native-elements";
-import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import AntDesign from "react-native-vector-icons/AntDesign";
-import { PhotogramText } from "../Text/PhotoGramText";
-import { TapGestureHandler } from "react-native-gesture-handler";
-import { Navigation } from "react-native-navigation";
+import React, { useEffect, useState, useRef } from 'react';
+import { View, Text, Image, TouchableOpacity, Animated } from 'react-native';
+import auth from '@react-native-firebase/auth';
+import moment from 'moment';
+import Lightbox from 'react-native-lightbox';
+import firestore from '@react-native-firebase/firestore';
+import { padding, width, height } from '../../Utils/constants/styles';
+import { Card } from 'react-native-elements';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+import { PhotogramText } from '../Text/PhotoGramText';
+import { TapGestureHandler } from 'react-native-gesture-handler';
+import { Navigation } from 'react-native-navigation';
 
 function PostCard({ item, navigation, onDelete, scale, props }) {
   const [userData, setUserData] = useState();
@@ -22,7 +22,7 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
 
   const getUser = async () => {
     firestore()
-      .collection("users")
+      .collection('users')
       .doc(item.uid)
       .onSnapshot((documentSnapshot) => {
         if (documentSnapshot.exists) {
@@ -55,7 +55,7 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
   const setUpdates = (postId) => {
     try {
       firestore()
-        .collection("Posts")
+        .collection('Posts')
         .doc(postId)
         .update({
           likes: !liked
@@ -70,7 +70,7 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
   let AddAsfavorited = (postId) => {
     try {
       firestore()
-        .collection("Posts")
+        .collection('Posts')
         .doc(postId)
         .update({
           favorited: !favorited
@@ -82,9 +82,9 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
 
   let getAllComments = () => {
     firestore()
-      .collection("Posts")
+      .collection('Posts')
       .doc(item.id)
-      .collection("comments")
+      .collection('comments')
       .onSnapshot((data) => {
         const Allcomments = data.docs.map((doc) => {
           const id = doc.id;
@@ -94,10 +94,10 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
       });
   };
 
-  let likeIcon = liked ? "like1" : "like2";
-  let FavoritedIconColor = favorited ? "#D6453A" : "#333";
-  let FavoritedIcon = favorited ? "heart" : "hearto";
-  let likeIconColor = liked === true ? "#000" : "#333";
+  let likeIcon = liked ? 'like1' : 'like2';
+  let FavoritedIconColor = favorited ? '#D6453A' : '#333';
+  let FavoritedIcon = favorited ? 'heart' : 'hearto';
+  let likeIconColor = liked === true ? '#000' : '#333';
 
   return (
     <TapGestureHandler
@@ -110,13 +110,13 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
         style={{
           width,
           marginVertical: 20,
-          alignSelf: "center",
+          alignSelf: 'center',
           borderRadius: 24,
         }}
       >
         <View
           style={{
-            backgroundColor: "#fff",
+            backgroundColor: '#fff',
             borderRadius: 24,
             elevation: 8,
             marginHorizontal: 18,
@@ -126,19 +126,20 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
             onPress={() => {
               Navigation.push(props.componentId, {
                 component: {
-                  name: "HOME_PROFILE_SCREEN",
-                  id: "HOME_PROFILE_SCREEN",
+                  name: 'HOME_PROFILE_SCREEN',
+                  id: 'HOME_PROFILE_SCREEN',
                   passProps: {
                     item: item,
-                  },options:{
-                    bottomTabs:{
-                      visible:false
-                    }
-                  }
+                  },
+                  options: {
+                    bottomTabs: {
+                      visible: false,
+                    },
+                  },
                 },
               });
             }}
-            style={{ flexDirection: "row" }}
+            style={{ flexDirection: 'row' }}
           >
             <Image
               style={{
@@ -150,24 +151,24 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
               source={{
                 uri: userData
                   ? userData.userImg ||
-                    "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
-                  : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png",
+                    'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'
+                  : 'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png',
               }}
             />
             <Text
               style={{
-                justifyContent: "center",
-                alignItems: "center",
-                marginTop: "8%",
-                color: "#000",
-                fontWeight: "bold",
+                justifyContent: 'center',
+                alignItems: 'center',
+                marginTop: '8%',
+                color: '#000',
+                fontWeight: 'bold',
                 fontSize: padding - 8,
               }}
             >
-              {userData ? userData.userName : "Test"}
+              {userData ? userData.userName : 'Test'}
             </Text>
           </TouchableOpacity>
-          <Text style={{ position: "absolute", top: height / 14, left: "27%" }}>
+          <Text style={{ position: 'absolute', top: height / 14, left: '27%' }}>
             {moment(item.createdAt.toDate()).fromNow()}
           </Text>
           <Card.Divider />
@@ -180,24 +181,33 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
           >
             {item.postText}
           </Text>
-          <Image
-            resizeMode="cover"
-            source={{ uri: item.image }}
-            style={{
-              width: item.image ? width - 42 : 0,
-              alignSelf: "center",
-              height: item.image ? height / 2.7 : 0,
-            }}
-          />
+          <Lightbox>
+            <Image
+              resizeMode="cover"
+              source={{ uri: item.image }}
+              style={{
+                // width: item.image ? width - 42 : 0,
+                flex:item.image ? 1 : 0,
+                height: item.image ? 250 : 0,
+              }}
+            />
+          </Lightbox>
+{/* <Lightbox underlayColor="white">
+            <Image
+              style={{flex:1, height: 150,}}
+              resizeMode="contain"
+              source={{ uri: 'https://reactnativecode.com/wp-content/uploads/2017/06/sample_image.png' }}
+            />
+          </Lightbox> */}
           <View>
             {auth().currentUser.uid === item.uid ? (
               <View
                 style={{
-                  flexDirection: "row",
-                  justifyContent: "space-between",
+                  flexDirection: 'row',
+                  justifyContent: 'space-between',
                 }}
               >
-                <View style={{ flexDirection: "row" }}>
+                <View style={{ flexDirection: 'row' }}>
                   <MaterialCommunityIcons
                     name="comment-text-outline"
                     size={32}
@@ -206,8 +216,8 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
                     onPress={() => {
                       Navigation.push(props.componentId, {
                         component: {
-                          name: "COMMENTS_SCREEN",
-                          id: "COMMENTS_SCREEN",
+                          name: 'COMMENTS_SCREEN',
+                          id: 'COMMENTS_SCREEN',
                           passProps: {
                             params: item.id,
                           },
@@ -222,7 +232,7 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
                   />
                   <PhotogramText
                     text={comments}
-                    fontWeight={"h1"}
+                    fontWeight={'h1'}
                     fontSize={22}
                     extraStyles={{ marginTop: padding - 2, marginLeft: 6 }}
                   />
@@ -243,11 +253,11 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
               <>
                 <View
                   style={{
-                    flexDirection: "row",
-                    justifyContent: "space-between",
-                    alignSelf: "flex-end",
+                    flexDirection: 'row',
+                    justifyContent: 'space-between',
+                    alignSelf: 'flex-end',
                     top: 0,
-                    position: "absolute",
+                    position: 'absolute',
                   }}
                 >
                   <TouchableOpacity
@@ -266,19 +276,19 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
                     <PhotogramText
                       fontSize={22}
                       text={likes}
-                      fontWeight={"h1"}
+                      fontWeight={'h1'}
                       extraStyles={{
-                        position: "absolute",
+                        position: 'absolute',
                         right: 24,
                         top: -46,
                       }}
                     />
                   </TouchableOpacity>
                 </View>
-                <View style={{ flexDirection: "row" }}>
+                <View style={{ flexDirection: 'row' }}>
                   <TouchableOpacity
                     style={{
-                      flexDirection: "row",
+                      flexDirection: 'row',
                       marginTop: padding - 3,
                       marginLeft: 6,
                     }}
@@ -292,7 +302,7 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
                       style={{ marginLeft: 24 }}
                     />
                   </TouchableOpacity>
-                  <View style={{ flexDirection: "row" }}>
+                  <View style={{ flexDirection: 'row' }}>
                     <MaterialCommunityIcons
                       name="comment-text-outline"
                       size={32}
@@ -301,8 +311,8 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
                       onPress={() => {
                         Navigation.push(props.componentId, {
                           component: {
-                            name: "COMMENTS_SCREEN",
-                            id: "COMMENTS_SCREEN",
+                            name: 'COMMENTS_SCREEN',
+                            id: 'COMMENTS_SCREEN',
                             passProps: {
                               params: item.id,
                             },
@@ -317,7 +327,7 @@ function PostCard({ item, navigation, onDelete, scale, props }) {
                     />
                     <PhotogramText
                       text={comments}
-                      fontWeight={"h1"}
+                      fontWeight={'h1'}
                       fontSize={22}
                       extraStyles={{ marginTop: padding - 2, marginLeft: 6 }}
                     />

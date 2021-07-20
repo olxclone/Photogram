@@ -1,47 +1,46 @@
-import React, { memo, useEffect, useState } from "react";
-import {
-  View,
-  Image,
-  TouchableOpacity,
-  Text,
-  Modal as RNModal,
-  ActivityIndicator,
-} from "react-native";
+import React, { useEffect, useRef, useState } from 'react';
+import { View, Image,
+  TextInput,
+  Modal,Button
+ } from 'react-native';
+import auth from '@react-native-firebase/auth';
+import firestore from '@react-native-firebase/firestore';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+import ImagePicker from 'react-native-image-crop-picker';
+import ChatScreenHeader from '../../Components/headers/ChatScreenHeader';
 import {
   GiftedChat,
   Bubble,
+  Actions,
   InputToolbar,
   MessageImage,
   Send,
-} from "react-native-gifted-chat";
-import auth from "@react-native-firebase/auth";
-import firestore from "@react-native-firebase/firestore";
-import AntDesign from "react-native-vector-icons/AntDesign";
-import storage from "@react-native-firebase/storage";
-import { height, width } from "../../Utils/constants/styles";
-import ImagePicker from "react-native-image-crop-picker";
-import { Navigation } from "react-native-navigation";
-import ChatScreenHeader from "../../Components/headers/ChatScreenHeader";
+} from 'react-native-gifted-chat';
+import RNFS from 'react-native-fs';
+import moment from 'moment';
+import { width, height } from '../../Utils/constants/styles';
 
 function chatRoom(props) {
   const [messages, setMessages] = useState([]);
-  const [messageImageUri, setMessageImageUri] = useState("");
-  const [uploading, setUploading] = useState("");
-  const [transferred, setTransferred] = useState("");
-  const [messageImage, setMessageImage] = useState("");
+  const [messageImageUri, setMessageImageUri] = useState('');
+  const [uploading, setUploading] = useState('');
+  const [transferred, setTransferred] = useState('');
+  const [messageImage, setMessageImage] = useState('');
   const [text, setText] = useState();
   const [userData, setUserData] = useState();
+  const flatListRef = useRef();
 
   useEffect(() => {
+    getUser();
     const docid =
       props.params.uid > auth().currentUser.uid
-        ? auth().currentUser.uid + "-" + props.params.uid
-        : props.params.uid + "-" + auth().currentUser.uid;
+        ? auth().currentUser.uid + '-' + props.params.uid
+        : props.params.uid + '-' + auth().currentUser.uid;
     const messageRef = firestore()
-      .collection("chatrooms")
+      .collection('chatrooms')
       .doc(docid)
-      .collection("messages")
-      .orderBy("createdAt", "desc");
+      .collection('messages')
+      .orderBy('createdAt', 'desc');
     const unSubscribe = messageRef.onSnapshot((querySnap) => {
       const allmsg = querySnap.docs.map((docSanp) => {
         const data = docSanp.data();
@@ -59,102 +58,133 @@ function chatRoom(props) {
       });
       setMessages(allmsg);
     });
-    return () => {
-      unSubscribe();
-    };
   }, []);
 
   const choosePhotoFromLibrary = () => {
     ImagePicker.openPicker({
-      width: 300,
-      height: 400,
+      width: 1080,
+      height: 2000,
       cropping: true,
     }).then((image) => {
       setMessageImageUri(image.path);
+      RNFS.readFile(image.path, 'base64').then((c) => {
+        setMessageImage('data:image/jpeg;base64,' + c);
+      });
     });
   };
 
-  const uploadImage = async () => {
-    if (!messageImageUri) {
-      Alert.alert("Choose a image", "Please choose a image to continue");
-    } else {
-      const path = `profile/${Date.now()}/${Date.now()}`;
-      return new Promise(async (resolve, rej) => {
-        const response = await fetch(messageImageUri);
-        const file = await response.blob();
-        let upload = storage().ref(path).put(file);
-        upload.on(
-          "state_changed",
-          (snapshot) => {
-            setUploading(true);
-            console.log(
-              `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`
-            );
-            setTransferred(
-              Math.round(snapshot.bytesTransferred / snapshot.totalBytes) * 100
-            );
-          },
-
-          (err) => {
-            rej(err);
-          },
-          async () => {
-            const url = await upload.snapshot.ref.getDownloadURL();
-            console.log(url);
-            setMessageImage(url);
-            setMessageImageUri(null);
-            resolve(url);
-            setUploading(false);
-            return url;
-          }
-        );
+  const openCamera = () => {
+    ImagePicker.openCamera({
+      width: 1080,
+      height: 2000,
+    }).then((image) => {
+      setMessageImageUri(image.path);
+      RNFS.readFile(image.path, 'base64').then((c) => {
+        setMessageImage('data:image/jpeg;base64,' + c);
       });
-    }
-  };
+    })
+  }
 
-  const onSend = (messageArray) => {
-    const msg = messageArray[0];
-    console.log(msg);
+  const getUser = async () => {
+    await firestore()
+      .collection('users')
+      .doc(auth().currentUser.uid)
+      .onSnapshot((documentSnapshot) => {
+        if (documentSnapshot.exists) {
+          setUserData(documentSnapshot.data());
+        }
+      });
+  };
+  function renderActions(props) {
+    return (
+      <Actions
+        {...props}
+        options={{
+          ['Pick Image From Library']: choosePhotoFromLibrary,
+          ['Camera']:openCamera,
+        }}
+        icon={() => <AntDesign name={'camera'} size={28} color={'black'} />}
+        onSend={(args) => onSend(args)}
+      />
+    );
+  }
+
+  const onSend = () => {
     const mymsg = {
-      ...msg,
       text: text ? text : null,
       sentBy: auth().currentUser.uid,
       sentTo: props.params.uid,
       image: messageImage || null,
+      time: moment().format('hh:mm A'),
       createdAt: new Date(),
+      user: {
+        _id: `${auth().currentUser.uid}`,
+      },
     };
-    setMessages((previousMessages) =>
-      GiftedChat.append(previousMessages, mymsg)
-    );
     const docid =
       props.params.uid > auth().currentUser.uid
-        ? auth().currentUser.uid + "-" + props.params.uid
-        : props.params.uid + "-" + auth().currentUser.uid;
+        ? auth().currentUser.uid + '-' + props.params.uid
+        : props.params.uid + '-' + auth().currentUser.uid;
     firestore()
-      .collection("chatrooms")
+      .collection('chatrooms')
       .doc(docid)
-      .collection("messages")
+      .collection('messages')
       .add({
         ...mymsg,
-        token: "something",
+        token: 'something',
         createdAt: firestore.FieldValue.serverTimestamp(),
+      })
+      .then(() => {
+        sendPushNotification();
+        setMessageImageUri(null);
+        setMessageImage(null);
       });
+    setText('');
+    setMessageImage(null);
+  };
+
+  const sendPushNotification = async () => {
+    const FIREBASE_API_KEY =
+      'AAAA_x7hFhA:APA91bEs3Q-uDXebSY5ZXZwJYRL-23nYtZ0dVdsHEKv3LI6cueK5VLyfmaWpqEObWDg4NXPtOdFWmylNuyRNgdjlMedCL3eI0YsXVZDMeIiQjyFlbIHpSefC-VNId8QMPuTn2qwOQ-Zn';
+    const message = {
+      to: `${props.params.token}`,
+      notification: {
+        title: userData ? userData.userName : '',
+        body: text,
+        vibrate: 1,
+        sound: 1,
+        show_in_foreground: true,
+        priority: 'high',
+        content_available: true,
+      },
+    };
+
+    let headers = new Headers({
+      'Content-Type': 'application/json',
+      Authorization: 'key=' + FIREBASE_API_KEY,
+    });
+
+    let response = await fetch('https://fcm.googleapis.com/fcm/send', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify(message),
+    });
+    response = await response.json();
+    console.log(response);
   };
 
   return (
-    <View style={{ flex: 1, backgroundColor: "#fff" }}>
+    <View style={{ flex: 1, backgroundColor: '#fff' }}>
       <ChatScreenHeader
-        status={props.params ? props.params.status : "offline"}
+        status={props.params ? props.params.status : 'offline'}
         props={props}
-        userName={props.params ? props.params.userName : "Test"}
+        userName={props.params ? props.params.userName : 'Test'}
         userImg={
           props.params
             ? props.params.userImg
-            : "https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png"
+            : 'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'
         }
       />
-
-   
       <GiftedChat
         onInputTextChanged={(text) => setText(text)}
         renderSend={(props) => (
@@ -169,35 +199,17 @@ function chatRoom(props) {
           );
         }}
         messages={messages}
-        renderActions={() => {
-          return (
-            <TouchableOpacity
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-              onPress={() => choosePhotoFromLibrary()}
-            >
-              <AntDesign
-                name="camera"
-                style={{ marginBottom: 6, marginLeft: 8 }}
-                size={24}
-                color="black"
-              />
-            </TouchableOpacity>
-          );
-        }}
+        renderActions={renderActions}
         renderBubble={(props) => {
           return (
             <Bubble
               {...props}
               wrapperStyle={{
                 right: {
-                  backgroundColor: "#229AC9",
+                  backgroundColor: '#229AC9',
                 },
                 left: {
-                  backgroundColor: "#DFDFDF",
+                  backgroundColor: '#DFDFDF',
                 },
               }}
             />
@@ -208,53 +220,32 @@ function chatRoom(props) {
         }}
         onSend={(messages) => onSend(messages)}
       />
-      <RNModal visible={messageImageUri || uploading ? true : false}>
-        <View
+    
+        <Modal visible={messageImageUri ? true : false}>
+          <View>
+            <Image
+              source={{ uri: messageImageUri }}
+              style={{width,height:height/3}}
+            />
+            <TextInput
+          placeholder="What's on your mind?"
+          multiline
+          numberOfLines={4}
           style={{
-            display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            fontSize: 24,
+            textAlign: "center",
+            width: "90%",
+            fontFamily: "Roboto-Regular",
+            marginBottom: 0,
           }}
-        >
-          <Image
-            source={{ uri: messageImageUri }}
-            style={{ width, height: height / 4 }}
-          />
-          {uploading ? (
-            <View
-              style={{
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <Text>{transferred} % Completed!</Text>
-              <ActivityIndicator size="large" color="#45A4F9" />
-            </View>
-          ) : (
-            <TouchableOpacity
-              onPress={() => uploadImage()}
-              activeOpacity={3}
-              style={{
-                flexDirection: "row",
-                justifyContent: "center",
-                backgroundColor: "#2e64e515",
-                borderRadius: 5,
-                padding: 10,
-              }}
-            >
-              <Text
-                style={{
-                  fontSize: 18,
-                  fontWeight: "bold",
-                  color: "#4657",
-                }}
-              >
-                <AntDesign name="check" size={24} color="black" />
-              </Text>
-            </TouchableOpacity>
-          )}
-        </View>
-      </RNModal>
+          value={text}
+          onChangeText={(content) => setText(content)}
+        />
+        <Button title={'send'} onPress={onSend} />
+          </View>
+        </Modal>
     </View>
   );
 }

@@ -9,9 +9,9 @@ import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.facebook.react.ReactPackage;
-import com.oblador.shimmer.RNShimmerPackage;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 import com.microsoft.codepush.react.CodePush;
 import com.oblador.shimmer.RNShimmerPackage;
 
@@ -35,6 +35,7 @@ public class MainApplication extends NavigationApplication {
           List<ReactPackage> packages = new PackageList(this).getPackages();
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
+          new ReactNativeFirebaseMessagingPackage();
           new RNShimmerPackage();
           return packages;
         }

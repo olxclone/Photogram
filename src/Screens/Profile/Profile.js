@@ -12,7 +12,6 @@ import {
 } from "react-native";
 import auth from "@react-native-firebase/auth";
 import firestore from "@react-native-firebase/firestore";
-
 import { height, padding, width } from "../../Utils/constants/styles";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
@@ -22,6 +21,7 @@ import { Transitioning, Transition } from "react-native-reanimated";
 import ProfileHeader from "../../Components/headers/ProfileHeader";
 import { DotIndicator } from "react-native-indicators";
 import { Navigation } from "react-native-navigation";
+import Lightbox from "react-native-lightbox";
 
 function Profile(props) {
   const [posts, setPosts] = useState([]);
@@ -157,7 +157,8 @@ function Profile(props) {
     await firestore()
       .collection("users")
       .doc(auth().currentUser.uid)
-      .onSnapshot((documentSnapshot) => {
+      .get()
+      .then((documentSnapshot) => {
         if (documentSnapshot.exists) {
           setCurrentUser(documentSnapshot.data());
         }
@@ -168,9 +169,8 @@ function Profile(props) {
     ref.current.animateNextTransition();
     fetchPosts();
     fetchChatUser();
-    getCurrentUser();
     getUser();
-    let unmount = getCurrentUser();
+    getCurrentUser();
     if (
       currentUser
         ? currentUser.following.indexOf(props.item ? props.item.uid : null) > -1
@@ -180,7 +180,6 @@ function Profile(props) {
     } else {
       setFollowing(false);
     }
-    return () => unmount;
   }, [following]);
 
   let ref = React.createRef();
@@ -226,7 +225,7 @@ function Profile(props) {
         userName={userData ? userData.userName : "Test"}
       />
       <View style={{ flexDirection: "row" }}>
-        <Image
+             <Image
           style={styles.userImg}
           source={{
             uri: userData
@@ -237,6 +236,8 @@ function Profile(props) {
             // uri : 'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'
           }}
         />
+
+     
         <View style={styles.userInfoWrapper}>
           <View style={styles.userInfoItem}>
             <Text style={styles.userInfoTitle}>{posts.length}</Text>
@@ -492,25 +493,16 @@ function Profile(props) {
                   fontSize={18}
                 />
               ) : posts.image !== null ? (
-                <TouchableOpacity
-                  activeOpacity={3}
-                  onPress={() =>
-                    navigation.navigate("ImageDetails", {
-                      userData: userData,
-                      item: item,
-                    })
-                  }
-                >
                   <Image
                     source={{ uri: item.image }}
                     style={{
                       alignSelf: "center",
+                      flex:1,
                       width: item.image !== null ? width / 3.2 : 0,
                       height: item.image !== null ? height / 6 : 0,
                       margin: 2,
                     }}
                   />
-                </TouchableOpacity>
               ) : (
                 <></>
               );
@@ -545,9 +537,8 @@ const styles = StyleSheet.create({
   userImg: {
     height: 100,
     width: 100,
-    shadowColor: "#222",
-    elevation: 8,
-    marginLeft: 12,
+    marginLeft:18,
+    // flex:1,
     marginTop: 24,
     borderRadius: 75,
   },

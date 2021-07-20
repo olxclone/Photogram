@@ -4,7 +4,7 @@
     <string name="firebase_database_url" translatable="false">https://olxclone-3137d-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">1095734728208</string>
     <string name="google_api_key" translatable="false">AIzaSyBTr-bKS7BLxIkRcouPTnbMNLJBtPdx8rk</string>
-    <string name="google_app_id" translatable="false">1:1095734728208:android:67134af0767fb504051c95</string>
+    <string name="google_app_id" translatable="false">1:1095734728208:android:c13ca6a246e4d04a051c95</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTr-bKS7BLxIkRcouPTnbMNLJBtPdx8rk</string>
     <string name="google_storage_bucket" translatable="false">olxclone-3137d.appspot.com</string>
     <string name="project_id" translatable="false">olxclone-3137d</string>

@@ -8,11 +8,15 @@ import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import * as Animatable from "react-native-animatable";
 import AntDesign from "react-native-vector-icons/AntDesign";
 import { ActivityIndicator } from "react-native-paper";
+import messaging from '@react-native-firebase/messaging'
+import firestore from "@react-native-firebase/firestore";
 
 function signIn({ navigation }) {
   const [password, setPassword] = useState("");
   const [focus, setFocus] = useState();
   const [email, setEmail] = useState("");
+  const [fcmToken,setFcmToken] = useState();
+
   const [keyboard, setKeyboard] = useState(false);
   const [disabled, setDisabled] = useState(true);
   const [loggingIn,setLoggingIn] = useState(false)
@@ -26,6 +30,11 @@ function signIn({ navigation }) {
   };
 
   useEffect(() => {
+      messaging()
+    .getToken()
+    .then(token => {
+      setFcmToken(token)
+      console.log(token)})
     Keyboard.addListener("keyboardDidShow", () => setKeyboard(true));
     Keyboard.addListener("keyboardDidHide", () => setKeyboard(false));
     setTimeout(() => {
@@ -37,6 +46,14 @@ function signIn({ navigation }) {
     setLoggingIn(true)
     auth()
       .signInWithEmailAndPassword(email, password)
+      .then((values) => {
+        firestore()
+        .collection('users')
+        .doc(values.user.uid)
+        .update({
+          token : fcmToken
+        })
+      })
       .catch((error) => {
         setLoggingIn(false)
         Alert.alert(error.message);

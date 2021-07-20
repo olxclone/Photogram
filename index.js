@@ -19,6 +19,8 @@ import {
   SIGNUP_SCREEN,
   REPLIES,
 } from "./src/Screens";
+import firestore from '@react-native-firebase/firestore'
+import auth from '@react-native-firebase/auth'
 import { LogBox } from "react-native";
 
 let CodePushOptions = {
@@ -101,6 +103,12 @@ const LoginRoot = {
 
 Navigation.events().registerAppLaunchedListener(async () => {
   Navigation.setRoot(LoginRoot);
+  firestore()
+  .collection('users')
+  .doc(auth().currentUser.uid)
+  .update({
+    status : 'online'
+  })
 });
 
 PROFILE_SCREEN.options = {

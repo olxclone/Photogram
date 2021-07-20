@@ -1241,7 +1241,7 @@
     <item quantity="one"><ns1:g id="count">%d</ns1:g> new notification</item>
     <item quantity="other"><ns1:g id="count">%d</ns1:g> new notifications</item>
   </plurals>
-    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1625329615926"</string>
+    <string name="CODE_PUSH_APK_BUILD_TIME" translatable="false">"1626769723017"</string>
     <string moduleConfig="true" name="CodePushDeploymentKey">WLpQIdg7Um5Vlwme3a1oVwUeleCUGQqutmZSE</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -1309,6 +1309,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="chip_text">Chip text</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
     <string name="combobox_description" translatable="false">Combo Box</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
@@ -1328,7 +1329,6 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="copy_toast_msg">Link copied to clipboard</string>
     <string name="default_web_client_id" translatable="false">1095734728208-38mq8i867brta76f1erf8e6aa36k7i3q.apps.googleusercontent.com</string>
     <string name="drawer_close">Drawer Close</string>
     <string name="drawer_open">Drawer Open</string>
@@ -1336,14 +1336,11 @@
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
-    <string name="fallback_menu_item_copy_link">Copy link</string>
-    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
-    <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="firebase_database_url" translatable="false">https://olxclone-3137d-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">1095734728208</string>
     <string name="google_api_key" translatable="false">AIzaSyBTr-bKS7BLxIkRcouPTnbMNLJBtPdx8rk</string>
-    <string name="google_app_id" translatable="false">1:1095734728208:android:67134af0767fb504051c95</string>
+    <string name="google_app_id" translatable="false">1:1095734728208:android:c13ca6a246e4d04a051c95</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBTr-bKS7BLxIkRcouPTnbMNLJBtPdx8rk</string>
     <string name="google_storage_bucket" translatable="false">olxclone-3137d.appspot.com</string>
     <string name="header_description" translatable="false">Heading</string>

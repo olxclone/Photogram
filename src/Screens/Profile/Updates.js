@@ -3,7 +3,6 @@ import { TouchableOpacity } from "react-native";
 import { View, Text } from "react-native";
 import codePush from "react-native-code-push";
 import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
-import PushNotification from "react-native-push-notification";
 
 export default function Updates() {
   let [packageMetadata, setPackageMetadata] = useState();
@@ -53,16 +52,7 @@ export default function Updates() {
     //   priority: "high",
     // });
   };
-  useEffect(() => {
-    PushNotification.createChannel(
-      {
-        channelId: "MY_CHANNE_ID", // (required)
-        channelName: "My channel",
-        channelDescription: "A channel to categorise your notifications",
-      },
-      (created) => console.log(`createChannel returned '${created}'`) // (optional) callback returns whether the channel was created, false means it already existed.
-    );
-  }, []);
+
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <PhotoGramButton

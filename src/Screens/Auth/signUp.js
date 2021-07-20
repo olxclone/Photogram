@@ -16,12 +16,14 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 import { Alert } from "react-native";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { ActivityIndicator } from "react-native-paper";
+import messaging from '@react-native-firebase/messaging'
 
 function signUp() {
   const [password, setPassword] = useState("");
   const [loggingIn, setLoggginIn] = useState(false);
   const [keyboard, setKeyboard] = useState(false);
   const [email, setEmail] = useState("");
+  const [fcmToken,setFcmToken] = useState();
   const [focus, setFocus] = useState();
   const [userName, setUserName] = useState("");
   const [userNameExists, setuserNameExists] = useState(false);
@@ -44,6 +46,11 @@ function signUp() {
     Keyboard.addListener("keyboardDidHide", () => setKeyboard(false));
     let nickname = userName.toLowerCase().replace(/\s/g, "");
     setuserNameExists(false);
+    messaging()
+    .getToken()
+    .then(token => {
+      setFcmToken(token)
+      console.log(token)})
     setNickName(nickname);
   });
 
@@ -63,6 +70,7 @@ function signUp() {
               nickName,
               userImg: "",
               email,
+              token:fcmToken,
               following: [],
               followers: [],
               uid: user.user.uid,

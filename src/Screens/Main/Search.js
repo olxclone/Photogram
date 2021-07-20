@@ -44,11 +44,11 @@ export default function Search(props) {
 
   return (
     <View
-      style={{
-        justifyContent: "center",
-        position: "absolute",
-        alignItems: "center",
-      }}
+    style={{
+      justifyContent: "center",
+      alignItems: "center",
+    }}
+    showsVerticalScrollIndicator={false}
     >
       <View
         style={{
@@ -86,6 +86,7 @@ export default function Search(props) {
       <FlatList
         data={userData}
         key={userData.uid}
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }) => {
           return (
             <ScrollView>

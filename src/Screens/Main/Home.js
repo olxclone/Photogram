@@ -10,6 +10,8 @@ import {
   BackHandler,
 } from "react-native";
 import storage from "@react-native-firebase/storage";
+import messaging from "@react-native-firebase/messaging";
+import moment from "moment";
 import firestore from "@react-native-firebase/firestore";
 import auth from "@react-native-firebase/auth";
 import Shimmer from "react-native-shimmer";
@@ -82,7 +84,19 @@ function Home(props) {
       });
   };
 
+  async function requestUserPermission() {
+    const authStatus = await messaging().requestPermission();
+    const enabled =
+      authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
+      authStatus === messaging.AuthorizationStatus.PROVISIONAL;
+  
+    if (enabled) {
+      console.log('Authorization status:', authStatus);
+    }
+  }
+
   useEffect(() => {
+
     Navigation.events().registerScreenPoppedListener(() => {
       Navigation.mergeOptions(props.componentId, {
         bottomTabs: {
@@ -153,7 +167,7 @@ function Home(props) {
   useEffect(() => {
     BackHandler.addEventListener("hardwareBackPress", () => {
       firestore().collection("users").doc(auth().currentUser.uid).update({
-        status: firestore.FieldValue.serverTimestamp(),
+        status: moment().calendar(),
       });
       BackHandler.exitApp();
     });

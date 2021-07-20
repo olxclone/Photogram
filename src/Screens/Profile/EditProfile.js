@@ -18,13 +18,14 @@ import storage from "@react-native-firebase/storage";
 import firestore from "@react-native-firebase/firestore";
 import { padding, width, height } from "../../Utils/constants/styles";
 import { SafeAreaView } from "react-native-safe-area-context";
-import EditProfileheader from "../../Components/headers/header";
+import RNFS from 'react-native-fs';
 import ImagePicker from "react-native-image-crop-picker";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import BottomSheet from "reanimated-bottom-sheet";
 import Animated from "react-native-reanimated";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { ActivityIndicator } from "react-native-paper";
+import ImgToBase64 from 'react-native-image-base64';
 import { Navigation } from "react-native-navigation";
 
 function EditProfile(props) {
@@ -43,14 +44,17 @@ function EditProfile(props) {
 
   const takePhotoFromCamera = () => {
     ImagePicker.openCamera({
-      compressImageMaxWidth: 300,
-      compressImageMaxHeight: 300,
+      width: 700,
+      height: 700,
       cropping: true,
-      compressImageQuality: 0.7,
     }).then((image) => {
       console.log(image);
       const imageUri = image.path;
       setImageUri(imageUri);
+      RNFS.readFile(image.path,'base64')
+      .then(uri => {
+        setImageUrl('data:image/jpeg;base64,'+uri)
+      })
       bs.current.snapTo(1);
     });
   };
@@ -61,8 +65,12 @@ function EditProfile(props) {
       height: 400,
       cropping: true,
     }).then((image) => {
-      console.log(image.path);
+      console.log(image.data);
       setImageUri(image.path);
+     RNFS.readFile(image.path,'base64')
+     .then(uri => {
+       setImageUrl('data:image/jpeg;base64,'+uri)
+     })
       bs.current.snapTo(1);
     });
   };
@@ -85,6 +93,9 @@ function EditProfile(props) {
     setNickName(userName.replace(/\s/g, ""));
     return () => cleanUp;
   }, []);
+  useEffect(() => {
+
+  })
 
   const onUpdate = async () => {
     if (
@@ -215,15 +226,6 @@ function EditProfile(props) {
               fontSize: padding - 3,
             }}
           />
-          {/* <Text
-          style={{
-            position: 'absolute',
-            left: padding + 18,
-            fontWeight: 'bold',
-            fontSize: padding - 3,
-          }}>
-          Edit Profile
-        </Text> */}
           {updating ? (
             <ActivityIndicator color={"#128EF2"} size={24} />
           ) : (

@@ -29,14 +29,16 @@ import io.invertase.firebase.messaging.ReactNativeFirebaseMessagingPackage;
 import io.invertase.firebase.storage.ReactNativeFirebaseStoragePackage;
 // react-native-code-push
 import com.microsoft.codepush.react.CodePush;
+// react-native-fs
+import com.rnfs.RNFSPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
+// react-native-image-base64
+import fr.snapp.imagebase64.RNImgToBase64Package;
 // react-native-image-crop-picker
 import com.reactnative.ivpusic.imagepicker.PickerPackage;
 // react-native-navigation
 import com.reactnativenavigation.react.NavigationPackage;
-// react-native-push-notification
-import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 // react-native-reanimated
 import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-safe-area-context
@@ -101,10 +103,11 @@ public class PackageList {
       new ReactNativeFirebaseMessagingPackage(),
       new ReactNativeFirebaseStoragePackage(),
       new CodePush(getResources().getString(com.chat.R.string.CodePushDeploymentKey), getApplicationContext(), com.chat.BuildConfig.DEBUG),
+      new RNFSPackage(),
       new RNGestureHandlerPackage(),
+      new RNImgToBase64Package(),
       new PickerPackage(),
       new NavigationPackage(reactNativeHost),
-      new ReactNativePushNotificationPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNShimmerPackage(),

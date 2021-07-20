@@ -16,7 +16,7 @@ export default function ChatScreenHeader({ props, userName, userImg, status }) {
         <AntDesign name="close" color="#000" size={24} />
       </TouchableOpacity>
       <Image
-        source={{ uri: userImg }}
+        source={{ uri: userImg  ? userImg : 'https://www.pngkey.com/png/detail/950-9501315_katie-notopoulos-katienotopoulos-i-write-about-tech-user.png'}}
         style={{
           height: 40,
           width: 40,
@@ -25,15 +25,15 @@ export default function ChatScreenHeader({ props, userName, userImg, status }) {
           borderRadius: 204,
         }}
       />
-      <View style={{ justifyContent: "center", marginTop: 8 }}>
+      <View style={{ justifyContent: "center", marginTop: 18 }}>
         <Text style={{ fontSize: 18, fontWeight: "bold", marginLeft: 8 }}>
           {userName}
         </Text>
         <Text style={{ marginLeft: 8 }}>
-          {status === "offline" ? (
-            "offline"
+          {status === "online" ? (
+            "online"
           ) : (
-            <> {moment(status.toDate()).fromNow()}</>
+          `${status}`
           )}
         </Text>
       </View>
