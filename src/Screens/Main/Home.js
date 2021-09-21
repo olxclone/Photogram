@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef } from 'react';
 import {
   View,
   RefreshControl,
@@ -7,17 +7,15 @@ import {
   SafeAreaView,
   Text,
   Animated,
-  BackHandler,
-} from "react-native";
-import storage from "@react-native-firebase/storage";
-import messaging from "@react-native-firebase/messaging";
-import moment from "moment";
-import firestore from "@react-native-firebase/firestore";
-import auth from "@react-native-firebase/auth";
-import Shimmer from "react-native-shimmer";
-import { height, width } from "../../Utils/constants/styles";
-import PostCard from "../../Components/PostCard/PostCard";
-import { Navigation } from "react-native-navigation";
+} from 'react-native';
+import storage from '@react-native-firebase/storage';
+import messaging from '@react-native-firebase/messaging';
+import firestore from '@react-native-firebase/firestore';
+import auth from '@react-native-firebase/auth';
+import Shimmer from 'react-native-shimmer';
+import { height, width } from '../../Utils/constants/styles';
+import PostCard from '../../Components/PostCard/PostCard';
+import { Navigation } from 'react-native-navigation';
 
 function Home(props) {
   const [posts, setPosts] = useState(null);
@@ -29,7 +27,7 @@ function Home(props) {
 
   const getUser = async () => {
     let currentUser = await firestore()
-      .collection("users")
+      .collection('users')
       .doc(auth().currentUser.uid)
       .onSnapshot((documentSnaphot) => {
         setUser(documentSnaphot.data());
@@ -42,16 +40,16 @@ function Home(props) {
 
   const handleDelete = (postId) => {
     Alert.alert(
-      "Delete post",
-      "Are you sure?",
+      'Delete post',
+      'Are you sure?',
       [
         {
-          text: "Cancel",
-          onPress: () => console.log("Cancel Pressed!"),
-          style: "cancel",
+          text: 'Cancel',
+          onPress: () => console.log('Cancel Pressed!'),
+          style: 'cancel',
         },
         {
-          text: "Confirm",
+          text: 'Confirm',
           onPress: () => deletePost(postId),
         },
       ],
@@ -61,7 +59,7 @@ function Home(props) {
 
   const deletePost = (postId) => {
     firestore()
-      .collection("Posts")
+      .collection('Posts')
       .doc(postId)
       .get()
       .then((documentSnapshot) => {
@@ -89,14 +87,13 @@ function Home(props) {
     const enabled =
       authStatus === messaging.AuthorizationStatus.AUTHORIZED ||
       authStatus === messaging.AuthorizationStatus.PROVISIONAL;
-  
+
     if (enabled) {
       console.log('Authorization status:', authStatus);
     }
   }
 
   useEffect(() => {
-
     Navigation.events().registerScreenPoppedListener(() => {
       Navigation.mergeOptions(props.componentId, {
         bottomTabs: {
@@ -109,26 +106,26 @@ function Home(props) {
   const deleteFirestoreData = (postId) => {
     console.log(postId);
     firestore()
-      .collection("Posts")
+      .collection('Posts')
       .doc(postId)
       .delete()
       .catch((e) => console.log(e))
       .then(() => {
         Alert.alert(
-          "Post deleted!",
-          "Your post has been deleted successfully!"
+          'Post deleted!',
+          'Your post has been deleted successfully!'
         );
         setDeleted(true);
       })
-      .catch((e) => console.log("Error deleting post.", e));
+      .catch((e) => console.log('Error deleting post.', e));
   };
 
   const fetchPosts = async () => {
     try {
       const Lists = [];
       await firestore()
-        .collection("Posts")
-        .orderBy("createdAt", "desc")
+        .collection('Posts')
+        .orderBy('createdAt', 'desc')
         .get()
         .then((querySnapshot) => {
           querySnapshot.forEach((doc) => {
@@ -165,40 +162,23 @@ function Home(props) {
   };
 
   useEffect(() => {
-    BackHandler.addEventListener("hardwareBackPress", () => {
-      firestore().collection("users").doc(auth().currentUser.uid).update({
-        status: moment().calendar(),
-      });
-      BackHandler.exitApp();
-    });
     let cleanUp = getUser();
     setDeleted(false);
-    return function () {
-      cleanUp;
-    };
-  }, [deleted]);
+  });
 
   useEffect(() => {
-    let cleanUp = fetchPosts();
-    if (posts === null || undefined) {
-      setLoading(true);
-    } else {
-      setLoading(false);
-    }
-    return function () {
-      cleanUp;
-    };
-  }, [loading]);
+    fetchPosts();
+  }, []);
 
   if (loading) {
     return (
       <View>
-        <View style={{ backgroundColor: "#FFF", padding: 16 }}>
+        <View style={{ backgroundColor: '#FFF', padding: 16 }}>
           <SafeAreaView>
             <Text
               style={{
-                alignSelf: "center",
-                fontWeight: "bold",
+                alignSelf: 'center',
+                fontWeight: 'bold',
                 fontSize: 32,
               }}
             >
@@ -208,7 +188,7 @@ function Home(props) {
         </View>
         <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
           <View style={{ flex: 1, marginTop: 24 }}>
-            <View style={{ flexDirection: "row" }}>
+            <View style={{ flexDirection: 'row' }}>
               <Shimmer
                 style={{
                   marginHorizontal: 24,
@@ -216,12 +196,12 @@ function Home(props) {
               >
                 <View
                   style={{
-                    backgroundColor: "grey",
+                    backgroundColor: 'grey',
                     width: width / 5.5,
                     height: height / 11,
                     borderRadius: 100,
                   }}
-                ></View>
+                />
               </Shimmer>
               <View>
                 <Shimmer
@@ -229,18 +209,18 @@ function Home(props) {
                 >
                   <View
                     style={{
-                      backgroundColor: "grey",
+                      backgroundColor: 'grey',
                     }}
-                  ></View>
+                  />
                 </Shimmer>
                 <Shimmer
                   style={{ marginTop: 12, width: width / 4, height: 20 }}
                 >
                   <View
                     style={{
-                      backgroundColor: "grey",
+                      backgroundColor: 'grey',
                     }}
-                  ></View>
+                  />
                 </Shimmer>
               </View>
             </View>
@@ -248,9 +228,9 @@ function Home(props) {
               <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
                 <View
                   style={{
-                    backgroundColor: "grey",
+                    backgroundColor: 'grey',
                   }}
-                ></View>
+                />
               </Shimmer>
               <Shimmer
                 style={{
@@ -262,9 +242,9 @@ function Home(props) {
               >
                 <View
                   style={{
-                    backgroundColor: "grey",
+                    backgroundColor: 'grey',
                   }}
-                ></View>
+                />
               </Shimmer>
             </View>
 
@@ -279,13 +259,13 @@ function Home(props) {
                   marginHorizontal: 24,
 
                   height: height / 3.5,
-                  backgroundColor: "grey",
+                  backgroundColor: 'grey',
                 }}
-              ></View>
+              />
             </Shimmer>
           </View>
           <View style={{ flex: 1, marginTop: height / 18, marginBottom: 24 }}>
-            <View style={{ flexDirection: "row" }}>
+            <View style={{ flexDirection: 'row' }}>
               <Shimmer
                 style={{
                   marginHorizontal: 24,
@@ -293,12 +273,12 @@ function Home(props) {
               >
                 <View
                   style={{
-                    backgroundColor: "grey",
+                    backgroundColor: 'grey',
                     width: width / 5.5,
                     height: height / 11,
                     borderRadius: 100,
                   }}
-                ></View>
+                />
               </Shimmer>
               <View>
                 <Shimmer
@@ -306,18 +286,18 @@ function Home(props) {
                 >
                   <View
                     style={{
-                      backgroundColor: "grey",
+                      backgroundColor: 'grey',
                     }}
-                  ></View>
+                  />
                 </Shimmer>
                 <Shimmer
                   style={{ marginTop: 12, width: width / 4, height: 20 }}
                 >
                   <View
                     style={{
-                      backgroundColor: "grey",
+                      backgroundColor: 'grey',
                     }}
-                  ></View>
+                  />
                 </Shimmer>
               </View>
             </View>
@@ -325,9 +305,9 @@ function Home(props) {
               <Shimmer style={{ marginTop: 12, width: width - 50, height: 20 }}>
                 <View
                   style={{
-                    backgroundColor: "grey",
+                    backgroundColor: 'grey',
                   }}
-                ></View>
+                />
               </Shimmer>
               <Shimmer
                 style={{
@@ -339,9 +319,9 @@ function Home(props) {
               >
                 <View
                   style={{
-                    backgroundColor: "grey",
+                    backgroundColor: 'grey',
                   }}
-                ></View>
+                />
               </Shimmer>
             </View>
 
@@ -356,9 +336,9 @@ function Home(props) {
                   marginHorizontal: 24,
 
                   height: height / 3.5,
-                  backgroundColor: "grey",
+                  backgroundColor: 'grey',
                 }}
-              ></View>
+              />
             </Shimmer>
           </View>
         </ScrollView>
@@ -367,13 +347,13 @@ function Home(props) {
   }
 
   return (
-    <View style={{ flex: 1, backgroundColor: "#fff" }}>
-      <View style={{ backgroundColor: "#FFF", padding: 16 }}>
+    <View style={{ flex: 1, backgroundColor: '#fff' }}>
+      <View style={{ backgroundColor: '#FFF', padding: 16 }}>
         <SafeAreaView>
           <Text
             style={{
-              alignSelf: "center",
-              fontWeight: "bold",
+              alignSelf: 'center',
+              fontWeight: 'bold',
               fontSize: 32,
             }}
           >
@@ -384,11 +364,11 @@ function Home(props) {
 
       <Animated.FlatList
         data={posts}
-        style={{ marginBottom: "1%" }}
+        style={{ marginBottom: '1%' }}
         scrollEventThrottle={16}
         refreshControl={
           <RefreshControl
-            colors={["#45C1FF", "#45B9FF"]}
+            colors={['#45C1FF', '#45B9FF']}
             onRefresh={() => onRefresh()}
             refreshing={refresing}
           />

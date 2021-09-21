@@ -1,250 +1,250 @@
 [
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_plussquare.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_plussquare.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_legacy.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_legacy.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_rocket.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_plussquare.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_plussquare.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_foundation.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_mdndata_css_properties.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_mdndata_css_properties.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_entities_lib_maps_xml.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_entities_lib_maps_xml.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_background_splash.xml.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\drawable\\background_splash.xml"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_cssselect_lib_procedure.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_cssselect_lib_procedure.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_entities_lib_maps_entities.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_entities_lib_maps_entities.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_mdndata_css_atrules.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_mdndata_css_atrules.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_cssselect_node_modules_domserializer_foreignnames.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_cssselect_node_modules_domserializer_foreignnames.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_peopleoutline.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_peopleoutline.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_feather.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_csstree_data_patch.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_csstree_data_patch.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_zocial.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_peopleoutline.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_peopleoutline.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_entypo.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_entities_lib_maps_legacy.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_entities_lib_maps_legacy.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_xml.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_xml.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_star.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_zocial.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_csstree_data_patch.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_csstree_data_patch.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_home.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_home.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_decode.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_decode.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_belloutline.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_belloutline.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_people.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_people.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_homeoutline.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_homeoutline.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativepaper_src_assets_backchevron.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_airbnbstar.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_mdndata_css_atrules.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_mdndata_css_atrules.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativepaper_src_assets_backchevron.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativepaper_src_assets_backchevron.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_mdndata_css_syntaxes.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_mdndata_css_syntaxes.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_belloutline.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_belloutline.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_bell.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_bell.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_home.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_home.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_csstree_package.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_csstree_package.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_bell.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativecodepush_package.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativecodepush_package.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_plussquareoutline.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_plussquareoutline.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_plussquareoutline.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_plussquareoutline.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_csstree_package.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_csstree_package.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_mdndata_css_syntaxes.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_mdndata_css_syntaxes.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_mdndata_css_properties.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_mdndata_css_properties.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_entities_lib_maps_decode.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_entities_lib_maps_decode.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_cssselect_lib_procedure.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_cssselect_lib_procedure.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_lib_maps_entities.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_entities_lib_maps_entities.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_searchoutline.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_searchoutline.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_homeoutline.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_homeoutline.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_bell.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_bell.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_cssselect_node_modules_domserializer_foreignnames.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_cssselect_node_modules_domserializer_foreignnames.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable_background_splash.xml.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/drawable/background_splash.xml"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativecodepush_package.json.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\raw\\node_modules_reactnativecodepush_package.json"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_assets_searchoutline.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/assets_searchoutline.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_assets_people.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\assets_people.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\generated\\res\\react\\release\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_heart.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_foundation.json"
     },
     {
-        "merged": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\madan\\Desktop\\Photogram\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/home/madan/Documents/Photogram/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "/home/madan/Documents/Photogram/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
     }
 ]

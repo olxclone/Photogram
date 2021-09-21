@@ -32324,27 +32324,6 @@ com.reactnativenavigation.views.toptabs.TopTabsViewPager:
     public void switchToTab(int)
 com.reactnativenavigation.views.touch.OverlayTouchDelegate:
     public final com.reactnativenavigation.options.params.Bool getInterceptTouchOutside()
-com.rnfs.BuildConfig
-com.rnfs.Downloader:
-    protected void onPostExecute(java.lang.Exception)
-com.rnfs.R$anim
-com.rnfs.R$attr
-com.rnfs.R$bool
-com.rnfs.R$color
-com.rnfs.R$dimen
-com.rnfs.R$drawable
-com.rnfs.R$id
-com.rnfs.R$integer
-com.rnfs.R$layout
-com.rnfs.R$string
-com.rnfs.R$style
-com.rnfs.R$styleable
-com.rnfs.R$xml
-com.rnfs.R
-com.rnfs.RNFSPackage:
-    public java.util.List createJSModules()
-com.rnfs.UploadParams:
-    public java.lang.String name
 com.shazam.android.widget.text.reflow.BuildConfig:
     public static final java.lang.String APPLICATION_ID
     public static final java.lang.String BUILD_TYPE

@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   View,
   Text,
@@ -21,7 +21,6 @@ import { Transitioning, Transition } from "react-native-reanimated";
 import ProfileHeader from "../../Components/headers/ProfileHeader";
 import { DotIndicator } from "react-native-indicators";
 import { Navigation } from "react-native-navigation";
-import Lightbox from "react-native-lightbox";
 
 function Profile(props) {
   const [posts, setPosts] = useState([]);
@@ -225,7 +224,7 @@ function Profile(props) {
         userName={userData ? userData.userName : "Test"}
       />
       <View style={{ flexDirection: "row" }}>
-             <Image
+        <Image
           style={styles.userImg}
           source={{
             uri: userData
@@ -237,7 +236,6 @@ function Profile(props) {
           }}
         />
 
-     
         <View style={styles.userInfoWrapper}>
           <View style={styles.userInfoItem}>
             <Text style={styles.userInfoTitle}>{posts.length}</Text>
@@ -468,13 +466,21 @@ function Profile(props) {
             flexDirection: "row",
           }}
         >
-          <TouchableOpacity style={{ flex: 1 }} activeOpacity={3} onPress={() => selectTab(0)}>
+          <TouchableOpacity
+            style={{ flex: 1 }}
+            activeOpacity={3}
+            onPress={() => selectTab(0)}
+          >
             <Tab
               icon={"md-grid"}
               isSelected={isSelected === 0 ? true : false}
             />
           </TouchableOpacity>
-          <TouchableOpacity style={{ flex: 1 }} activeOpacity={3} onPress={() => selectTab(1)}>
+          <TouchableOpacity
+            style={{ flex: 1 }}
+            activeOpacity={3}
+            onPress={() => selectTab(1)}
+          >
             <Tab icon={"people"} isSelected={isSelected === 0 ? false : true} />
           </TouchableOpacity>
         </View>
@@ -493,16 +499,16 @@ function Profile(props) {
                   fontSize={18}
                 />
               ) : posts.image !== null ? (
-                  <Image
-                    source={{ uri: item.image }}
-                    style={{
-                      alignSelf: "center",
-                      flex:1,
-                      width: item.image !== null ? width / 3.2 : 0,
-                      height: item.image !== null ? height / 6 : 0,
-                      margin: 2,
-                    }}
-                  />
+                <Image
+                  source={{ uri: item.image }}
+                  style={{
+                    alignSelf: "center",
+                    flex: 1,
+                    width: item.image !== null ? width / 3.2 : 0,
+                    height: item.image !== null ? height / 6 : 0,
+                    margin: 2,
+                  }}
+                />
               ) : (
                 <></>
               );
@@ -537,7 +543,7 @@ const styles = StyleSheet.create({
   userImg: {
     height: 100,
     width: 100,
-    marginLeft:18,
+    marginLeft: 18,
     // flex:1,
     marginTop: 24,
     borderRadius: 75,

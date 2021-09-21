@@ -1,8 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { View, Image,
-  TextInput,
-  Modal,Button
- } from 'react-native';
+import React, { memo, useEffect, useRef, useState } from 'react';
+import { View, Image, TextInput, Modal, Button } from 'react-native';
 import auth from '@react-native-firebase/auth';
 import firestore from '@react-native-firebase/firestore';
 import AntDesign from 'react-native-vector-icons/AntDesign';
@@ -12,11 +9,9 @@ import {
   GiftedChat,
   Bubble,
   Actions,
-  InputToolbar,
   MessageImage,
   Send,
 } from 'react-native-gifted-chat';
-import RNFS from 'react-native-fs';
 import moment from 'moment';
 import { width, height } from '../../Utils/constants/styles';
 
@@ -67,9 +62,6 @@ function chatRoom(props) {
       cropping: true,
     }).then((image) => {
       setMessageImageUri(image.path);
-      RNFS.readFile(image.path, 'base64').then((c) => {
-        setMessageImage('data:image/jpeg;base64,' + c);
-      });
     });
   };
 
@@ -79,11 +71,8 @@ function chatRoom(props) {
       height: 2000,
     }).then((image) => {
       setMessageImageUri(image.path);
-      RNFS.readFile(image.path, 'base64').then((c) => {
-        setMessageImage('data:image/jpeg;base64,' + c);
-      });
-    })
-  }
+    });
+  };
 
   const getUser = async () => {
     await firestore()
@@ -101,7 +90,7 @@ function chatRoom(props) {
         {...props}
         options={{
           ['Pick Image From Library']: choosePhotoFromLibrary,
-          ['Camera']:openCamera,
+          ['Camera']: openCamera,
         }}
         icon={() => <AntDesign name={'camera'} size={28} color={'black'} />}
         onSend={(args) => onSend(args)}
@@ -220,34 +209,34 @@ function chatRoom(props) {
         }}
         onSend={(messages) => onSend(messages)}
       />
-    
-        <Modal visible={messageImageUri ? true : false}>
-          <View>
-            <Image
-              source={{ uri: messageImageUri }}
-              style={{width,height:height/3}}
-            />
-            <TextInput
-          placeholder="What's on your mind?"
-          multiline
-          numberOfLines={4}
-          style={{
-            justifyContent: "center",
-            alignItems: "center",
-            fontSize: 24,
-            textAlign: "center",
-            width: "90%",
-            fontFamily: "Roboto-Regular",
-            marginBottom: 0,
-          }}
-          value={text}
-          onChangeText={(content) => setText(content)}
-        />
-        <Button title={'send'} onPress={onSend} />
-          </View>
-        </Modal>
+
+      <Modal visible={messageImageUri ? true : false}>
+        <View>
+          <Image
+            source={{ uri: messageImageUri }}
+            style={{ width, height: height / 3 }}
+          />
+          <TextInput
+            placeholder="What's on your mind?"
+            multiline
+            numberOfLines={4}
+            style={{
+              justifyContent: 'center',
+              alignItems: 'center',
+              fontSize: 24,
+              textAlign: 'center',
+              width: '90%',
+              fontFamily: 'Roboto-Regular',
+              marginBottom: 0,
+            }}
+            value={text}
+            onChangeText={(content) => setText(content)}
+          />
+          <Button title={'send'} onPress={onSend} />
+        </View>
+      </Modal>
     </View>
   );
 }
 
-export default chatRoom;
+export default memo(chatRoom);

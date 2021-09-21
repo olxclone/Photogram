@@ -1,14 +1,19 @@
-import React, { useEffect, useState } from "react";
-import { TouchableOpacity } from "react-native";
-import { View, Text } from "react-native";
-import codePush from "react-native-code-push";
-import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
+import React, { useEffect, useState } from 'react';
+import { TouchableOpacity } from 'react-native';
+import { Alert } from 'react-native';
+import { View, Text } from 'react-native';
+import codePush from 'react-native-code-push';
+import { PhotoGramButton } from '../../Components/Buttons/PhotoGramButton';
 
 export default function Updates() {
   let [packageMetadata, setPackageMetadata] = useState();
   function codePushDownloadDidProgress(progress) {
+    Alert.alert(
+      'update is being downloaded',
+      progress.receivedBytes + ' of ' + progress.totalBytes + ' recived '
+    );
     console.log(
-      progress.receivedBytes + ' of ' + progress.totalBytes + ' received.',
+      progress.receivedBytes + ' of ' + progress.totalBytes + ' received.'
     );
   }
 
@@ -26,7 +31,6 @@ export default function Updates() {
 
   const onButtonPress = async () => {
     codePush.checkForUpdate().then((update) => {
-
       if (!update) {
         Alert.alert('UPDATED !', 'The app is up to date!');
       } else {
@@ -54,12 +58,12 @@ export default function Updates() {
   };
 
   return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <PhotoGramButton
         backgroundColor="#45A4FF"
         padding={10}
         fontSize={24}
-        title={"Check for updates now"}
+        title={'Check for updates now'}
         onPress={onButtonPress}
       />
     </View>

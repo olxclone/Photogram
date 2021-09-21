@@ -13,19 +13,18 @@ import {
   ImageBackground,
   StyleSheet,
 } from "react-native";
+
 import auth from "@react-native-firebase/auth";
 import storage from "@react-native-firebase/storage";
 import firestore from "@react-native-firebase/firestore";
 import { padding, width, height } from "../../Utils/constants/styles";
 import { SafeAreaView } from "react-native-safe-area-context";
-import RNFS from 'react-native-fs';
 import ImagePicker from "react-native-image-crop-picker";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import BottomSheet from "reanimated-bottom-sheet";
 import Animated from "react-native-reanimated";
 import { PhotogramText } from "../../Components/Text/PhotoGramText";
 import { ActivityIndicator } from "react-native-paper";
-import ImgToBase64 from 'react-native-image-base64';
 import { Navigation } from "react-native-navigation";
 
 function EditProfile(props) {
@@ -51,10 +50,7 @@ function EditProfile(props) {
       console.log(image);
       const imageUri = image.path;
       setImageUri(imageUri);
-      RNFS.readFile(image.path,'base64')
-      .then(uri => {
-        setImageUrl('data:image/jpeg;base64,'+uri)
-      })
+
       bs.current.snapTo(1);
     });
   };
@@ -67,10 +63,7 @@ function EditProfile(props) {
     }).then((image) => {
       console.log(image.data);
       setImageUri(image.path);
-     RNFS.readFile(image.path,'base64')
-     .then(uri => {
-       setImageUrl('data:image/jpeg;base64,'+uri)
-     })
+
       bs.current.snapTo(1);
     });
   };
@@ -93,9 +86,7 @@ function EditProfile(props) {
     setNickName(userName.replace(/\s/g, ""));
     return () => cleanUp;
   }, []);
-  useEffect(() => {
-
-  })
+  useEffect(() => {});
 
   const onUpdate = async () => {
     if (
@@ -127,41 +118,40 @@ function EditProfile(props) {
       Alert.alert("Choose a image", "Please choose a image to continue");
     } else {
       setUploading(true);
-        const path = `profile/${auth().currentUser.uid+Date.now()}}`;
-        return new Promise(async (resolve, rej) => {
-          const response = await fetch(imageUri);
-          const file = await response.blob();
-          let upload = storage().ref(path).put(file);
-          console.log("Post Added");
-          upload.on(
-            "state_changed",
-            (snapshot) => {
-              console.log(
-                `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`
-              );
-              setTransferred(
-                Math.round(snapshot.bytesTransferred / snapshot.totalBytes) *
-                  100
-              );
-              setVisible(true);
-            },
+      const path = `profile/${auth().currentUser.uid + Date.now()}}`;
+      return new Promise(async (resolve, rej) => {
+        const response = await fetch(imageUri);
+        const file = await response.blob();
+        let upload = storage().ref(path).put(file);
+        console.log("Post Added");
+        upload.on(
+          "state_changed",
+          (snapshot) => {
+            console.log(
+              `${snapshot.bytesTransferred} transferred out of ${snapshot.totalBytes}`
+            );
+            setTransferred(
+              Math.round(snapshot.bytesTransferred / snapshot.totalBytes) * 100
+            );
+            setVisible(true);
+          },
 
-            (err) => {
-              rej(err);
-            },
-            async () => {
-              const url = await upload.snapshot.ref.getDownloadURL();
-              console.log(url);
-              setImageUrl(url);
-              resolve(url);
-              setVisible(false);
-              setImageUri(null);
-              setUploading(false);
-              return url;
-            }
-          );
-        });
-      }
+          (err) => {
+            rej(err);
+          },
+          async () => {
+            const url = await upload.snapshot.ref.getDownloadURL();
+            console.log(url);
+            setImageUrl(url);
+            resolve(url);
+            setVisible(false);
+            setImageUri(null);
+            setUploading(false);
+            return url;
+          }
+        );
+      });
+    }
   };
 
   let renderInner = () => {

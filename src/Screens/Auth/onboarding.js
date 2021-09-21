@@ -3,7 +3,6 @@ import { View, Text, Animated } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
 import { PhotoGramButton } from "../../Components/Buttons/PhotoGramButton";
 import { width } from "../../Utils/constants/styles";
-import { ExpandingDot } from "react-native-animated-pagination-dots";
 
 export default function OnBoarding({navigation}) {
     const [currentIndex, setcurrentIndex] = useState(0)
@@ -80,7 +79,7 @@ setcurrentIndex(props.index)
         <PhotoGramButton onPress={() => navigation.navigate('Choose_Auth')} title="Skip" padding={10} extraStyles={{margin:10,width:width/3.5,borderRadius:24}} />
         <PhotoGramButton onPress={() => handlePageChange(0)} title={"Next"} padding={10}  extraStyles={{margin:10,width:width/3.5,borderRadius:24}} />
       </View>
-      <ExpandingDot
+      {/* <ExpandingDot
         data={data}
         expandingDotWidth={30}
         scrollX={scrollX}
@@ -95,7 +94,7 @@ setcurrentIndex(props.index)
         containerStyle={{
           bottom: 30,
         }}
-      />
+      /> */}
     </View>
   );
 }
